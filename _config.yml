@@ -1,4 +1,4 @@
-source: ./content/
+source: .
 destination: ./_site/
 safe: true
 pygments: true
