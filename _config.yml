@@ -1,6 +1,6 @@
 source: .
 destination: ./_site/
-url: http://cycomachead.github.com/Website
+url: http://cycomachead.github.com/Website/
 safe: true
 pygments: true
 lsi: false
