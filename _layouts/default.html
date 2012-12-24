@@ -9,11 +9,11 @@
 
     <!-- FIXME -->
     <link rel="alternate" type="application/rss+xml" href="{RSS}" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="/Website/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="72x72"
-        href="images/apple-touch-icon.png" />
+        href="/Website/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="114x114"
-        href="images/apple-touch-icon.png" />
+        href="/Website/images/apple-touch-icon.png" />
     <!-- Google Search Info link -->
     <link href="https://plus.google.com/109987956810230671866" rel="author" />
     <!--Google Webmaster tools-->
@@ -33,12 +33,11 @@
 
 
     {% if page.tags %}
-    <meta name="keywords" content="{{ page.tags }}, {{ site.keywords }}" />
+    <meta name="keywords"  content="{% for tag in page.tags %} {{ tag }},
+     &nbsp;{% endfor %} {{ site.keywords }}" />
     {% else %}
-    <meta name="keywords" content="{{ page.tags }}, {{ site.keywords }}" />
+    <meta name="keywords" content="{{ site.keywords }}" />
     {% endif %}
-
-    {% include scripts.html %}
 
     {% include css.html %}
 </head>
@@ -49,7 +48,7 @@
     </div>
 
     <div class="header">
-        <img src="/images/header.jpg"/>
+        <img src="/Website/images/header.jpg"/>
     </div>
 
     <div class="middle">  <!--just for organization-->

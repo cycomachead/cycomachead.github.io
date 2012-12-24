@@ -11,3 +11,4 @@ A List of Things I'd Like to Fix:
 * Tag Pages
 * Move li bullet to right side for pagination 
 * Make AM PM lowercase.
+* Add Tumblr Add This.
