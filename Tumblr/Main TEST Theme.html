@@ -1,0 +1,622 @@
+<!DOCTYPE html> 
+<html>
+<head>
+     	<link rel="alternate" type="application/rss+xml" href="{RSS}" />
+	    <link rel="shor2tcut icon" href="{Favicon}" />
+	 	<link rel="apple-touch-icon" href="http://static.tumblr.com/puzghsv/u06lwjnf8/apple-touch-icon.png" />
+	 	<link rel="apple-touch-icon" sizes="72x72" href="http://static.tumblr.com/puzghsv/u06lwjnf8/apple-touch-icon.png" />
+	 	<link rel="apple-touch-icon" sizes="114x114" href="http://static.tumblr.com/puzghsv/u06lwjnf8/apple-touch-icon.png" />
+		<link href="https://plus.google.com/109987956810230671866" rel="author" /><!-- Google link -->
+		{block:Description}
+			<meta name="description" content="{MetaDescription}" />
+		{/block:Description}
+		<title>{Title}{block:SearchPage} | Search results for: {SearchQuery}{/block:SearchPage}{block:DayPage} | {Month} {DayOfMonth}, {Year}{/block:DayPage}</title>
+		<meta name="google-site-verification" content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk" /> <!--Google Webmaster tools-->
+		<meta charset="utf-8"> 
+		<meta http-equiv="content-language" content="en" />
+	 	<meta name="title" content="{Title}{block:SearchPage} | Search results for: {SearchQuery}{/block:SearchPage}{block:PostSummary} | {PostSummary}{/block:PostSummary}{block:DayPage} | {Month} {DayOfMonth}, {Year}{/block:DayPage}">
+	 	<meta name="keywoards" content="{text:Keywords}, {block:HasTags}{block:Tags}{Tag}{/block:Tags}{/block:HasTags}, {block:TagPage}{Tag}{/block:TagPage}"> 
+		<meta name="text:Version Number" content="1.5.2">
+		<meta name="if:Show EXIF" content="0">
+		<meta name="if:AddThis" content="1">
+	 	<meta name="text:Google Analytics" content="UA-398665-8"/>
+	 	<meta name="text:Keyboards" content"iPhone, apps, photography, Quad Solver, Michael Ball, college, twitter, Cal, Berkeley, computer science, programming, cycomachead, UC, itunes, apple, photo, Michael, Ball, mike, michael andrew ball, apple, iOS, macs, aperture, apple certified professional, cameras, UC Berkeley, michael andrew,photo,photos,michael ball photo,mball, michaelball,michaelballphoto,michaelballphotography,maball,UC Berkeley">
+	 	<meta name="image:Header" content="http://static.tumblr.com/mchmwol/5cIlrj28w/theme.jpg" />
+	 	<meta name="color:Text" content="#666" />
+	 	<meta name="color:Link" content="#2192d4" />
+	 	<meta name="color:Header" content="#fff" />
+	 	<meta name="color:Post Notes" content="#eee" />
+		<meta name="color:Accent" content="#ccc" />
+	 	<meta name="color:Accent Text" content="#fff" />
+	 	<meta name="text:AboutMe URL" content="http://www.about.me/michaelball" />
+		<meta name="text:Facebook URL" content="http://www.facebook.com/quadsolver" />
+	 	<meta name="text:Flickr URL" content="http://www.flickr.com/cycomachead" />
+	 	<meta name="text:GooglePlus URL" content="https://plus.google.com/109987956810230671866/?rel=author" />
+	 	<meta name="text:iTunes URL" content="http://itunes.com/apps/michaelball" />
+	 	<meta name="text:LinkedIn" content="http://www.linkedin.com/pub/michael-ball/43/18a/81" />
+	 	<meta name="text:TwitterURL" content="http://www.twitter.com/cycomachead" />
+		<meta name="text:Twitter2" content="http://twitter.com/#/michaelbphotos">
+	 	<meta name="text:YouTube URL" content="http://www.youtube.com/cycomachead" />
+	 	<meta name="text:Disqus Shortname" content="cycomachead" />
+		
+		<!--jQuery Script-->
+		<script src="http://static.tumblr.com/puzghsv/Shslzztxo/jquery-1.3.1.min.js"></script>
+
+		<script>
+		$(document).ready(function() {
+			$(this).find('pho2').stop(false,true).animate({'width':$('.setImg').width(), 'height':$('.setImg').height(), 'top':'0', 'left':'0'}, {duration:100});	
+			//move the image in pixel
+			var move = 0;
+			//zoom percentage, 1.2 =120%
+			var zoom = .99;
+			//On mouse over those thumbnail
+			$('.setImg').hover(function() {
+				//Set the width and height according to the zoom percentage
+				 width = $('.setImg').width() * zoom;
+				 height = $('.setImg').height() * zoom;
+
+				//Move and zoom the image
+				$(this).find('pho2').stop(false,true).animate({'width':width, 'height':height, 'top':move, 'left':move}, {duration:175});
+				//Display the caption
+				$(this).find('div.caption').stop(false,true).fadeIn(175);
+			},
+			function() {
+				//Reset the image
+				$(this).find('pho2').stop(false,true).animate({'width':$('.setImg').width(), 'height':$('.setImg').height(), 'top':'0', 'left':'0'}, {duration:100});	
+				//Hide the caption
+				$(this).find('div.caption').stop(false,true).fadeOut(175);
+			});
+
+		});
+		</script>
+	
+	<!--CSS script for cantarell font-->
+	<link href='http://fonts.googleapis.com/css?family=Cardo|Cantarell' rel='stylesheet' type='text/css'>
+	
+	<!-- Google Plus Integration -->
+	<link href="https://plus.google.com/109987956810230671866" rel="author" />
+
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'en'}</script>
+	
+	<!-- CSS page for fonts, google -->
+	<style type="text/css">
+
+		strong { font-weight: bold; }
+		dt { font-weight: bold; }
+	
+		a, a:visited {
+			color: {color:Link}; 
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+			color: {color:Link}; 
+		}
+		img {
+			-webkit-box-reflect: below 3px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.8, transparent), to(rgba(255,255,255,0.20)));
+			border-radius: 6px;
+			padding: 2px;
+			margin: 1em;
+			box-shadow: none;		
+		}
+		html, body { 
+			background: white; 
+			font-family: 'Cantarell', Helvetica, sans-serif;
+			font-size: 98%;
+			line-height: 1.4em;
+			margin: 0 5%;
+			width: 90%;
+			float: center;
+			color: {color:Text}; 
+		}
+		.nav{
+			position: relative; /*relative to body and main */
+			top: 20px;
+			margin: .5em auto;
+			width: 100%;
+			float: center;
+			text-align: center;
+			font-size: 118%;
+		}
+		.nav a:hover {
+			text-decoration:underline;
+			color: {color:Link}; 
+		}
+		.nav table {
+			padding: .1em;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			float: center; /* this controls the placement */
+		}
+		.nav tr td a, 
+		.nav tr td a:visited { 
+			color: {color:Text};
+			margin: 0 .5em;
+		}		
+		.header{
+			position: relative;
+			width: 100%; 
+			float: right;
+			text-align: center;
+			padding: .2em;
+			margin: 1em 0px -20px 0px;
+		}
+		.header img {
+			-webkit-box-reflect: none;
+			border-radius: 12px;
+			box-shadow: 0px 0px 0px #777777;
+			margin-top: .5em;
+		}	
+		.middle{
+			margin-top: -20px;
+			position: relative;
+			width: 100%;
+		}
+		.content {
+			margin: -20px 2% 0 0;
+			width: 73%;
+			position: relative;
+			float: left;
+			overflow: none;
+		}
+		.side {
+			margin: -20px 0 0 2%;
+			width: 23%;
+			position: relative;
+			float: right;
+			text-align: center;
+		}
+		.footer {
+			text-align: center;
+			position: static;
+			margin: 1em 0;
+			padding-top: 4px;
+			width: 100%; /* inherit main, and float left*/
+			float: left;
+			font-size: 75%;
+			border-top: 1px dashed {color:Accent};
+		}		
+
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'Cardo', serif;
+			font-weight: 200;
+			color: {color:Text};
+		}
+		h1 {
+			font-size: 1.6em;
+			margin-bottom: .2em;
+		}
+		h2 {
+			padding-bottom: .2em;
+			margin-bottom: .2em;
+		}
+		h3 {
+			font-size: 32px;
+			margin-bottom: .8em;
+		}
+		
+		article {
+			text-align: left;
+			margin: 0 1em  1.4em 0;
+			position: relative;
+			width: 100%;
+			float: left;
+		}
+		article h1 {
+			font-family: 'Cardo', serif;
+			margin-bottom: 0px;
+		}
+		article span.date a,
+		article span.notecount a,
+		li.pages,
+		article span.tags a {
+			padding: 0.1em;
+			display: inline-block;
+			text-transform: uppercase;
+			font-size: 0.8em;
+			margin-bottom: 3px;
+		}
+		span.date a,
+		span.date a:hover,
+		span.date a:visited {
+			color:{color:Accent Text};
+		}
+		article, h2 { 
+			border-bottom: 1px dashed {color:Accent};
+			border-width: 100%;
+		}
+		article .post-notes {
+			background: {color:Post Notes};
+			border-radius: 16px;
+			border: 3px solid {color:Accent};
+			margin: 1.25em 0 1em 0;
+			padding: 1em;
+		}
+		.post-notes h3 {
+			font-family: 'Cantarell', sans-serif;
+			font-size: 22px;
+			margin-top: 0;
+		}
+		ol.notes { 
+			margin: 0; 
+			padding: 0; 
+			font-size: 75%;
+		}
+		ol.notes li {
+			margin-left: 0;
+			list-style-type: none;
+			text-indent: none;
+			line-height: 30px;
+		}
+		ol.notes img {
+			-webkit-box-reflect: none;
+			box-shadow: none;
+			vertical-align: text-top;
+			border-radius: 3px;
+			padding: 0px;
+			width: 18px; 
+			height: 18px;
+			float: left;
+			margin: 0 5px 0 0;
+			border: 1px solid black;
+		}
+		/* Stuff in the side column, h3 is for links */
+		aside {
+			text-align: center;
+			margin: 0 0 0 .2em;
+			padding: 0;
+			float: center;
+		}
+		.links-list {
+			width: 100%;
+			padding: 0 0 3px 0;
+			float: center;
+			text-align: center;
+			margin-bottom: .15em;
+		}
+		.links-list h3 {
+			font-family: 'Cantarell', sans-serif;
+			font-weight: 250;
+			display: inline-block;
+			font-size: 0.9em;
+			letter-spacing: 2px;
+			padding: 1px;
+			margin: 2px 1% 2px 2px;
+			width: 95%;
+			float: center;
+		}	
+		.links-list h2 {
+			float: center;
+			line-height: 100%;
+			margin-bottom: .1em;
+			padding-bottom: .25em;
+			font-size: 1.5em;
+			border-bottom: 1px dashed {color:Accent};
+			color: {color:Text};
+		}			
+		article span.date a, 
+		article span.notecount a, 
+		li.pages, article span.tags a, 
+		aside h3, aside h3 a, 
+		aside h3 a:visited,
+		aside h3 a:hover { 
+			background: {color:Accent}; 
+			color: {color:Accent Text}; 
+		}
+		photo img {
+			-webkit-box-reflect: below 6px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.8, transparent), to(rgba(255,255,255,0.20)));
+			border-radius: 12px;
+			padding: 6px;
+			border: 8px ridge gray;
+			box-shadow: 8px 8px 5px #777777;
+			-webkit-box-shadow: 0px 0px 0px #777777;
+			margin: 0 100% 1em 1px;
+			float: left;
+			max-width: 100%;
+			max-height: 600px;
+		}	
+		#disqus_thread {
+			width: 96% !important;
+			float: center;
+			border-bottom: 1px dashed {color:Accent};
+	 	}
+		#disqus_thread img {
+			box-shadow: 0px 0px 0px #777777;
+		}
+		#dsq-subscribe { color: {color:Link}; font-size: 70%; }
+		.dsq-brlink { 
+			float: left; 
+			width: 100%;
+			margin: 1px; 
+			padding: 1px; 
+		}
+		.dsq-textarea-wrapper { width:90%; }
+		.dsq-avatar { 
+			float: left; 
+			margin: 0; 
+			padding: 0;
+			text-align: left;
+			display: none;
+		}
+		#pagination {
+			border: 0px;
+			width: 100%;
+			font-size: 80%;
+		}
+		dd {
+			padding-left: 1.2em;
+			list-style-type: circle;
+		}
+		
+		/* Photo pages stuff */
+		.setImg {
+			width:215px;
+			height:215px;
+			padding: 0px;	
+			border:10px ridge gray;
+			box-shadow: 8px 8px 5px #aaa;
+			border-radius: 10px;
+			margin: 10px 18px;
+			/* required to hide the image after resized */
+			overflow:hidden;
+			/* for child absolute position */
+			position:relative;
+			/* display div in line */
+			float:left;
+		}
+		.setImg .caption {
+			width:215px;
+			height:215px;
+			background:#000;
+			color:#fff;
+			font-weight :bold;
+			text-align: left;
+			/* fix it at the bottom */
+			position: absolute;
+			/* hide it by default */
+			display: none;
+			/* opacity setting */
+			filter:alpha(opacity=70);    /* ie  */
+			-moz-opacity:0.7;    /* old mozilla browser like netscape  */
+			-khtml-opacity: 0.7;    /* for really really old safari */  
+			opacity: 0.7;    /* css standard, currently it works in most modern browsers like firefox,  */
+		}
+		.setImg .caption p {
+			padding: 15px;	
+			margin: 2px;
+			font-size: 16px;
+		}
+		.pho2 { 
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			border-radius: 0;
+			width: 215px;
+			height: 215px;
+		}
+		.photoslinks { 
+			text-align: center; 
+			vertical-align: top;
+			line-height: 40px;
+			font-size: 112%;
+		}
+		.blog-hide { display: none; }
+		hide .blog-show { display: inline-block; }
+		
+		.hide-text { display: none; }
+		.show-text { display: inline-block; }
+		.hide-photo { display: inline-block; }
+			
+		{CustomCSS}
+		
+	</style>
+</head>
+
+<body>
+		<div class="nav"><!--nav pages, etc-->
+			<table border="0">
+			<tbody>
+			<tr>
+				<td><a href="/">Home</a></td>
+				{block:HasPages}							
+					{block:Pages}<td><a href="{URL}">{Label}</td>{/block:Pages}
+				{/block:HasPages}					
+				<td><a href="/archive" target="_blank">Archive</a></td>
+			</tr>
+			</tbody>
+			</table>
+		</div>
+			
+			<div class="header"><img src="{image:Header}" /></div>
+		
+			<div class="middle">  <!--just for organization-->
+			<div class="content"> <!--content -posts, etc-->
+			<!--Add a new div within the posts main area that uses different CSS to unhide something -->
+				{block:DayPage}
+					<h1>{Month} {DayOfMonth}, {Year}</h1>
+				{/block:DayPage}
+			
+				{block:TagPage}
+					<h1 class="{Tag}-hide">Posts Tagged: "{Tag}"</h1>
+					<hide><h1 class="{Tag}-show">A Blog of My Thoughts</h1></hide>
+				{/block:TagPage}
+			
+				{block:SearchPage}
+					<h1>{SearchResultCount} results for {SearchQuery}</h1>
+				{/block:SearchPage}
+				<br />
+				{block:Posts}
+					<article class="{block:TagPage}show-{PostType}{/block:TagPage} {block:SearchPage}show-{PostType}{/block:SearchPage} {block:DayPage}show-{PostType}{/block:DayPage} {block:PermalinkPage}show-{PostType}{/block:PermalinkPage} hide-{PostType}" id="post-{PostID}">
+						<p>
+							{block:Date}
+								<span class="date"><a href="{Permalink}">{TimeAgo}</a></span>
+							{/block:Date}
+							{block:NoteCount} 
+								<span class="notecount">
+									<a href="{Permalink}#notes">{NoteCountWithLabel}</a>
+								</span>
+							{/block:NoteCount}
+						</p> <!--End stuff at the top of each post-->
+						{block:Text}
+							{block:Title}	
+								<h1><a href="{Permalink}">{Title}</a></h1>
+							{/block:Title}
+							{Body} <!--Post Body-->
+						{/block:Text}
+						{block:Photo}
+							{LinkOpenTag}
+							<photo><img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" class="{TagsAsClasses}" id="photo" target="_blank"></photo>
+							{LinkCloseTag}
+							{block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+						{/block:Photo}
+						{block:More}
+							<p class="read-more"><a href="{Permalink}">Read more</a></p>
+						{/block:More}
+						{block:PostNotes}
+							<div id="notes" class="post-notes">
+								<h3 style="text-decoration:underline;">Post Notes:</h3>
+								{PostNotes}
+							</div><!--.post-notes-->
+						{/block:PostNotes}
+						{block:HasTags}
+							<strong><p style="margin-bottom: 0px; font-size: 70%; color:{color:Accent};">Tagged: {block:Tags}<a href="{TagURL}">{Tag} </a>{/block:Tags}</p></strong>
+						{/block:HasTags}
+						{block:Date} <!--end of each post date -->
+							<strong><p style="font-size: 70%; color:{color:Accent};">Originally Posted: {ShortMonth} {DayOfMonth}, {Year} at {12Hour}:{Minutes}{AmPm}</p></strong>
+						{/block:Date}
+						{block:IfAddThis}
+						<div class="addthis_toolbox addthis_default_style " addthis:title="{Title}" addthis:url="{Permalink}">
+							<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+							<a class="addthis_button_tweet"></a>
+							<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+						</div>
+						<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ee43da6138c11c3"></script>
+						{/block:IfAddThis}
+					</article>
+				{/block:Posts}
+				<!--stuff that's not a part of a post, or on other pages-->
+			
+				{block:IfDisqusShortname}
+					<div class="testhide {TagsAsClasses}-show">
+					{block:Permalinkpage}
+							<script type="text/javascript">var disqus_url = "{Permalink}"; var disqus_title ="{block:PostTitle}{PostTitle}{/block:PostTitle}";</script>
+					{block:Permalink}<div id="disqus_thread">
+				<script type="text/javascript">			  
+							  var disqus_identifier; 
+						  
+							  (function() {
+							   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+							   dsq.src = 'http://cycomachead.disqus.com/embed.js';
+							   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+							  })();
+							</script>
+							<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=cycomachead">comments powered by Disqus.</a></noscript>
+						</div>{/block:Permalink}
+					<script type="text/javascript">
+							var disqus_shortname = '{text:Disqus Shortname}';
+							(function () {
+							  var s = document.createElement('script'); s.async = true;
+							  s.src = 'http://cycomachead.disqus.com/count.js';
+							  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+							}());
+							</script>
+							<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>	
+					{/block:Permalinkpage}
+					</div>
+				{/block:IfDisqusShortname}
+			
+				{block:PermalinkPagination}
+					<table id="pagination">
+						<tr>
+						{block:PreviousPost}
+							<td><li style="text-align:left;"><a href="{PreviousPost}" class="previous">Previous Post</a></li></td>
+						{/block:PreviousPost}
+						{block:NextPost}
+							<td><li style="text-align:right;"><a href="{NextPost}" class="next">Next Post</a></li></td>
+						{/block:NextPost}
+					</table>
+				{/block:PermalinkPagination}
+			
+				{block:Pagination}
+					<table id="pagination">
+						<tr>
+						{block:NextPage}
+							<td><li style="text-align:left;"><a href="{NextPage}" class="next">Older Posts</a></li></td>
+						{/block:NextPage}
+						{block:PreviousPage}
+							<td><li style="text-align:right;"><a href="{PreviousPage}" class="previous">Newer Posts</a></li></td>
+						{/block:PreviousPage}
+						</tr>
+						<tr>
+						{block:DayPagination}
+							{block:PreviousDayPage}
+								<td><li style="text-align:left;"><a href="{PreviousDayPage}" class="previous day">{ShortMonth} {DayOfMonth}</a></li></td>
+							{/block:PreviousDayPage}
+							{block:NextDayPage}
+								<td><li style="text-align:right;"><a href="{NextDayPage}" class="next day">{ShortMonth} {DayOfMonth}</a></li></td>
+							{/block:NextDayPage}
+						{/block:DayPagination}
+						</tr>
+					</table><!--/pagination-->
+				{/block:Pagination}
+			</div> <!--main content-->
+		
+			<div class="side"><!--side column-->
+			<aside>
+				<h2 class="links-list">Links</h2>
+					<ul class="links-list" style="margin-top: 0px;">
+						<h3><a href="{text:AboutMe URL}" target="_blank">About.Me</a></h3>
+						<h3><a href="{text:Facebook URL}" target="_blank">Facebook</a></h3>
+						<h3><a href="{text:Flickr URL}" target="_blank">Flickr</a></h3>
+						<h3><a href="{text:GooglePlus URL}" target="_blank">Google+</a></h3>
+						<h3><a href="{text:iTunes URL}" target="_blank">iOS App Store</a></h3>
+						<h3><a href="{text:LinkedIn}" target="_blank">LinkedIn</a></h3>
+						<h3><a href="http://www.tumblr.com/liked/by/cycomachead" target="_blank">Posts I Like</a></h3>
+						<h3><a href="{text:YouTube URL}" target="_blank">YouTube</a></h3> 
+					</ul> <!--My links -->
+				
+					<h2 class="links-list">Follow</h2>
+					<ul class="links-list" style="margin-top: 0px;">
+						<h3><a href="{RSS}" target="_blank">RSS Feed</a></h3>
+	                    <h3><a href="http://fusion.google.com/add?source=atgs&feedurl=feed%3A//michaelballphoto.com/rss" target="_blank">Add to Google Reader</a></h3>
+	                   	<h3><a href="http://tumblr.com/follow/cycomachead">Tumblr</a></h3>
+						<h3><a href="{text:TwitterURL}" target="_blank">Twitter</a></h3>
+						<h3><a href="{text:Twitter2}" target="_blank">Twitter<br />(Posts Only)</a></h3>
+					 </ul>
+				
+				<h2 class="links-list">Search</h2>		
+				<div>
+					<form action="/search" method="get" id="search">
+						<input type="text" name="q" style="width:94%;" value="{SearchQuery}" />
+						<input type="submit" style="text-align:center;" value="Search" />
+					</form>
+				</div>
+				<div>
+					<br /><br />
+					<p><img align="middle" height="32" src="http://media.tumblr.com/tumblr_lzxw5i7DA11qjg6k8.png" width="150" /></p>
+					<p><img align="middle" height="40" src="http://media.tumblr.com/tumblr_lzxw6cpdao1qjg6k8.png" width="150" /></p>
+				</div>
+			</aside>
+			</div><!--side-->
+		</div><!--middle-->
+		
+		<div class="footer"><!--footer-->
+			<p><a href="/change-log">Version {text:Version Number}</a> | &copy; {CopyrightYears} | Michael Ball | <a href="/about" title="about page">About Me</a> | <a href="/affiliates">Affiliates</a> | <a href="/contact">Contact</a></p>
+		</div> 				
+	
+	{block:IfGoogleAnalytics}
+		<script type="text/javascript">
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', '{text:Google Analytics}']);
+			  _gaq.push(['_trackPageview']);
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		</script>
+	{/block:IfGoogleAnalytics}
+		
+</body>
+</html>

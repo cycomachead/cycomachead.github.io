@@ -1,0 +1,40 @@
+source: ./content/
+destination: ./_site/
+safe: true
+pygments: true
+lsi: false
+markdown: rdiscount
+
+exclude: [Berkeley Websites, Templates, Tumblr, misc tools,
+ README.md, TODO.md, LICENSE]
+
+
+permalink: /:category/:year/:month/:title
+paginate: 10
+
+title: Michael Ball Photo
+author: Michael Ball
+url: http://www.michaelballphoto.com
+version: 2.0
+copy-start: 2011
+copy-end: 2012
+description: SOMETHINGHERETODO
+keywords: [iPhone, apps, photography, Quad Solver, Michael Ball, college, Cal,
+    Berkeley, computer science, programming, cycomachead, photo, apple, iOS,
+    macs]
+
+
+aboutame: michaelball
+appstore: michaelball
+facebook: quadsolver
+flickr: cycomachead
+github: cycomachead
+googleplus: 109987956810230671866
+instagram: cycomachead
+linkedin: /pub/michael-ball/43/18a/81/
+tumblr: cycomachead
+twitter: cycomachead
+twitterposts: michaelbphotos
+youtube: cycomachead
+
+

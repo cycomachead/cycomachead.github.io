@@ -1,0 +1,145 @@
+{block:TagPage}
+	<article class="{TagsAsClasses}.show" id="post-{PostID}">
+		<p> <!-- Open of top of post -->
+			{block:Date}
+				<span class="date">
+					<a href="{Permalink}">
+						<span class="timeago">{TimeAgo}</span>
+					</a>
+				</span><!--.date-->
+			{/block:Date}
+	
+			{block:NoteCount} 
+				<span class="notecount">
+					<a href="{Permalink}#notes">{NoteCountWithLabel}</a>
+				</span>
+			{/block:NoteCount}
+		</p> <!--End stuff at the top of each post-->
+	
+		{block:Text}
+			{block:Title}	
+				<h1><a href="{Permalink}">{Title}</a></h1>
+			{/block:Title}
+			{Body} <!--Post Body-->
+		{/block:Text}
+
+		{block:Photo}
+			{LinkOpenTag}
+			<photo><img src="{PhotoURL-500}" alt="{PhotoAlt}" class="{TagsAsClasses}" id="photo" target="_blank"></photo>
+			{LinkCloseTag}
+			{block:Caption}
+				<div class="caption">{Caption}</div>
+			{/block:Caption}
+			{block:IfShowEXIF}{block:Exif}
+				<table border="0"cellspacing="6" cellpadding="4" width="110%" style="font-size:75%">
+				<tr>
+					<td>{block:Camera}Camera: {Camera}{/block:Camera}</td>
+					<td>{block:Aperture}Aperture: {Aperture}{/block:Aperture}</td>
+				</tr>
+				<tr>
+					<td>{block:FocalLength}Focal Length: {FocalLength}{/block:FocalLength}</td>
+					<td>{block:Exposure}Shutter Speed: {Exposure} s.{/block:Exposure}</td>
+				</tr>
+				</table>
+		   {/block:Exif}{/block:IfShowEXIF}
+		{/block:Photo}
+
+		{block:Photoset}
+			{Photoset-500}
+			{block:Caption}
+				<div class="caption">{Caption}</div>
+			{/block:Caption}
+		{/block:Photoset}
+
+		{block:Quote}
+			{block:Source}
+				<div class="source">{Source}</div>
+			{/block:Source}
+			<blockquote class="{Length}">{Quote}</blockquote>
+		{/block:Quote}
+
+		{block:Link}
+			<a href="{URL}" class="link" {Target}>{Name}</a>
+			{block:Description}
+			<div class="description">{Description}</div>
+			{/block:Description}
+		{/block:Link}
+
+		{block:Chat}
+			{block:Title}
+				<h3><a href="{Permalink}">{Title}</a></h3>
+			{/block:Title}
+			<ul class="chat">
+				{block:Lines}
+					<li class="{Alt} user_{UserNumber}">
+						{block:Label}
+							<span class="label">{Label}</span>
+						{/block:Label}
+
+						{Line}
+					</li>
+				{/block:Lines}
+			</ul>
+		{/block:Chat}
+
+		{block:Audio}
+			{block:AlbumArt}
+				<img src="{AlbumArtURL}" alt="" class="art" style="-webkit-box-reflect: none; border:none;"/> 
+			{/block:AlbumArt}
+			{block:Artist}
+				<p class="artist">{Artist}</p>
+			{/block:Artist}	
+			{block:Album}
+				<p class="album">{Album}</p>
+			{/block:Album}
+			{block:TrackName}
+				<p class="trackname">{TrackName}</p>
+			{/block:TrackName}
+			{AudioPlayerBlack}
+				<p class="playcount">{PlayCountWithLabel}</p>
+			{block:ExternalAudio}
+				<p class="external-audio"><a href="{ExternalAudioURL}">Download</a></p>
+			{/block:ExternalAudio}
+			{block:Caption}
+				<div class="caption">{Caption}</div>
+			{/block:Caption}
+		{/block:Audio}
+
+		{block:Video}
+			{Video-500}		
+				<p class="playcount">{PlayCountWithLabel}</p>
+			{block:Caption}
+				<div class="caption">{Caption}</div>
+			{/block:Caption}
+		{/block:Video}
+
+		{block:Answer}
+			<h3><img src="{AskerPortraitURL-24}" alt="" />{Question}</h3>
+			{Answer}
+		{/block:Answer}
+
+		{block:More}
+			<p class="read-more"><a href="{Permalink}">Read more</a></p>
+		{/block:More}
+											
+		{block:PostNotes}
+			<div id="notes" class="post-notes">
+				<h3 style="text-decoration:underline;">Post Notes:</h3>
+				{PostNotes}
+			</div><!--.post-notes-->
+		{/block:PostNotes}
+	
+		{block:IfDisqusShortname}
+			<strong><div style="font-size: 70%; text-align: left;"><a class="dsq-comment-count" href="{Permalink}#disqus_thread">Comments</a></div></strong>
+		{/block:IfDisqusShortname}
+	
+		{block:HasTags}								
+			<strong><p style="margin-bottom: 0px; font-size: 70%; color:{color:Accent};">Tagged: {block:Tags}<a href="{TagURL}">{Tag} </a>{/block:Tags}</p></strong>
+		{/block:HasTags}
+	
+		{block:Date} <!--date for each post-->
+			<strong><p style="font-size: 70%; color:{color:Accent};">Originally Posted: {ShortMonth} {DayOfMonth}, {Year} at {12Hour}:{Minutes}{AmPm}</p></strong>
+		{/block:Date}
+	
+	</article>
+{/block:TagPage}

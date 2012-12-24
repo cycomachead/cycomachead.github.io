@@ -1,0 +1,12 @@
+Aperture and Camera Raw Round Tripping
+
+<p><img src="http://media.tumblr.com/tumblr_m5g0uphwpB1qjg6k8.png" width="150" height="150" align="left" alt=""/>Aperture has long made it easy to round-trip with an external editor. That is, if you want to edit an image in Photoshop or GIMP, then all you need to do is right click the image from within Aperture, and it will open in your desired editor and when it&#8217;s saved, the image is automatically in your Aperture library, right alongside its original version. However, open files in Adobe Camera Raw has takes a bit more configuring. The reason is that when Aperture round trips, it creates a new file from the master, and ACR will only open files under certain conditions, and it won&#8217;t open PSD files. </p> <br />
+<!-- more -->
+<p>
+If you want to use ACR with Aperture round tripping here&#8217;s what you need to do:
+<br />
+1. Open your Aperture preferences and go to &#8220;Export&#8221;. Then set your Aperture External Editor preference to Photoshop, and then set the file format to TIFF 16-bit. (I suppose 8-bit may work, but that would defeat the purpose of using ACR). <img src="http://media.tumblr.com/tumblr_m5g0lnHM8l1qjg6k8.png" width="260" height="200" alt="" /><br />
+2. In Photoshop open your preferences, and go to the &#8220;File Handling&#8221; tab, then select &#8220;Camera Raw Preferences…&#8221;<img src="http://media.tumblr.com/tumblr_m5g0me3aDX1qjg6k8.png" width="477" height="359" alt=""/> <br />
+3. Change the TIFF settings to say &#8220;Automatically open all supported TIFFs&#8221; Click OK and you&#8217;re good to go!<img src="http://media.tumblr.com/tumblr_m5g0mrb6TN1qjg6k8.png" width="341" height="355"  alt=""/></p>
+
+<p>Yes, now every time you round trip you will be presented with the ACR dialogue. For me, this is great because there are a few ACR options I really like. If you&#8217;d like to temporarily change your preference, then you can simply set Aperture to use PSDs which ACR won&#8217;t open. As far as the difference between PSD and TIFF - there&#8217;s not too much difference as both support layers. My personal preference leans towards TIFF as it has a larger max file size and is an open standard.</p>

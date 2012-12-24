@@ -1,0 +1,22 @@
+{% unless post %}
+    {% assign post = page %}
+{% endunless %}
+
+<table id="pagination">
+    <tr>
+        <td>
+            {% if post.previous.url %}
+            <li style="text-align:left;">
+                <a href="{{ post.previous.url }}">Previous Post</a>
+            </li>
+            {% end if %}
+        </td>
+        <td>
+            {% if post.next.url %}
+            <li style="text-align:right;">
+                <a href="{{ post.next.url }}">Next Post</a>
+            </li>
+            {% end if %}
+        </td>
+    </tr>
+</table>

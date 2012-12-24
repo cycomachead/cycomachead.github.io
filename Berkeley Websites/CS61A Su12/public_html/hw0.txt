@@ -1,0 +1,21 @@
+Michael Ball
+CS61A-Su12
+EECS Reader/TA Questions:
+
+1. Where did you grow up? What was your path to Cal?
+I grew up in SoCal in Chino Hills. For those who've never heard of it (I'm so shocked!), it's about an hour (east) of Los Angeles--which is to say that pretty much everything in SoCal is an hour away from LA or everything else. I was really really really involved in my high school, and was eventually Student Body VP-which is really nothing like the movies at all (though that is a very good thing). Anyway, I knew I wanted to go to college for computer science, and though Cal was not my first choice, really what better place on the planet is there for CS? The answer is none. :)
+
+How much programming have you done (and what languages)?
+So, I started screwing around with programming way back in junior high--though nothing impressive. Now that I think about it, I'm not really sure I knew what I was doing. Anyway, in that time I've played with a ton of languages, but haven't really gotten great at using them, namely Ruby, C, and Objective-C which I used to write a simple iPhone app called Quad Solver (itunes.com/apps/quadsolver -Shameless plug! :)). I'm a huge OS X fan, so I'm pretty decent with Unix and AppleScript, and of course, I learned Python (and Scheme) when I took 61A!
+
+What are your hobbies? What are some of your talents and skills?
+Well, I'm interested in learning, and love doing that. So, I read (if I have time, which means not all that often unfortunately). I'm very very interested in Education and the intersection of it and technology which is why I love teaching CS because it means I really get to see how we can use new technologies (and existing ones) to teach. I'm also an  avid photographer and I think I'm pretty good at that as well. :) I enjoy the internet and working on my website, but programming for the web isn't my favorite thing overall. I also LOVE debating (especially about technology) and traveled to New Zealand in High School as part of the US team, which was amazing, but haven't done as much in college because it's just not the same...
+
+Have you done anything remarkable? Has anything memorable happened to you?
+I'm not sure what constitutes remarkable...I've had a great life in almost 20 years, so I think that's all I can ask for. I am proud of the things I've done though from my photography, to getting my iPhone app working, to just working hard. And yes, I have plenty of memories--good and bad of course. Traveling to NZ to debate representing the US with some really good friends was awesome, and definitely a highlight of high school. However, Cal is pretty darn awesome as well, so I've got a lot of memories even in the short time I've been here. It's not really remarkable, but I am legally blind and that is kind of a big part of me--it's also shaped a couple memories so this is probably the best place to mention that.
+
+What commitments will be consuming your cycles this summer?
+Well, let's see I'm reading for CS61A. Woot! I'm also working on producing videos for Dan Garcia who is taking CS10 online. I was also hired as a summer photographer for the Daily Californian. Then I'm helping a professional photographer I know manage his site (ApertureExpert.com) and I'm working on an ebook version of the book Fiat Lux as part of the On the Same Page program for incoming Freshmen.
+(onthesamepage.berkeley.edu) So, all that is really fun to me and I don't know how I'll have time to do it, but it should be great! Oh, and I've got some personal projects I'm going to try to work on (git.com/cycomachead if you're so inclined).
+
+So, that's me. Feel free to ask me anything if you need help or just need someone to talk to. :)

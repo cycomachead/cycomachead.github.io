@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		
+		<title>{block:TagPage}Tagged "{Tag}" | {/block:TagPage}{block:SearchPage}Searched "{SearchQuery}" | {/block:SearchPage}{block:PostSummary}{PostSummary} | {/block:PostSummary}{Title}</title>
+		
+		<meta charset="utf-8" />
+		<meta name="description" content="{MetaDescription}" />
+		<meta name="keywords" content="{block:Tags}{Tag}, {/block:Tags}{Title}" />
+		
+		<link href="{Favicon}" rel="shortcut icon" />
+		<link href="//static.tumblr.com/41ljbbi/qmflu571m/theme.css" rel="stylesheet" type="text/css" />
+		
+			
+		<meta name="color:Title" content="#259096"/>
+		<meta name="color:Link" content="#6CA516"/>
+		<meta name="color:Accent" content="#ffffff"/>
+		<meta name="color:Accent Background" content="#777777"/>
+		<meta name="color:exfm Body" content="#3e4041"/>
+		<meta name="color:exfm Display" content="#2c2c2c"/>
+		<meta name="color:exfm Font" content="#e5e5e5"/>
+		<meta name="color:exfm Playlist" content="#515151"/>
+		<meta name="image:Logo" content="" />
+		<meta name="image:Header" content="" />
+		<meta name="if:Show Blog Title" content="1" />
+		<meta name="if:Show Home Link" content="1" />
+		<meta name="if:Show Group Features" content="0" />
+		<meta name="if:Show Likes" content="0" />
+		<meta name="if:Show Blogs I Follow" content="0" />
+		<meta name="if:Show Social Network Icons" content="0" />
+		<meta name="if:Show Sharing Features" content="1" />
+		<meta name="if:Show exfm Player" content="0" />
+		<meta name="text:Sticky Tag" content="" />
+		<meta name="text:Sticky Label" content="" />
+		<meta name="text:Featured Tag" content="" />
+		<meta name="text:Featured Heading" content="Featured Posts" />
+		<meta name="text:Group Heading" content="Contributing Authors" />
+		<meta name="text:Likes Heading" content="Posts I Like" />
+		<meta name="text:Following Heading" content="Who I Follow" />
+		<meta name="text:Disqus Shortname" content="" />
+		<meta name="text:GA Tracking ID" content="" />
+		<meta name="text:Twitter Username" content="" />
+		<meta name="text:exfm URL" content="" />
+		<meta name="text:Facebook URL" content="" />
+		<meta name="text:Flickr URL" content="" />
+		<meta name="text:foursquare URL" content="" />
+		<meta name="text:GooglePlus URL" content="" />
+		<meta name="text:Lastfm URL" content="" />
+		<meta name="text:LinkedIn URL" content="" />
+		<meta name="text:Pinterest URL" content="" />
+		<meta name="text:Rdio URL" content="" />
+		<meta name="text:SoundCloud URL" content="" />
+		<meta name="text:Spotify URL" content="" />
+		<meta name="text:Twitter URL" content="" />
+		<meta name="text:Vimeo URL" content="" />
+		<meta name="text:YouTube URL" content="" />
+		
+		<style type="text/css">
+			header { width: 850px; height: 580px; }
+			header { background: url('{image:Header}') bottom center no-repeat; }
+			header {
+				margin-top: 50px;
+				margin-bottom: 36px;
+			}
+			#page-header .content {
+				border-bottom: none;
+				margin: 0 auto;
+				padding: 0 3px 5px;
+				width: 958px;
+			}
+			#page-content {
+				border: none;
+			}
+			#page-content .col {
+				border-left: none;
+			}
+			
+			.bF, .bF * { background-color: {color:Accent Background}; }
+			.lF a, a.lF, .tF { color: {color:Accent}; }
+			.bP { background-color: {color:Link}; }
+			.lP a, a.lP, .lS a:hover, a:hover.lS, .like_post a, .blogs-fetch { color: {color:Link}; }
+			.lS a, a.lS { color: #6e6e6e; }
+			.bT { background-color: {color:Title}; }			
+			.lT a, a.lT, .like_link a { color: {color:Title}; }
+			{CustomCSS}
+		</style>
+		
+		<script data-name="singleatheme" id="bbtheme" src="//static.tumblr.com/tkqqpe9/cWeluruha/theme.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			(function (singleatheme, undefined) {
+				if (singleatheme !== undefined) {
+					singleatheme({
+						{block:IfDisqusShortname}
+						DisqusCounts: {
+							shortname: '{text:Disqus Shortname}'
+						},
+						{/block:IfDisqusShortname}
+						{block:IfDisqusShortname}
+						{block:PermalinkPage}
+						DisqusThread: {
+							identifier: '{PostID}',
+							title: '{PostTitle}',
+							url: '{Permalink}',
+							shortname: '{text:Disqus Shortname}'
+						},
+						{/block:PermalinkPage}
+						{/block:IfDisqusShortname}
+						{block:IfShowexfmPlayer}
+    					ExFmPlayer: {
+    						bodyColor: '{color:exfm Body}',
+    						displayColor: '{color:exfm Display}',
+    						fontColor: '{color:exfm Font}',
+    						playlistColor: '{color:exfm Playlist}'
+    					},
+    					{/block:IfShowexfmPlayer}
+						{block:IfGATrackingID}
+						GoogleAnalytics: {
+							webPropertyID: '{text:GA Tracking ID}'
+						},
+						{/block:IfGATrackingID}
+						{block:IfShowSharingFeatures}
+						{block:PermalinkPage}
+						TumblrButton: true,
+						{/block:PermalinkPage}
+						{/block:IfShowSharingFeatures}
+						{block:IfFeaturedTag}
+						TumblrFeatured: {
+							maxWidth: 283,
+							params: {
+								filter: 'text',
+								num: 5,
+								tagged: '{text:Featured Tag}'
+							},
+							selector: '#tumblr-featured',
+							template: 'tmpl-featured'
+						},
+						{/block:IfFeaturedTag}
+						{block:IfShowBlogsIFollow}
+						{block:Following}
+						TumblrFollowing: {
+							blogs: (function () {
+								var blogs = [];
+								{block:Followed}
+								blogs.push({
+									name: '{FollowedName}',
+									title: '{FollowedTitle}',
+									src: '{FollowedPortraitURL-30}',
+									url: '{FollowedURL}'
+								});
+								{/block:Followed}
+								return blogs;
+							}()),
+							count: 36,
+							label: 'show more',
+							selector: '#tumblr-following',
+							template: 'tmpl-following'
+						},
+						{/block:Following}
+						{/block:IfShowBlogsIFollow}
+						{block:IfStickyTag}
+						{block:IndexPage}
+						TumblrSticky: {
+							{block:SearchPage}
+							disabled: true,
+							{block:SearchPage}
+							{block:TagPage}
+							disabled: true,
+							{block:TagPage}
+							label: {
+								selector: '.permalink',
+								text: '{text:Sticky Label}'
+							},
+							params: {
+								tagged: '{text:Sticky Tag}'
+							},
+							selector: '#tumblr-posts .posts'
+						},
+						{/block:IndexPage}
+						{/block:IfStickyTag}
+						{block:IfShowSharingFeatures}
+						TwitterButton: true,
+						{/block:IfShowSharingFeatures}
+						{block:IfTwitterUsername}
+						TwitterTimeline: {
+							params: {
+								count: 3,
+								include_entities: true,
+								include_rts: false,
+								screen_name: '{text:Twitter Username}'
+							},
+							selector: '#tumblr-tweets',
+							template: 'tmpl-timeline'
+						},
+						{/block:IfTwitterUsername}
+						GoogleWebFonts: {
+							google: {
+								families: ['Droid Sans', 'Yanone Kaffeesatz']	
+							}
+						}
+					});
+				}
+			}(this.singleatheme));
+		</script>
+	</head>
+	<body>
+		<div id="page-wrapper">
+			<div class="header" id="page-header">
+				<div class="content">
+						<ul class="actions nav clear bS lS">
+							<li class="follow">
+	    						<a href="http://www.tumblr.com/follow/{Name}" title="Follow on Tumblr">Follow on Tumblr</a>
+	    					</li>
+	    					{block:AskEnabled}
+	    						<li class="ask">
+	    							<a href="/ask" title="{AskLabel}">{AskLabel}</a>
+	    						</li>
+	    					{/block:AskEnabled}
+	    					{block:SubmissionsEnabled}
+	    						<li class="submit">
+	    							<a href="/submit" title="{SubmitLabel}">{SubmitLabel}</a>
+	    						</li>
+	    					{/block:SubmissionsEnabled}
+	    					<li class="feed">
+	    						<a href="{RSS}" title="RSS Feed">RSS Feed</a>
+	    					</li>
+	    					<li class="archive">
+	    						<a href="/archive" title="Archive">Archive</a>
+	    					</li>
+	    				</ul>
+				</div> <!-- end buttons at top-->
+				
+			<header> <div> </div> </header>	
+			</div>
+    		<div class="section" id="page-content">
+    			<div class="content clear">
+    				<div id="tumblr-features">
+   						<div class="feature{block:HasPages} hasPages{/block:HasPages}{block:IfShowHomeLink} hasHome{/block:IfShowHomeLink} lS" id="tumblr-pages">
+       						<ul class="nav">
+       							{block:IfShowHomeLink}
+       								<li>
+       									<a href="http://{Name}.tumblr.com" title="Home">
+       										<span>Home</span>
+       									</a>
+       								</li>
+       							{/block:IfShowHomeLink}
+       							{block:HasPages}
+       								{block:Pages}
+	       								<li>
+	       									<a href="{URL}" title="{Label}">
+	       										<span>{Label}</span>
+	       									</a>
+	       								</li>
+	       							{/block:Pages}
+       							{/block:HasPages}
+       						</ul>
+       					</div>
+    					
+    					<div class="feature tS lP" id="tumblr-search">
+    						{block:IfShowSocialNetworkIcons}
+	    						<ul class="networks clear">
+	        						{block:IfexfmUrl}
+		    							<li class="service exfm">
+		    								<a class="icon bP" href="{text:ExFm URL}" target="_blank" title="exfm">exfm</a>
+		    							</li>
+		    						{/block:IfexfmUrl}
+		    						{block:IfFacebookUrl}
+		    							<li class="service facebook">
+		    								<a class="icon bP" href="{text:Facebook URL}" target="_blank" title="Facebook">Facebook</a>
+		    							</li>
+		    						{/block:IfFacebookUrl}
+		    						{block:IfFlickrUrl}
+		    							<li class="service flickr">
+		    								<a class="icon bP" href="{text:Flickr URL}" target="_blank" title="Flickr">Flickr</a>
+		    							</li>
+		    						{/block:IfFlickrUrl}
+		    						{block:IffoursquareUrl}
+		    							<li class="service foursquare">
+		    								<a class="icon bP" href="{text:foursquare URL}" target="_blank" title="foursquare">foursquare</a>
+		    							</li>
+		    						{/block:IffoursquareUrl}
+		    						{block:IfGooglePlusUrl}
+		    							<li class="service googleplus">
+		    								<a class="icon bP" href="{text:GooglePlus URL}" target="_blank" title="Google+">Google+</a>
+		    							</li>
+		    						{/block:IfGooglePlusUrl}
+		    						{block:IfLastfmUrl}
+		    							<li class="service lastfm">
+		    								<a class="icon bP" href="{text:LastFm URL}" target="_blank" title="LastFm">LastFm</a>
+		    							</li>
+		    						{/block:IfLastfmUrl}
+		    						{block:IfLinkedInUrl}
+		    							<li class="service linkedin">
+		    								<a class="icon bP" href="{text:LinkedIn URL}" target="_blank" title="LinkedIn">LinkedIn</a>
+		    							</li>
+		    						{/block:IfLinkedInUrl}
+		    						{block:IfPinterestUrl}
+		    							<li class="service pinterest">
+		    								<a class="icon bP" href="{text:Pinterest URL}" target="_blank" title="Pinterest">Pinterest</a>
+		    							</li>
+		    						{/block:IfPinterestUrl}
+		    						{block:IfRdioURL}
+		    							<li class="service rdio">
+		    								<a class="icon bP" href="{text:Rdio URL}" target="_blank" title="Rdio">Rdio</a>
+		    							</li>
+		    						{/block:IfRdioURL}
+		    						{block:IfSoundCloudUrl}
+		    							<li class="service soundcloud">
+		    								<a class="icon bP" href="{text:SoundCloud URL}" target="_blank" title="SoundCloud">SoundCloud</a>
+		    							</li>
+		    						{/block:IfSoundCloudUrl}
+		    						{block:IfSpotifyUrl}
+		    							<li class="service spotify">
+		    								<a class="icon bP" href="{text:Spotify URL}" target="_blank" title="Spotify">Spotify</a>
+		    							</li>
+		    						{/block:IfSpotifyUrl}
+		    						{block:IfTwitterUrl}
+		    							<li class="service twitter">
+		    								<a class="icon bP" href="{text:Twitter URL}" target="_blank" title="Twitter">Twitter</a>
+		    							</li>
+		    						{/block:IfTwitterUrl}
+		    						{block:IfVimeoUrl}
+		    							<li class="service vimeo">
+		    								<a class="icon bP" href="{text:Vimeo URL}" target="_blank" title="Vimeo">Vimeo</a>
+		    							</li>
+		    						{/block:IfVimeoUrl}
+		    						{block:IfYouTubeUrl}
+		    							<li class="service youtube">
+		    								<a class="icon bP" href="{text:YouTube URL}" target="_blank" title="YouTube">YouTube</a>
+		    							</li>
+		    						{/block:IfYouTubeUrl}
+	        					</ul>
+		    	    		{/block:IfShowSocialNetworkIcons}
+    	    				<form action="/search" method="get">
+    	    					<label for="q">Search Posts</label>
+    	    					<div class="fieldgroup clear">
+    	    						<input class="field text" id="q" name="q" title="Search" type="text" value="{SearchQuery}" />
+		    				    	<input class="field button submit" title="Search" type="submit" value="" />
+    	    					</div>
+		    				</form>
+    					</div>
+    					{block:IfShowGroupFeatures}
+    						{block:GroupMembers}
+	    						<div class="feature lP" id="tumblr-group">
+	    							<div class="heading bS">{text:Group Heading}</div>
+	   								<ul class="members">
+	       								{block:GroupMember}
+	       									<li class="member">
+	       										<div class="thumb">
+	       											<a href="{GroupMemberURL}" target="_blank" title="{GroupMemberTitle}">
+	       												<img alt="{GroupMemberTitle}" height="48" src="{GroupMemberPortraitURL-48}" width="48" />
+	       											</a>
+	       										</div>
+	       										<div class="name">
+	       											<span>{GroupMemberName}</span>
+	       											<a href="{GroupMemberURL}" target="_blank" title="{GroupMemberTitle}">{GroupMemberTitle}</a>
+	       										</div>
+	       									</li>
+	       								{/block:GroupMember}
+	    							</ul>
+	    						</div>
+	    					{/block:GroupMembers}
+    					{/block:IfShowGroupFeatures}
+    					{block:IfFeaturedTag}
+    						<div class="feature lP" id="tumblr-featured">
+    							<div class="heading bS">{text:Featured Heading}</div>
+    						</div>
+    					{/block:IfFeaturedTag}
+    					{block:IfTwitterUsername}
+    						<div class="feature lP" id="tumblr-tweets">
+    							<div class="heading bS">
+    								<span>Recent Tweets</span>
+    								<a href="http://twitter.com/{text:Twitter Username}" title="@{text:Twitter Username}">@{text:Twitter Username}</a>
+    							</div>
+    						</div>
+    					{/block:IfTwitterUsername}
+    					{block:IfShowLikes}
+    						{block:Likes}
+    							<div class="feature" id="tumblr-likes">
+    								<div class="heading bS">{text:Likes Heading}</div>
+    								{Likes limit="5" summarize="150" width="283"}
+    							</div>
+    						{/block:Likes}
+       					{/block:IfShowLikes}
+						{block:IfShowBlogsIFollow}
+    						{block:Following}
+    							<div class="feature" id="tumblr-following">
+    								<div class="heading bS">{text:Following Heading}</div>
+    							</div>
+    						{/block:Following}
+       					{/block:IfShowBlogsIFollow}
+    				</div>
+    				<div id="tumblr-posts">
+	    				{block:SearchPage}
+	    					<div class="alert searched bF tF">{block:NoSearchResults}Sorry, there are no {/block:NoSearchResults}Search results containing "{SearchQuery}"</div>
+	    				{/block:SearchPage}
+	    				{block:TagPage}
+	    					<div class="alert tagged bF tF">Posts tagged "{Tag}"</div>
+	    				{/block:TagPage}
+    					<div class="posts">
+    						{block:Posts}
+	    						<div class="post{block:Text} regular{/block:Text}{block:Photo} photo{/block:Photo}{block:Quote} quote{/block:Quote}{block:Link} link{/block:Link}{block:Chat} conversation{/block:Chat}{block:Audio} audio{/block:Audio}{block:Video} video{/block:Video}{block:Answer} answer{/block:Answer}{block:Photoset} photo set{/block:Photoset}{block:RebloggedFrom} reblog{/block:RebloggedFrom}" data-id="{PostID}" data-type="{block:Text}regular{/block:Text}{block:Photo}photo{/block:Photo}{block:Quote}quote{/block:Quote}{block:Link}link{/block:Link}{block:Chat}conversation{/block:Chat}{block:Audio}audio{/block:Audio}{block:Video}video{/block:Video}{block:Answer}answer{/block:Answer}{block:Photoset}photo{/block:Photoset}" id="post{PostID}">
+	  	 							<div class="data{block:Audio} clear{/block:Audio} lP">
+			        					{block:Answer}
+			    							<div class="asker user">
+			    								<img alt="Asker" src="{AskerPortraitURL-16}" />
+			    								<span>{Asker} Asks:</span>
+			    							</div>
+			    							<div class="question fS">{Question}</div>
+			    							<div class="replier user">
+			    								<img alt="{Name}" src="{PortraitURL-16}" />
+			    								<span>{Name} Said:</span>
+			    							</div>
+			    							<div class="reply hasMarkup">{Answer}</div>
+			        					{/block:Answer}
+		        						{block:Audio}
+		    								<div class="media">
+		    									{block:AlbumArt}
+		    										<img alt="{PlayCountWithLabel}" class="cover" src="{AlbumArtURL}" height="198" width="198" />
+		    									{/block:AlbumArt}
+		    									<img alt="{PlayCountWithLabel}" class="cover{block:AlbumArt} default{/block:AlbumArt}" src="//static.tumblr.com/tkqqpe9/9Nylixvp6/cassette-tape-1.png" height="198" width="198" />
+		    									{AudioPlayerBlack}
+		    	    						</div>
+		    	    						{block:TrackName}
+		    	    							<div class="id3 tS">
+		    	    								<div class="track title fS lT">
+		  			 	  		  						<a href="{Permalink}" title="{TrackName}">{TrackName}</a>
+		  			 	  		  					</div>
+		  			 	  		  					{block:Artist}
+														<div class="artist">{Artist}{block:Album}, {/block:Album}</div>
+				  		 	  		  				{/block:Artist}
+				  		 	  		  				{block:Album}
+				  		 	  		  					<div class="album">{Album}</div>
+													{/block:Album}
+		    	    							</div>
+											{/block:TrackName}
+		    								{block:Caption}
+		        								<div class="caption hasMarkup">{Caption}</div>
+		        							{/block:Caption}
+			        					{/block:Audio}
+			        					{block:Chat}
+			        						{block:Title}
+		  		 	  		  					<div class="title fS lT">
+		  		 	  		  						<a href="{Permalink}" title="{Title}">{Title}</a>
+		  		 	  		  					</div>
+			        						{/block:Title}
+		    	    						<div class="dialogue bS tS">
+		    	    							<ul>
+		    	    								{block:Lines}
+		    	    									<li class="line {Alt}">
+		    	    										{block:Label}<span>{Label}</span>{/block:Label}
+		    	    										{Line}
+		    	    									</li>
+		    	    								{/block:Lines}
+		    	    							</ul>
+		    	    						</div>
+			        					{/block:Chat}
+			        					{block:Link}
+		  	 	  		  					<div class="title fS lT">
+		  	 	  		  						<a href="{URL}" title="{Name}">{Name} &rarr;</a>
+		  	 	  		  					</div>
+		    	    						{block:Description}
+		    	    							<div class="description hasMarkup">{Description}</div>
+		    	    						{/block:Description}
+			    						{/block:Link}
+			    						{block:Photo}
+		    								<div class="media">
+		    									{LinkOpenTag}
+			    	    							<img alt="{PhotoAlt}" src="{PhotoURL-500}" width="500" />
+		    	    							{LinkCloseTag}
+		    	    						</div>
+		    	    						{block:Caption}
+		    	    							<div class="caption hasMarkup">{Caption}</div>
+		    	    						{/block:Caption}
+			    						{/block:Photo}
+			    						{block:Photoset}
+			    							<div class="media">{Photoset-500}</div>
+			    	    					{block:Caption}
+			    	    						<div class="caption hasMarkup">{Caption}</div>
+			    	    					{/block:Caption}
+		        						{/block:Photoset}
+			    						{block:Quote}
+		    								<div class="echo hasMarkup fS">{Quote}</div>
+		    	    						{block:Source}
+		    									<div class="source hasMarkup">{Source}</div>
+		    	    						{/block:Source}
+			    						{/block:Quote}
+			    						{block:Text}
+		  	 								{block:Title}
+		  	 	  		  						<div class="title fS lT">
+		  	 	  		  							<a href="{Permalink}" title="{Title}">{Title}</a>
+		  	 	  		  						</div>
+		  	 								{/block:Title}
+		  	 	    						<div class="body hasMarkup">{Body}</div>
+			  	 						{/block:Text}
+		        						{block:Video}
+		    	    						<div class="media">{Video-500}</div>
+		    								{block:Caption}
+		        								<div class="caption hasMarkup">{Caption}</div>
+		        							{/block:Caption}
+		        						{/block:Video}
+	        						</div>
+	        						<div class="type bT">
+	  	 								<a{block:IndexPage} href="{Permalink}" title="View post{block:NoteCount}, notes{/block:NoteCount}{block:IfDisqusshortname}, comments{/block:IfDisqusshortname}"{/block:IndexPage}>
+	  	 									<img alt="{block:Text} Text{/block:Text}{block:Photo} Photo{/block:Photo}{block:Quote} Quote{/block:Quote}{block:Link} Link{/block:Link}{block:Chat} Chat{/block:Chat}{block:Audio} Audio{/block:Audio}{block:Video} Video{/block:Video}{block:Answer} Answer{/block:Answer}{block:Photoset} Photoset{/block:Photoset}" src="//static.tumblr.com/tkqqpe9/p0Zlixw1m/post-types-1.png" height="26" />
+	  	 								</a>
+	  	 							</div>
+	        						{block:Date}
+		    							<div class="meta bS tS lS">
+		    								<ul class="facts nav clear">	
+		    									<li class="date">
+		    										<span><a class="permalink" href="{Permalink}" title="{ShortMonth} {DayOfMonth}, {Year} {12Hour}:{Minutes} {AmPm}">{ShortMonth} {DayOfMonth}, {Year} {12Hour}:{Minutes} {AmPm}</a>{block:IfShowGroupFeatures}{block:GroupMembers} by <a class="lP" href="{PostAuthorURL}" title="{PostAuthorName}">{PostAuthorName}</a>{/block:GroupMembers}{/block:IfShowGroupFeatures}</span>
+		    									</li>
+		    									{block:ContentSource}
+													<li class="source">{SourceLink}</li>
+												{/block:ContentSource}
+												<li class="notes">
+	    											<a href="{Permalink}#tumblr_notes" title="{NoteCountWithLabel}">{NoteCountWithLabel}</a>
+	    										</li>
+		    									{block:IfDisqusShortname}
+		    										<li class="comments">
+		    											<a href="{Permalink}#disqus_thread" title="Comments">Comments</a>
+		    										</li>
+		    									{/block:IfDisqusShortname}
+		    									{block:Audio}
+		    										<li class="plays">
+		    											<span>{PlayCountWithLabel}</span>
+		    										</li>
+		    									{/block:Audio}
+		    								</ul>
+		    								{block:HasTags}
+		    									<ul class="tags nav clear">
+		    										{block:Tags}
+		    											<li>
+		    												<a href="{TagURL}" title="{Tag}">{Tag}</a>
+		    											</li>
+		    										{/block:Tags}
+		    									</ul>
+			    							{/block:HasTags}
+		    							</div>
+										{block:IfShowSharingFeatures}
+											<div class="meta share bS tS lS">
+												<ul class="networks nav clear">
+													{block:PermalinkPage}
+														<li class="service tumblr">
+															<a href="http://www.tumblr.com/share" title="Share on Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:61px; height:20px; background:url('http://platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;">Share on Tumblr</a>
+														</li>
+													{/block:PermalinkPage}
+													<li class="service twitter">
+														<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal"{block:IndexPage} data-text="{block:Text}{block:Title}{PlaintextTitle}{/block:Title}{/block:Text}{block:Chat}{block:Title}{PlaintextTitle}{/block:Title}{/block:Chat}{block:Link}{Name}{/block:Link}"{/block:IndexPage}{block:SearchPage} data-text="{block:Text}{block:Title}{PlaintextTitle}{/block:Title}{/block:Text}{block:Chat}{block:Title}{PlaintextTitle}{/block:Title}{/block:Chat}{block:Link}{Name}{/block:Link}"{/block:SearchPage}{block:TagPage} data-text="{block:Text}{block:Title}{PlaintextTitle}{/block:Title}{/block:Text}{block:Chat}{block:Title}{PlaintextTitle}{/block:Title}{/block:Chat}{block:Link}{Name}{/block:Link}"{/block:TagPage} data-url="{Permalink}">Tweet</a>
+													</li>
+													<li class="service facebook">
+														<iframe src="http://www.facebook.com/plugins/like.php?href={URLEncodedPermalink}&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=arial&amp;colorscheme=dark&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+													</li>
+												</ul>
+											</div>
+										{/block:IfShowSharingFeatures}
+		    							{block:PermalinkPage}
+			    							{block:PostNotes}
+			    								<div class="notes tS lP" id="tumblr_notes">{PostNotes}</div>
+		        							{/block:PostNotes}
+		        							{block:IfDisqusShortname}
+		        								<div class="comments tS lP" id="disqus_thread"></div>
+		        							{/block:IfDisqusShortname}
+			    						{/block:PermalinkPage}
+	    							{/block:Date}
+	    						</div>
+		    				{/block:Posts}
+    					</div>
+	    			</div>
+    			</div>
+    			<div class="col"></div>
+    		</div>
+    		<div class="footer bF lF tF" id="page-footer">
+    			<div class="content">
+    				<ul class="actions nav">
+    					<li class="feed">
+    						<a href="{RSS}" title="RSS Feed">RSS Feed</a>
+    					</li>
+    					{block:AskEnabled}
+    						<li class="ask">
+    							<a href="/ask" title="{AskLabel}">{AskLabel}</a>
+    						</li>
+    					{/block:AskEnabled}
+    					{block:SubmissionsEnabled}
+    						<li class="submit">
+    							<a href="/submit" title="{SubmitLabel}">{SubmitLabel}</a>
+    						</li>
+    					{/block:SubmissionsEnabled}
+    				</ul>
+    				{block:Pagination}
+    					<ul class="pages nav">
+    						<li class="previous">
+    							<a{block:PreviousPage} href="{PreviousPage}" title="Previous Page"{/block:PreviousPage} >Previous Page</a>
+    						</li>
+    						<li class="next">
+			    				<a{block:NextPage} href="{NextPage}" title="Next Page"{/block:NextPage} >Next Page</a>	
+    						</li>
+    					</ul>
+    				{/block:Pagination}
+    				<div class="theme">
+    				
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+	</body>
+</html>

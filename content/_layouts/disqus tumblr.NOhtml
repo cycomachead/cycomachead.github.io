@@ -1,0 +1,28 @@
+{block:IfDisqusShortname}
+    <div class="testhide {TagsAsClasses}-show">
+    {block:Permalinkpage}
+            <script type="text/javascript">var disqus_url = "{Permalink}"; var disqus_title ="{block:PostTitle}{PostTitle}{/block:PostTitle}";</script>
+    {block:Permalink}<div id="disqus_thread">
+<script type="text/javascript">
+              var disqus_identifier;
+
+              (function() {
+               var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+               dsq.src = 'http://cycomachead.disqus.com/embed.js';
+               (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=cycomachead">comments powered by Disqus.</a></noscript>
+        </div>{/block:Permalink}
+    <script type="text/javascript">
+            var disqus_shortname = '{text:Disqus Shortname}';
+            (function () {
+              var s = document.createElement('script'); s.async = true;
+              s.src = 'http://cycomachead.disqus.com/count.js';
+              (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+            }());
+            </script>
+            <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    {/block:Permalinkpage}
+    </div>
+{/block:IfDisqusShortname}
