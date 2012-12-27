@@ -1,0 +1,3 @@
+farmid: FARM
+serid: SERVER
+secret: SECRET
