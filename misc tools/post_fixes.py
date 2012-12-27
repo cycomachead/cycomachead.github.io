@@ -16,7 +16,7 @@ def setup():
         files_dir = sys.argv[1]
         rep_str = sys.argv[2]
         out_str = open(sys.argv[3], 'r').read()
-        files = os.listdir()
+        files = os.listdir(files_dir)
     except IndexError:
         print("Usage: FILE FIND REPLACE")
         exit()
@@ -39,9 +39,10 @@ def replace(file, pattern, subst):
 if __name__ == '__main__':
     setup()
     print(out_str, "\n")
-    print(files)
-    rep_str = "farmid: FARM
-serid: SERVER
-secret: SECRET"
+    os.chdir(files_dir)
+    print(os.getcwd(), "\n")
+    rep_str = "flickrurl: FLICKRURL"
     for file in files:
+        if not re.match('^\..*|\.py$', file):
+            print(file)
             replace(file, rep_str, out_str)
