@@ -2,8 +2,8 @@
 layout: default
 title: Welcome
 ---
-
-{% if paginator.page == 1 %}
+<!-- 0 pagination so I can change whether I want the message easily -->
+{% if paginator.page == 0 %}
     <h1>Welcome!</h1>
 {% endif %}
 

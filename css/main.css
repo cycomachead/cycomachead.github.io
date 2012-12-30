@@ -117,9 +117,11 @@ h3 {
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 250;
     margin-bottom: .4em;
-    text-indent: .2em;
+    text-indent: .6em;
     margin-top: .2em;
     font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', sans-serif;;
 }

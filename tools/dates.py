@@ -50,7 +50,7 @@ def date():
             time = file.strip(".md")
             date = "date: " + time[:10] + " " + time[11:13] + ":"
             date += time[13:15] + ":00\n"
-            file_string[5:5] = date
+            file_string[5:5] = date # this is a cool trick! 
             write(file)
 
 if __name__ == '__main__':

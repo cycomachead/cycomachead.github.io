@@ -4,19 +4,23 @@
 
 <table id="pagination">
     <tr>
-        <td>
+        <td class="left">
+            <li class="left">
             {% if post.previous.url %}
-            <li style="text-align:left;">
                 <a href="{{ post.previous.url }}">Previous Post</a>
-            </li>
+            {% else %}
+                No Previous Post
             {% end if %}
+            </li>
         </td>
-        <td>
-            {% if post.next.url %}
-            <li style="text-align:right;">
+        <td class="right">
+            <li class="right">
+             {% if post.next.url %}
                 <a href="{{ post.next.url }}">Next Post</a>
-            </li>
+            {% else %}
+                No Next Post
             {% end if %}
+            </li>
         </td>
     </tr>
 </table>
