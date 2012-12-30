@@ -5,7 +5,8 @@ title: About
 
 <div style="postion: relative; float: right">
     <img align="center" alt="Me" height="250" width="250"
-         src="/Website/images/profile.jpg" />
+        style="border-radius: 6px;"
+        src="/Website/images/profile.jpg" />
     <div style="position: relative; float: bottom; align:center;
         padding-left: 30px; width: 240px">
         <a href="https://twitter.com/cycomachead" class="twitter-follow-button"
@@ -15,7 +16,7 @@ title: About
     </div>
 </div>
 
-# Welcome to My Piece of the Internet
+## Welcome to My Piece of the Internet
 
 Hello, my name is Michael Ball! I'm a current UC Berkeley undergraduate and
  I'm addicted to photography and all sorts of technology.

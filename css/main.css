@@ -258,18 +258,16 @@ dd {
     list-style-type: circle;
 }
 
-.change-log h5 {
-
+.change-log h3 {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin-bottom: .2em;
+    margin-top: .2em;
+    font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', sans-serif;;
 }
 .change-log li {
     font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', sans-serif;;
     text-indent: 1em;
-}
-.change-log h6:before {
-    content:"• ";
-    font-weight: bold;
-    font-size: 175%;
-    line-height: 80%;
 }
 
 /* Photography page jQuery CSS */
