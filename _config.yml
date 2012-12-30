@@ -10,7 +10,7 @@ markdown: rdiscount
 exclude: [Berkeley Websites, Templates, Tumblr, misc tools,
  README.md, TODO.md, LICENSE]
 
-permalink: /Website/:categories/:year/:month/:title
+permalink: pretty
 paginate: 6
 
 title: Michael Ball Photo

@@ -6,9 +6,8 @@ a:visited {
     color: #2192d4;
     text-decoration: none;
 }
-
-.nav a:hover,
-     a:hover {
+     a:hover,
+.nav a:hover {
     text-decoration: underline;
     color: #2192d4;
 }
@@ -233,7 +232,7 @@ td .left:before {
     font-weight: bold;
     font-size: 170%;
     line-height: 50%;
-    padding-top: .1em;
+    vertical-align: -.1em;
 }
 .center { text-align: center; }
 
@@ -251,7 +250,7 @@ td .right:after {
     font-weight: bold;
     font-size: 170%;
     line-height: 50%;
-    padding-top: .1em;
+    vertical-align: -.1em;
 }
 
 dt { font-weight: bold; }
