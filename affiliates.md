@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Affiliates
 ---
 
@@ -9,9 +9,12 @@ Thank you very much for your support! :)
 P.S. I'm not getting paid to say good things about these companies, I only
 benefit if you actually buy something, so what I say is how I feel.
 
-## Amazon.com ##
+## Amazon.com
 [Amazon](http://www.amazon.com/?_encoding=UTF8&tag=micbalpho-20&linkCode=ur2&camp=1789&creative=390957) is pretty great! Seriously, they've got nearly everything at great prices and they'll even pay return shipping if you can print a sheet of paper! Plus, if you're a student or have a .edu email address you can get 6 months of free Amazon Prime which is free two-day shipping on everything sold by Amazon and some other 3rd parties too.
 
-## Dropbox ##
+## B&H Photo
+
+## Dropbox
 [Dropbox.com](http://db.tt/4lPSJdk) is a super-simple and very useful file syncing service. Got a phone, a work computer, a home computer, and who knows what else? Whatever you save to your Dropbox folder is automatically saved and synced to all your devices. You can also access your Dropbox online and older versions and even deleted files are saved so you can recover anything! A 2GB account is Free and you'll get extra free space by using my link. Plus, if you have a .edu email you can get extra space from your referrals.
 
+## iTunes
