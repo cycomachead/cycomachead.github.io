@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Me
+title: About
 ---
 
 <div style="postion: relative; float: right">
@@ -15,6 +15,8 @@ title: About Me
     </div>
 </div>
 
+# Welcome to My Piece of the Internet
+
 Hello, my name is Michael Ball! I'm a current UC Berkeley undergraduate and
  I'm addicted to photography and all sorts of technology.
 
@@ -24,9 +26,9 @@ Being a college student is great! I'm always busy and learning new things and me
 
 Technologist? I love technology and I'm a nerd! Which means that I'm (not surprisingly, I suppose) very interested in computers, especially in the ways that technology can work with new forms of media, it's social implications and how we can use these amazing new tools to improve education. As college student at one of the leading computer science institutions, I get to play with some pretty crazy technology! In my free time I love to play around with anything I can get my hands on, and I've worked on my own iPhone app. [Quad Solver](/ios) is a simple and useful application which will solve all your quadratic equation related needs (should you have any)! It's something I put together just for fun, and it's free in the App Store.
 
-Of course, I'm also an artist, and enjoy exploring the Bay Area, my home town, or finding unique and unknown places when I travel. Those become my main photographic subjects and I'm always working on improving my photographic technique and share the results on my website. Photography is fun, really fun! To me it provides an excellent creative exercise, but also has an amazing technical side as well. Plus, with the way digital photography works there's so many new possibilities for combing art with new technology, which is a topic I'm actively studying in my free time.
+I'm also an artist, and enjoy exploring the Bay Area, my home town, or finding unique and unknown places when I travel. Those become my main photographic subjects and I'm always working on improving my photographic technique and share the results on my website. Photography is fun, really fun! To me it provides an excellent creative exercise, but also has an amazing technical side as well. Plus, with the way digital photography works there's so many new possibilities for combing art with new technology, which is a topic I'm actively studying in my free time.
 
-Of course, there's really so much more than that which I'm interested in and work on. I'm also an Apple Certified Professional for Aperture 3 and Apple Certified Associate for Mac OS X Lion 10.7 Mac Integration. If any of this sounds cool feel free to follow me at any of the links below or view my  [resume.](/resume.pdf)
+There's really so much more than that which I'm interested in and work on. I'm also an Apple Certified Professional for Aperture 3 and Apple Certified Associate for Mac OS X Lion 10.7 Mac Integration. If any of this sounds cool feel free to follow me at any of the links below or view my  [resume.](/resume.pdf)
 
 ## So what's here? ##
 
@@ -36,7 +38,7 @@ So, there's a bit about me, and this site and if you have any questions or comme
 
 ## Credentials ##
 
-So, I'm generally not one to brag and usually feel that tests and the like are pretty overrated. However, I am also proud of the effort I put into my current Apple Certifications. Currently I am an Apple Certified Associate for Mac Integration for OS X Lion (10.7) and an Aperture Certified Professional for Aperture 3. You can view info [here.](https://i7lp.integral7.com/durango/do/pr/prSearchResultDetail?ownername=apple&amp;D036E966675C40A4F2781F98BD661AB9=CEE0AC17FEDDBD04288234D8664D14B8&amp;usertype=candidate&amp;3D6CBF60ADAE3C6C0D8E570165AD529C=E9CD144372EB7BC9FE6E91C3684C043C&amp;basechannel=apple&amp;channel=apple) Otherwise, much of my photography is either self-taught or from the hours I've spent listening to podcasts or online blogs. Of course, I've also graduated from high school and am currently a college student, so I'm sure that counts for a little something!
+I'm generally not one to brag and usually feel that tests and the like are pretty overrated. However, I am also proud of the effort I put into my current Apple Certifications. Currently I am an Apple Certified Associate for Mac Integration for OS X Lion (10.7) and an Aperture Certified Professional for Aperture 3. You can view info [here.](https://i7lp.integral7.com/durango/do/pr/prSearchResultDetail?ownername=apple&amp;D036E966675C40A4F2781F98BD661AB9=CEE0AC17FEDDBD04288234D8664D14B8&amp;usertype=candidate&amp;3D6CBF60ADAE3C6C0D8E570165AD529C=E9CD144372EB7BC9FE6E91C3684C043C&amp;basechannel=apple&amp;channel=apple) Otherwise, much of my photography is either self-taught or from the hours I've spent listening to podcasts or online blogs. Of course, I've also graduated from high school and am currently a college student, so I'm sure that counts for a little something!
 
 ## The Boring Stuff: Copyright &amp; Licensing ##
 

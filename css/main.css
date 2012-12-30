@@ -22,7 +22,7 @@ img {
 }
 html, body {
     background: white;
-    font-family: 'Helvetica','Cantarell', sans-serif;
+    font-family: 'Helvetica Neue', 'Helvetica','Cantarell', sans-serif;
     font-size: 98%;
     line-height: 1.4em;
     margin: 0 5%;
@@ -231,12 +231,11 @@ photo img {
 td .left:before {
     content:"• ";
     font-weight: bold;
-    font-size: 175%;
-    line-height: 80%;
+    font-size: 170%;
+    line-height: 50%;
 }
 .center { text-align: center; }
 
-/* li right should move bullet to right. */
 .right {
     text-align: right;
     list-style: none;
@@ -249,8 +248,8 @@ td .left:before {
 td .right:after {
     content: " •";
     font-weight: bold;
-    font-size: 175%;
-    line-height: 80%;
+    font-size: 170%;
+    line-height: 50%;
 }
 
 dt { font-weight: bold; }
