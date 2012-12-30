@@ -1,10 +1,11 @@
-----
+---
 layout: photo
 category: photo
 title: TITLE
 tags: TAGS
 pid: PID
 flickrurl: FLICKRURL
+date: YYYY-MM-DD HH:MM:SS
 ---
 
 DESCPRIPTION

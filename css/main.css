@@ -119,6 +119,7 @@ h3 {
 h4 {
     font-size: 22px;
     margin-bottom: .4em;
+    text-indent: .2em;
     margin-top: .2em;
     font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', sans-serif;;
 }
@@ -138,7 +139,6 @@ article h1 {
     margin-bottom: 0px;
 }
 
-          li.pages,
 article span.date a,
 article span.tags a {
     padding: 0.1em;
@@ -237,11 +237,11 @@ photo img {
     list-style: none;
 }
 
-li .left {
+.left li {
     list-style: none;
 }
 
-td .left:before {
+.left:before td {
     content:"• ";
     font-weight: bold;
     font-size: 175%;
@@ -255,11 +255,11 @@ td .left:before {
     list-style: none;
 }
 
-li .right {
+.right li {
     text-align: right;
     list-style: none;
 }
-td .right:after {
+.right:after td {
     content: " •";
     font-weight: bold;
     font-size: 175%;
@@ -275,7 +275,7 @@ dd {
 .change-log h5 {
 
 }
-.change-log h6 {
+.change-log li {
     font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', sans-serif;;
     text-indent: 1em;
 }

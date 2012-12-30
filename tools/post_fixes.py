@@ -2,8 +2,7 @@
 Given a DIR, search for FIND in each file and replace it with REPLACE:
 """
 
-import sys, fileinput, glob, os, re
-from os.path import join
+import sys, os, re
 
 files_dir = ''
 inp_str = ''

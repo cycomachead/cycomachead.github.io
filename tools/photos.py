@@ -2,8 +2,7 @@
 Given a DIR set flickr values for photos.
 """
 
-import sys, fileinput, glob, os, re, inspect
-from os.path import join
+import sys, os, re
 
 files_dir = ''
 files = []
