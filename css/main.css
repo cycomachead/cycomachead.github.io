@@ -1,6 +1,5 @@
 /* Fixes for deprecated tags. */
 strong { font-weight: bold; }
-dt { font-weight: bold; }
 
 a,
 a:visited {
@@ -116,6 +115,10 @@ h3 {
     font-size: 32px;
     margin-bottom: .8em;
 }
+h4 {
+    font-size: 26px;
+    margin-bottom: .4em;
+}
 
 article {
     text-align: left;
@@ -124,11 +127,13 @@ article {
     width: 100%;
     float: left;
 }
+
 article h1 {
     font-family: 'Cardo', serif;
     margin-bottom: 0px;
 }
-li.pages,
+
+          li.pages,
 article span.date a,
 article span.tags a {
     padding: 0.1em;
@@ -154,6 +159,7 @@ aside {
     padding: 0;
     float: center;
 }
+
 .links-list {
     width: 100%;
     padding: 0 0 3px 0;
@@ -161,6 +167,7 @@ aside {
     text-align: center;
     margin-bottom: .15em;
 }
+
 .links-list h3 {
     font-family: 'Cantarell', sans-serif;
     font-weight: 250;
@@ -172,10 +179,11 @@ aside {
     width: 95%;
     float: center;
 }
+
 .links-list h2 {
     float: center;
     line-height: 100%;
-     margin-top: 0px;
+    margin-top: 0px;
     margin-bottom: .1em;
     padding-bottom: .25em;
     font-size: 1.5em;
@@ -183,9 +191,9 @@ aside {
     color: #666;
 }
 
+          li.pages,
 article span.tags a,
 article span.date a,
-li.pages,
 aside h3,
 aside h3 a,
 aside h3 a:visited,
@@ -193,6 +201,7 @@ aside h3 a:hover {
     background: #ccc;
     color: #FFF;
 }
+
 photo img {
     -webkit-box-reflect: below 6px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.8, transparent), to(rgba(255,255,255,0.20)));
     border-radius: 12px;
@@ -218,24 +227,28 @@ photo img {
 }
 
 
-.left {
-    text-align: left;
+.left { text-align: left; }
+li .left {
+    list-style-type: none;
 }
 
-.center {
-    text-align: center;
+li .left:before {
+    content:"• ";
 }
+.center { text-align: center; }
 
 /* li right should move bullet to right. */
-.right {
-    text-align: right;
-}
+.right { text-align: right; }
 
 li .right {
     text-align: right;
-    list-style-position: inside;
+    list-style-type: none;
+}
+li .right:after {
+    content: " •";
 }
 
+dt { font-weight: bold; }
 dd {
     padding-left: 1.2em;
     list-style-type: circle;
