@@ -231,13 +231,14 @@ photo img {
 
 .left { text-align: left; }
 li .left {
-    list-style-type: none;
+    list-style: none;
 }
 
 td .left:before {
     content:"• ";
     font-weight: bold;
-    font-size: 200%;
+    font-size: 175%;
+    line-height: 80%;
 }
 .center { text-align: center; }
 
@@ -246,12 +247,13 @@ td .left:before {
 
 li .right {
     text-align: right;
-    list-style-type: none;
+    list-style: none;
 }
 td .right:after {
     content: " •";
     font-weight: bold;
-    font-size: 200%;
+    font-size: 175%;
+    line-height: 80%;
 }
 
 dt { font-weight: bold; }
