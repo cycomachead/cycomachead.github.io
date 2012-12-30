@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 title: About
 ---
 
 <div style="postion: relative; float: right">
     <img align="center" alt="Me" height="250" width="250"
-        style="border-radius: 6px;"
+        style="border-radius: 10px;"
         src="/Website/images/profile.jpg" />
     <div style="position: relative; float: bottom; align:center;
         padding-left: 30px; width: 240px">
