@@ -8,7 +8,7 @@ title: Welcome
 {% endif %}
 
 {% for post in paginator.posts %}
-{if post.category == photo}
+{% if post.category == photo %}
 <article>
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
