@@ -118,8 +118,7 @@ h3 {
 
 h4 {
     font-size: 28px;
-    text-align: center;
-    font-weight: 250;
+    font-weight: 220;
     margin-bottom: .4em;
     text-indent: .6em;
     margin-top: .2em;
@@ -141,19 +140,6 @@ article h1 {
     margin-bottom: 0px;
 }
 
-article span.date a,
-article span.tags a {
-    padding: 0.1em;
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    margin-bottom: 3px;
-}
-span.date a,
-span.date a:hover,
-span.date a:visited {
-    color:#FFF;
-}
 article, h2 {
     border-bottom: 1px dashed #ccc;
     border-width: 100%;
@@ -199,8 +185,6 @@ aside {
     color: #666;
 }
 
-article span.tags a,
-article span.date a,
 aside h3,
 aside h3 a,
 aside h3 a:visited,
@@ -225,6 +209,7 @@ photo img {
 .end-matter {
     margin-bottom: 0px;
     font-size: 70%;
+    font-weight: bold;
 }
 
 #pagination {
@@ -243,7 +228,7 @@ photo img {
     list-style: none;
 }
 
-.left:before td {
+td .left:before {
     content:"• ";
     font-weight: bold;
     font-size: 175%;
@@ -261,7 +246,7 @@ photo img {
     text-align: right;
     list-style: none;
 }
-.right:after td {
+td .right:after {
     content: " •";
     font-weight: bold;
     font-size: 175%;

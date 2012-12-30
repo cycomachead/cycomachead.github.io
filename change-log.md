@@ -1,7 +1,6 @@
 ---
 layout: change-log
 title: Change Log
-permalink: change-log
 ---
 
 ## michaelballphoto.com ##
