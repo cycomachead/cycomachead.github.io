@@ -231,6 +231,11 @@ photo img {
     text-align: right;
 }
 
+li .right {
+    text-align: right;
+    list-style-position: inside;
+}
+
 dd {
     padding-left: 1.2em;
     list-style-type: circle;

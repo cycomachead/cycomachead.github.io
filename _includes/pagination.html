@@ -3,14 +3,10 @@
         <td class="left">
             {% if paginator.next_page %}
             <li>
-                {% if paginator.next_page == 1 %}
-                <a href="/Website">Older Posts</a>
-                {% else %}
                 <a href="/Website/page{{paginator.next_page}}">Older Posts</a>
-                {% endif %}
             </li>
             {% else %}
-            <li>No Older Posts</li>
+                <li>No Older Posts</li>
             {% endif %}
         </td>
         <td class="center">
@@ -18,16 +14,16 @@
         </td>
         <td class="right">
             {% if paginator.previous_page %}
-            <li>
-                {% if paginator.next_page == 1 %}
-                <a href="/Website">Newer Posts</a>
-                {% else %}
-                <a href="/Website/page{{ paginator.previous_page }}">
-                    Newer Posts</a>
-                {% endif %}
-            </li>
+                <li class="right">
+                    {% if paginator.previous_page == 1 %}
+                    <a href="/Website/">Newer Posts</a>
+                    {% else %}
+                    <a href="/Website/page{{ paginator.previous_page }}">
+                        Newer Posts</a>
+                    {% endif %}
+                </li>
             {% else %}
-            <li>No Newer Posts</li>
+                <li class="right">No Newer Posts</li>
             {% endif %}
         </td>
     </tr>
