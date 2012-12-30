@@ -1,3 +1,7 @@
+{% unless post %}
+    {% assign post = page %}
+{% endunless %}
+
     <p class="end-matter">Tagged:&nbsp;
         {% for tag in post.tags %}
         <a href="/tag/{{ tag }}">{{ tag }}</a>&nbsp;
