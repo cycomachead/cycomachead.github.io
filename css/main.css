@@ -230,7 +230,11 @@ photo img {
 }
 
 
-.left { text-align: left; }
+.left {
+    text-align: left;
+    list-style: none;
+}
+
 li .left {
     list-style: none;
 }
@@ -244,7 +248,10 @@ td .left:before {
 .center { text-align: center; }
 
 /* li right should move bullet to right. */
-.right { text-align: right; }
+.right {
+    text-align: right;
+    list-style: none;
+}
 
 li .right {
     text-align: right;
