@@ -4,19 +4,19 @@ title: Welcome
 ---
 
 {% if paginator.page == 1 %}
-<h1>Welcome!</h1>
+    <h1>Welcome!</h1>
 {% endif %}
 
 {% for post in paginator.posts %}
-{% if post.category == photo %}
-<article>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    {% if post.category == "photo" %}
+        <article>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
-    {% include flickrimage.html %}
+            {% include flickrimage.html %}
 
-    {% include endmatter.html %}
-</article>
-{% endif %}
+            {% include endmatter.html %}
+        </article>
+    {% endif %}
 {% endfor %}
 
 {% include pagination.html %}
