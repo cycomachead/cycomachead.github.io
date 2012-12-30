@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: About
 ---
 
 <div style="postion: relative; float: right">
     <img align="center" alt="Me" height="250" width="250"
-        style="border-radius: 10px;"
+        style="border-radius: 14px;"
         src="/Website/images/profile.jpg" />
     <div style="position: relative; float: bottom; align:center;
         padding-left: 30px; width: 240px">
@@ -29,7 +29,7 @@ Technologist? I love technology and I'm a nerd! Which means that I'm (not surpri
 
 I'm also an artist, and enjoy exploring the Bay Area, my home town, or finding unique and unknown places when I travel. Those become my main photographic subjects and I'm always working on improving my photographic technique and share the results on my website. Photography is fun, really fun! To me it provides an excellent creative exercise, but also has an amazing technical side as well. Plus, with the way digital photography works there's so many new possibilities for combing art with new technology, which is a topic I'm actively studying in my free time.
 
-There's really so much more than that which I'm interested in and work on. I'm also an Apple Certified Professional for Aperture 3 and Apple Certified Associate for Mac OS X Lion 10.7 Mac Integration. If any of this sounds cool feel free to follow me at any of the links below or view my  [resume.](/resume.pdf)
+There's really so much more than that which I'm interested in and work on. I'm also an Apple Certified Professional for Aperture 3 and Apple Certified Associate for Mac OS X Lion 10.7 Mac Integration. If any of this sounds cool feel free to follow me at any of the links below or view my  [resume.](/Website/Resume.pdf)
 
 ## So what's here? ##
 

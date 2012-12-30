@@ -10,5 +10,5 @@ A List of Things I'd Like to Fix:
 * Fix Flickr Descriptions on photos without them.
 * Tag Pages
 * Move li bullet to right side for pagination 
-* Make AM PM lowercase.
+*   And make it on the same line...
 * Add Tumblr Add This.

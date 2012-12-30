@@ -2,6 +2,19 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-    {{ post.content }}
+{% for post in paginator.posts %}
+<article>
+    <h4>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </h4>
+    {% if post.category == "photo" %}
+        {% include flickrimage.html %}
+    {% else %}
+        <!-- FIXME -->
+        {{ post.content }}
+    {% endif %}
+
+    {% include endmatter.html %}
+
+</article>
 {% endfor %}
