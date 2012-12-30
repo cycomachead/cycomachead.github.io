@@ -9,14 +9,13 @@ title: Welcome
 {% for post in paginator.posts %}
 <article>
     <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-    <photo>
-        <img src="{{ post.flickrurl }}" alt="{{ post.title }}" target="_blank"/>
-    </photo>
+
+    {% include flickrimage.html %}
 
     <strong>
         <p class="end-matter">Tagged:&nbsp;
             {% for tag in post.tags %}
-            <a href="/{{ tag }}">{{ tag }}</a>&nbsp;
+            <a href="/tag/{{ tag }}">{{ tag }}</a>&nbsp;
             {% endfor %}
         </p>
     </strong>

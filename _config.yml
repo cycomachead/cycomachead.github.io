@@ -1,5 +1,6 @@
 source: .
 destination: ./_site/
+# FIXME
 url: http://cycomachead.github.com/Website/
 safe: true
 pygments: true
@@ -18,6 +19,7 @@ author: Michael Ball
 version: 2.0
 copy-start: 2011
 copy-end: 2012
+# FIXME
 description: SOMETHINGHERETODO
 keywords: [iPhone, apps, photography, Quad Solver, Michael Ball, college, Cal,
     Berkeley, computer science, programming, cycomachead, photo, apple, iOS,

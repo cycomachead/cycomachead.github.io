@@ -41,7 +41,6 @@ if __name__ == '__main__':
     print(out_str, "\n")
     os.chdir(files_dir)
     print(os.getcwd(), "\n")
-    rep_str = "flickrurl: FLICKRURL"
     for file in files:
         if not re.match('^\..*|\.py$', file):
             print(file)
