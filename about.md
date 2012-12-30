@@ -16,7 +16,7 @@ title: About
     </div>
 </div>
 
-## Welcome to My Piece of the Internet
+#[ Welcome to My Piece of the Internet](/Website/about)
 
 Hello, my name is Michael Ball! I'm a current UC Berkeley undergraduate and
  I'm addicted to photography and all sorts of technology.

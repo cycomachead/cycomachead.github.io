@@ -258,8 +258,8 @@ dd {
     list-style-type: circle;
 }
 
-.change-log h3 {
-    font-size: 1.2em;
+.change-log h4 {
+    font-size: 1.1em;
     font-weight: 200;
     margin-bottom: .2em;
     margin-top: .2em;
