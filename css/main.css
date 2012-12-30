@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #666;
 }
 h1 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-bottom: .2em;
 }
 h2 {
@@ -115,10 +115,10 @@ h3 {
     font-size: 32px;
     margin-bottom: .8em;
 }
-h4 {
+article h4 {
     font-size: 22px;
-    margin-bottom: .2em;
-    margin-top: .1em;
+    margin-bottom: .4em;
+    margin-top: ..2em;
     font: 'Helvetica  Neue', 'Helvetica','Cantarell', sans-serif;;
 }
 
@@ -237,7 +237,7 @@ li .left {
 td .left:before {
     content:"• ";
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 200%;
 }
 .center { text-align: center; }
 
@@ -251,7 +251,7 @@ li .right {
 td .right:after {
     content: " •";
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 200%;
 }
 
 dt { font-weight: bold; }

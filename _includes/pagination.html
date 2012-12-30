@@ -1,13 +1,13 @@
 <table id="pagination">
     <tr>
         <td class="left">
-            {% if paginator.next_page %}
-            <li>
+            <li class="left">
+                {% if paginator.next_page %}
                 <a href="/Website/page{{paginator.next_page}}">Older Posts</a>
-            </li>
             {% else %}
-                <li>No Older Posts</li>
+                No Older Posts
             {% endif %}
+            </li>
         </td>
         <td class="center">
             Page: {{paginator.page}} of {{paginator.total_pages}}
