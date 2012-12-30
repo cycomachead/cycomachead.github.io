@@ -7,10 +7,11 @@ title: Welcome
     <h1>Welcome!</h1>
 {% endif %}
 
+<!-- This doesn't work for too many text posts in a row.. -->
 {% for post in paginator.posts %}
     {% if post.category == "photo" %}
         <article>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 
             {% include flickrimage.html %}
 

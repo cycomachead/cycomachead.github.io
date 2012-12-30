@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #666;
 }
 h1 {
-    font-size: 1.6em;
+    font-size: 1.8em;
     margin-bottom: .2em;
 }
 h2 {
@@ -233,8 +233,10 @@ li .left {
     list-style-type: none;
 }
 
-li .left:before {
+td .left:before {
     content:"• ";
+    font-weight: bold;
+    font-size: 1.1em;
 }
 .center { text-align: center; }
 
@@ -247,6 +249,8 @@ li .right {
 }
 td .right:after {
     content: " •";
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 dt { font-weight: bold; }
