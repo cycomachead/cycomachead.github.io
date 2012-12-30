@@ -120,8 +120,10 @@ h4 {
     font-size: 22px;
     margin-bottom: .4em;
     margin-top: .2em;
-    font: 'Helvetica  Neue', 'Helvetica','Cantarell', sans-serif;;
+    font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', sans-serif;;
 }
+
+p { text-indent: 1em; }
 
 article {
     text-align: left;
@@ -270,6 +272,19 @@ dd {
     list-style-type: circle;
 }
 
+.change-log h5 {
+
+}
+.change-log h6 {
+    font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', sans-serif;;
+    text-indent: 1em;
+}
+.change-log h6:before {
+    content:"• ";
+    font-weight: bold;
+    font-size: 175%;
+    line-height: 80%;
+}
 
 /* Photography page jQuery CSS */
 .setImg {
