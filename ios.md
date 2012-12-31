@@ -25,14 +25,14 @@ Features of Quad Solver include:
 
 Screenshots:
 
-<div>
+<div style="width: 100%">
     <img align="left" height="372"
         src="{{ site.url}}/images/qs-1.5-1.png" width="198" />
     <img align="right" height="372"
         src="{{ site.url}}/images/qs-1.5-2.png" width="198" />
 </div>
 <br />
-<div>
+<div style="width: 100%">
     <img align="left" height="372"
          src="{{ site.url}}/images/qs-1.5-3.png" width="198" />
     <img align="right" height="372"
