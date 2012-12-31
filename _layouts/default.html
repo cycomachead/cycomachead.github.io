@@ -8,9 +8,9 @@
     <meta http-equiv="content-language" content="en" />
 
     <!-- FIXME -->
-    <link rel="alternate" type="application/rss+xml" 
+    <link rel="alternate" type="application/rss+xml"
         href="{{ site.url }}/atom.xml" />
-    <link rel="apple-touch-icon" 
+    <link rel="apple-touch-icon"
         href="{{ site.url }}/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="72x72"
         href="{{ site.url }}/images/apple-touch-icon.png" />
@@ -36,9 +36,11 @@
 
     {% if page.tags %}
     <meta name="keywords"  content="{% for tag in page.tags %} {{ tag }},
-     &nbsp;{% endfor %} {{ site.keywords }}" />
+     &nbsp;{% endfor %} {% for key in site.keywords %} {{ key }},
+     &nbsp;{% endfor %}" />
     {% else %}
-    <meta name="keywords" content="{{ site.keywords }}" />
+    <meta name="keywords" content="{% for key in site.keywords %} {{ key }},
+     &nbsp;{% endfor %}" />
     {% endif %}
 
     {% include css.html %}
