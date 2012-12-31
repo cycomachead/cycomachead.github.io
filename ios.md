@@ -25,13 +25,13 @@ Features of Quad Solver include:
 
 Screenshots:
 
-<div style="width: 100%">
-    <img align="left" height="93" rel="lightbox[qs]"
-        src="{{ site.url}}/images/qs-1.5-1.png" width="48" />
-    <img align="middle" height="93" rel="lightbox[qs]"
-        src="{{ site.url}}/images/qs-1.5-2.png" width="48" />
-    <img align="middle" height="93" rel="lightbox[qs]"
-         src="{{ site.url}}/images/qs-1.5-3.png" width="48" />
-    <img align="right" height="93" rel="lightbox[qs]"
-        src="{{ site.url}}/images/qs-1.5-4.png" width="48" />
+<div class="center">
+    <a align="middle" height="93" rel="lightbox[qs]"
+        href="{{ site.url}}/images/qs-1.5-1.png" width="48" />
+    <a align="middle" height="93" rel="lightbox[qs]"
+        href="{{ site.url}}/images/qs-1.5-2.png" width="48" />
+    <a align="middle" height="93" rel="lightbox[qs]"
+         href="{{ site.url}}/images/qs-1.5-3.png" width="48" />
+    <a align="middle" height="93" rel="lightbox[qs]"
+        href="{{ site.url}}/images/qs-1.5-4.png" width="48" />
 </div>
