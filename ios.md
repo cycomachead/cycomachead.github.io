@@ -28,19 +28,19 @@ Click to view full-size.
 
 <div class="center">
     <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-1.png">
-        <img align="middle" height="93" width="48"
+        <img align="middle" height="190" width="100"
             src="{{ site.url}}/images/qs-1.5-1.png" />
     </a>
     <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-2.png">
-        <img align="middle" height="93" width="48"
+        <img align="middle" height="190" width="100"
             src="{{ site.url}}/images/qs-1.5-2.png" />
     </a>
     <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-3.png">
-        <img align="middle" height="93" width="48"
+        <img align="middle" height="190" width="100"
             src="{{ site.url}}/images/qs-1.5-3.png" />
     </a>
     <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-4.png">
-        <img align="middle" height="93" width="48"
+        <img align="middle" height="190" width="100"
             src="{{ site.url}}/images/qs-1.5-4.png" />
     </a>
 </div>

@@ -21,6 +21,7 @@
   font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
   font-weight: normal;
 }
+
 /* line 24, ../sass/lightbox.sass */
 #lightbox img {
   width: auto;
@@ -38,12 +39,12 @@
   *zoom: 1;
   width: 250px;
   height: 250px;
-  margin: 0 auto;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
+  margin: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
 }
 /* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .lb-outerContainer:after {
@@ -111,12 +112,12 @@
 
 /* line 81, ../sass/lightbox.sass */
 .lb-prev:hover {
-  background: url(http://static.tumblr.com/puzghsv/fuNm5tgru/prev.png) left 48% no-repeat;
+  background: url(http://static.tumblr.com/puzghsv/fuNm5tgru/prev.png) left 60% no-repeat;
 }
 
 /* line 85, ../sass/lightbox.sass */
 .lb-next:hover {
-  background: url(http://static.tumblr.com/puzghsv/zwnm5tgrd/next.png) right 48% no-repeat;
+  background: url(http://static.tumblr.com/puzghsv/zwnm5tgrd/next.png) right 60% no-repeat;
 }
 
 /* line 88, ../sass/lightbox.sass */
