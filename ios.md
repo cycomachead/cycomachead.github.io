@@ -24,14 +24,23 @@ Features of Quad Solver include:
 * Solves the Derivative
 
 Screenshots:
+Click to view full-size.
 
 <div class="center">
-    <a align="middle" height="93" rel="lightbox[qs]"
-        href="{{ site.url}}/images/qs-1.5-1.png" width="48">A</a>
-    <a align="middle" height="93" rel="lightbox[qs]"
-        href="{{ site.url}}/images/qs-1.5-2.png" width="48">B</a>
-    <a align="middle" height="93" rel="lightbox[qs]"
-         href="{{ site.url}}/images/qs-1.5-3.png" width="48">C</a>
-    <a align="middle" height="93" rel="lightbox[qs]"
-        href="{{ site.url}}/images/qs-1.5-4.png" width="48">D</a>
+    <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-1.png">
+        <img align="middle" height="93" width="48"
+            src="{{ site.url}}/images/qs-1.5-1.png" />
+    </a>
+    <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-2.png">
+        <img align="middle" height="93" width="48"
+            src="{{ site.url}}/images/qs-1.5-2.png" />
+    </a>
+    <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-3.png">
+        <img align="middle" height="93" width="48"
+            src="{{ site.url}}/images/qs-1.5-3.png" />
+    </a>
+    <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-4.png">
+        <img align="middle" height="93" width="48"
+            src="{{ site.url}}/images/qs-1.5-4.png" />
+    </a>
 </div>
