@@ -12,8 +12,8 @@
 
 /* line 15, ../sass/lightbox.sass */
 #lightbox {
-  position: absolute;
-  left: 0;
+  position: relative;
+  /* left: auto; */
   width: 100%;
   z-index: 10000;
   text-align: center;
@@ -24,8 +24,10 @@
 
 /* line 24, ../sass/lightbox.sass */
 #lightbox img {
-  width: auto;
-  height: auto;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    height: auto;
 }
 /* line 27, ../sass/lightbox.sass */
 #lightbox a img {
@@ -34,11 +36,12 @@
 
 /* line 30, ../sass/lightbox.sass */
 .lb-outerContainer {
-  position: relative;
+  position: absolute;
+  text-align: center;
   background-color: white;
   *zoom: 1;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   margin: 15px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -56,6 +59,8 @@
 /* line 39, ../sass/lightbox.sass */
 .lb-container {
   padding: 10px;
+  position: absolute;
+  text-align: center;
 }
 
 /* line 42, ../sass/lightbox.sass */
@@ -147,7 +152,7 @@
 
 /* line 95, ../sass/lightbox.sass */
 .lb-data {
-  padding: 0 10px;
+  padding: 10px;
   color: #bbbbbb;
 }
 /* line 98, ../sass/lightbox.sass */
