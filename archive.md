@@ -1,7 +1,8 @@
----
+<!-- I dont want this processed! -->
+----------
 layout: default
 title: Archive - All Posts
----
+----------
 
 {% for post in paginator.posts %}
 <article>

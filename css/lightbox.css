@@ -93,7 +93,8 @@
 .lb-prev, .lb-next {
   width: 49%;
   height: 100%;
-  background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+  background-image: url(/Website/js/lbox/loading.gif);
+  /* "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" */
   /* Trick IE into showing hover */
   display: block;
 }
@@ -112,18 +113,18 @@
 
 /* line 81, ../sass/lightbox.sass */
 .lb-prev:hover {
-  background: url(http://static.tumblr.com/puzghsv/fuNm5tgru/prev.png) left 60% no-repeat;
+  background: url(/Website/js/lbox/prev.png) left 60% no-repeat;
 }
 
 /* line 85, ../sass/lightbox.sass */
 .lb-next:hover {
-  background: url(http://static.tumblr.com/puzghsv/zwnm5tgrd/next.png) right 60% no-repeat;
+  background: url(/Website/js/lbox/next.png) right 60% no-repeat;
 }
 
 /* line 88, ../sass/lightbox.sass */
 .lb-dataContainer {
-  margin: 0 auto;
-  padding-top: 5px;
+  margin: 15px;
+  padding: 5px;
   *zoom: 1;
   width: 100%;
   -moz-border-radius-bottomleft: 4px;
