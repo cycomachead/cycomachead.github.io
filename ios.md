@@ -3,7 +3,7 @@ layout: page
 title: Quad Solver
 ---
 
-<img align="left" alt="Quad Solver" height="372" src="{{ site.url}}/images/qs-1.5-0.png" width="198" style="padding: 5px;"/>
+<img align="left" alt="Quad Solver" height="372" src="{{ site.url}}/images/qs-1.5-0.png" width="198" style="padding: 10px;"/>
 
 Quad Solver is in my (not-so-humble) option the single best application in the App Store for dealing with quadratic equations.
 
