@@ -3,7 +3,7 @@ layout: change-log
 title: Change Log
 ---
 
-## michaelballphoto.com ##
+## michaelballphoto.com
 
 The change log mostly for personal interest right to keep track of the site
 progress over the years, but I figured I might as well make it available for
@@ -115,10 +115,11 @@ please send me a note and let me know!
 * Made the photos page super awesome by adding ALL my Flickr sets
 * The jQuery hovers also now link to the flickr sets pages
 #### 2.0 12/XX/2012
-* MAJOR Rewrite! Moved to jekyll and GH pages! :)
+* MAJOR Rewrite! Moved to Jekyll and GH pages! :)
 * Changed layout of images on main page (no descriptions)
 * rounded backgrounds on links list
 * Fixed TONS of typos and cleaned up tags across all posts!
+* No date index pages.
 
 ### Features for the Future: ###
 

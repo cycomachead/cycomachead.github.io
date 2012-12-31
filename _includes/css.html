@@ -1,13 +1,16 @@
-<!--jQuery Script-->
-<script src="/Website/js/jquery-1.7.2.min.js"></script>
+    <!--jQuery Script-->
+    <script src="{{ site.url }}/js/jquery-1.7.2.min.js"></script>
 
-<!-- Lightbox script -->
-<script src="/Website/js/lightbox.js"></script>
+    <!-- Lightbox script -->
+    <script src="{{ site.url }}/js/lightbox.js"></script>
 
-<!--photosets script -->
-<script>
-    $(document).ready(function() {
-            $(this).find('pho2').stop(false,true).animate({'width':$('.setImg').width(), 'height':$('.setImg').height(), 'top':'0', 'left':'0'}, {duration:100});
+    <!--photosets script -->
+    <script>
+        $(document).ready(function() {
+        $(this).find('pho2').stop(false,true).animate( {
+            'width':$('.setImg').width(),
+            'height':$('.setImg').height(), 'top':'0', 'left':'0'},
+            {duration:100});
         //move the image in pixel
         var move = 0;
         //zoom percentage, 1.2 =120%
@@ -19,32 +22,36 @@
             height = $('.setImg').height() * zoom;
 
             //Move and zoom the image
-            $(this).find('pho2').stop(false,true).animate({'width':width, 'height':height, 'top':move, 'left':move}, {duration:175});
+            $(this).find('pho2').stop(false,true).animate( {
+                'width':width, 'height':height, 'top':move, 'left':move },
+                 {duration:175});
             //Display the caption
             $(this).find('div.caption').stop(false,true).fadeIn(175);
         },
         function() {
             //Reset the image
-             $(this).find('pho2').stop(false,true).animate({'width':$('.setImg').width(), 'height':$('.setImg').height(), 'top':'0', 'left':'0'}, {duration:100});
+            $(this).find('pho2').stop(false,true).animate( {
+                'width':$('.setImg').width(), 'height':$('.setImg').height(),
+                'top':'0', 'left':'0'}, {duration:100});
              //Hide the caption
              $(this).find('div.caption').stop(false,true).fadeOut(175);
+             });
          });
-
-     });
      </script>
 
-<!-- Google Plus Integration -->
-<link href="https://plus.google.com/109987956810230671866" rel="author" />
+     <!-- Google Plus Integration -->
+     <link href="https://plus.google.com/109987956810230671866" rel="author" />
 
-<script type="text/javascript"
-    src="https://apis.google.com/js/plusone.js">{lang: 'en'}</script>
+     <script type="text/javascript"
+         src="https://apis.google.com/js/plusone.js">{lang: 'en'}</script>
 
     <!--CSS script for cantarell font-->
     <link href='http://fonts.googleapis.com/css?family=Cardo|Cantarell'
         rel='stylesheet' type='text/css'>
 
     <!-- Lightbox CSS -->
-    <link href="/Website/css/lightbox.css" rel='stylesheet' type='text/css'>
+    <link href="{{ site.url }}/css/lightbox.css" rel='stylesheet' 
+        type='text/css'>
 
     <!-- Main CSS -->
-    <link href="/Website/css/main.css" rel='stylesheet' type='text/css'>
+    <link href="{{ site.url }}/css/main.css" rel='stylesheet' type='text/css'>

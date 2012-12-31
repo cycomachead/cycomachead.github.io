@@ -7,7 +7,8 @@
         <td class="left">
             <li class="left">
             {% if post.previous.url %}
-                <a href="{{ post.previous.url }}">Previous Post</a>
+                <a href="{{ site.url }}/{{ post.previous.url }}">
+                    Previous Post</a>
             {% else %}
                 No Previous Post
             {% endif %}
@@ -16,7 +17,7 @@
         <td class="right">
             <li class="right">
              {% if post.next.url %}
-                <a href="{{ post.next.url }}">Next Post</a>
+                <a href="{{ site.url }}/{{ post.next.url }}">Next Post</a>
             {% else %}
                 No Next Post
             {% endif %}

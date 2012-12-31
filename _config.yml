@@ -1,7 +1,7 @@
 source: .
 destination: ./_site/
 # FIXME
-url: http://cycomachead.github.com/Website/
+url: http://cycomachead.github.com/Website
 safe: true
 pygments: true
 lsi: false

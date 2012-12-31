@@ -1,5 +1,6 @@
 /* Fixes for deprecated tags. */
 strong { font-weight: bold; }
+em { font-style: italic; }
 
 a,
 a:visited {
@@ -99,7 +100,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Cardo', serif;
-    font-weight: 200;
+    font-weight: 300;
     color: #666;
 }
 h1 {
@@ -117,7 +118,7 @@ h3 {
 
 h4 {
     font-size: 24px;
-    font-weight: 220;
+    font-weight: 300;
     margin-bottom: .4em;
     text-indent: .6em;
     margin-top: .2em;
@@ -206,7 +207,7 @@ photo img {
 }
 
 .end-matter {
-    margin-bottom: 0px;
+    margin: 0px;
     font-size: 70%;
     font-weight: bold;
 }
@@ -232,7 +233,7 @@ td .left:before {
     font-weight: bold;
     font-size: 170%;
     line-height: 50%;
-    vertical-align: -.1em;
+    vertical-align: -.15em;
 }
 .center { text-align: center; }
 
@@ -250,7 +251,7 @@ td .right:after {
     font-weight: bold;
     font-size: 170%;
     line-height: 50%;
-    vertical-align: -.1em;
+    vertical-align: -.15em;
 }
 
 dt { font-weight: bold; }

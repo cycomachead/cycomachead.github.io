@@ -4,7 +4,7 @@ layout: default
 
 <article class="{{ page.category }}" id="{{ page.id }}">
     <h4>
-        <a href="{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a>
     </h4>
 
     {{ content }} <!-- Post Body -->
@@ -15,8 +15,6 @@ layout: default
     {% include endmatter.html %}
 
 </article>
-
-<!-- FIXME this needs to only happen on post pages. -->
 
 {% include next_prev.html %}
 
