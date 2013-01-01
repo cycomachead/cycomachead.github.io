@@ -1,0 +1,331 @@
+/* Fixes for deprecated tags. */
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+a,
+a:visited {
+    color: #2192d4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2192d4;
+    text-decoration: underline;
+}
+
+img {
+    -webkit-box-reflect: below 2px -webkit-gradient(
+        linear, left top, left bottom, from(transparent),
+        color-stop(.8, transparent), to(rgba(255,255,255,0.20)));
+    border-radius: 6px;
+    padding: 4px 4px 0px 4px;
+    margin: 1em 1em 0em 1em;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: 4px;
+    -ms-box-shadow: 4px;
+    -o-box-shadow: 4px;
+}
+
+html, body {
+    background: white;
+    font-family: 'Helvetica Neue', 'Helvetica','Cantarell', arial, sans-serif;
+    font-size: 98%;
+    line-height: 1.4em;
+    margin: 0 5%;
+    width: 90%;
+    float: center;
+    color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cardo', serif;
+    font-weight: 300;
+    color: #666;
+}
+h1 {
+    font-size: 1.7em;
+    margin-bottom: .2em;
+}
+h2 {
+    padding-bottom: .2em;
+    margin-bottom: .2em;
+}
+h3 {
+    font-size: 32px;
+    margin-bottom: .8em;
+}
+
+/* Used for Post Titles */
+h4 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: .4em;
+    text-indent: .6em;
+    margin-top: .2em;
+    font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', arial, sans-serif;
+}
+
+p { text-indent: 1.4em; }
+
+.nav {
+    position: relative; /*relative to body and main */
+    top: 20px;
+    margin: .5em auto;
+    width: 100%;
+    float: center;
+    text-align: center;
+    font-size: 120%;
+}
+
+.nav table {
+    width: auto;
+    text-align: center;
+    padding: .1em;
+    margin: 0 auto;
+}
+
+.nav tr td a,
+.nav tr td a:visited {
+    width: 100%;
+    text-align: center;
+    color: #666;
+    margin: 0 .5em;
+}
+
+.nav tr td a:hover {
+    color: #2192d4;
+    text-decoration: underline;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: .2em;
+    margin: 1.5em 0px -3em 0px;
+}
+.header img {
+    -webkit-box-reflect: none;
+    box-shadow: 0;
+    border-radius: 0;
+    margin: 0;
+}
+.middle {
+    margin-top: -20px;
+    position: relative;
+    width: 100%;
+}
+.content {
+    margin: -20px 2% 0 0;
+    width: 73%;
+    position: relative;
+    float: left;
+    overflow: none;
+}
+.side {
+    margin: -20px 0 0 2%;
+    width: 23%;
+    position: relative;
+    float: right;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    position: static;
+    margin: 1em 0;
+    padding-top: 4px;
+    width: 100%; /* inherit main, and float left*/
+    font-size: 75%;
+    border-top: 1px dashed #ccc;
+    float: left;
+}
+
+article {
+    text-align: left;
+    margin: 0 1em  1.4em 0;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+article h1 {
+    font-family: 'Cardo', serif;
+    margin-bottom: 0px;
+}
+
+article, h2 {
+    border-bottom: 1px dashed #ccc;
+    border-width: 100%;
+}
+
+/* Stuff in the side column, h3 is for links titles */
+aside {
+    text-align: center;
+    margin: 0 0 0 .2em;
+    padding: 0;
+    float: center;
+}
+
+aside h2 {
+    width: 100%;
+    line-height: 100%;
+    margin: 0 0 .15em 0;
+    padding-bottom: .15em;
+    font-size: 1.5em;
+    border-bottom: 1.5px dashed #ccc;
+    color: #666;
+}
+
+aside h3,
+aside h3 a,
+aside h3 a:visited,
+aside h3 a:hover {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Cantarell', arial, sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 1em;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 1.5px;
+    width: 94%;
+    border-radius: 5px;
+    background: #ccc;
+    color: white;
+}
+
+photo img {
+    -webkit-box-reflect: below 4px -webkit-gradient(
+        linear, left top, left bottom, from(transparent),
+        color-stop(.8, transparent), to(rgba(255,255,255,0.20)));
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: 6px;
+    border: 8px ridge gray;
+    box-shadow: 8px 8px 5px #777;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: 8px 8px 5px #777;
+    -ms-box-shadow: 8px 8px 5px #777;
+    -o-box-shadow: 8px 8px 5px #777;
+    margin: 0 auto 1em;
+    max-width: 100%;
+    max-height: 640px;
+}
+
+.end-matter {
+    margin: 0px;
+    font-size: 70%;
+    font-weight: 600;
+    text-indent: 0em;
+}
+
+#pagination {
+    border: 0px;
+    width: 100%;
+    font-size: 80%;
+}
+
+
+.left {
+    text-align: left;
+    list-style: none;
+}
+
+.left li {
+    list-style: none;
+}
+
+td .left:before {
+    content:"• ";
+    font-weight: bold;
+    font-size: 170%;
+    line-height: 50%;
+    vertical-align: -.15em;
+}
+.center { text-align: center; }
+
+.right {
+    text-align: right;
+    list-style: none;
+}
+
+.right li {
+    text-align: right;
+    list-style: none;
+}
+td .right:after {
+    content: " •";
+    font-weight: bold;
+    font-size: 170%;
+    line-height: 50%;
+    vertical-align: -.15em;
+}
+
+.change-log h4 {
+    font-size: 1.1em;
+    font-weight: 200;
+    margin: .1em;
+    font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', arial, sans-serif;;
+}
+.change-log ul {
+    font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', arial, sans-serif;;
+    text-indent: 1em;
+    margin: .2em;
+}
+
+/* Photography page jQuery CSS */
+.setImg {
+    width:215px;
+    height:215px;
+    padding: 0px;
+    border:10px ridge gray;
+    box-shadow: 8px 8px 5px #aaa;
+    border-radius: 10px;
+    margin: 10px 18px;
+    /* required to hide the image after resized */
+    overflow:hidden;
+    /* for child absolute position */
+    position:relative;
+    /* display div in line */
+    float:left;
+}
+.setImg .caption {
+    width: 215px;
+    height: 215px;
+    background: #000;
+    color: white;
+    font-weight :bold;
+    text-align: left;
+    /* fix it at the bottom */
+    position: absolute;
+    /* hide it by default */
+    display: none;
+    /* opacity setting */
+    filter:alpha(opacity=70);  /* IE */
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+.setImg .caption p {
+    text-indent: 0;
+    padding: 15px;
+    margin: 2px;
+    font-size: 16px;
+}
+.pho2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    width: 215px;
+    height: 215px;
+}
+.photoslinks {
+    text-align: center;
+    vertical-align: top;
+    line-height: 40px;
+    font-size: 112%;
+}

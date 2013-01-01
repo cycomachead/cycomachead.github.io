@@ -1,0 +1,202 @@
+/* line 6, ../sass/lightbox.sass */
+#lightboxOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+    opacity: 0.85;
+    display: none;
+}
+
+/* line 15, ../sass/lightbox.sass */
+#lightbox {
+    position: relative;
+    /* left: auto; */
+    width: 100%;
+    z-index: 10000;
+    text-align: center;
+    line-height: 0;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-weight: normal;
+}
+
+/* line 24, ../sass/lightbox.sass */
+#lightbox img {
+    -webkit-box-reflect: none;
+    padding: 10px;
+    margin: 10px auto;
+    width: auto;
+    height: auto;
+}
+/* line 27, ../sass/lightbox.sass */
+#lightbox a img {
+    border: none;
+}
+
+/* line 30, ../sass/lightbox.sass */
+.lb-outerContainer {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    *zoom: 1;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-outerContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* line 39, ../sass/lightbox.sass */
+.lb-container {
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+/* line 42, ../sass/lightbox.sass */
+.lb-loader {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+
+/* line 51, ../sass/lightbox.sass */
+.lb-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+/* line 59, ../sass/lightbox.sass */
+.lb-container > .nav {
+    left: 0;
+}
+
+/* line 62, ../sass/lightbox.sass */
+.lb-nav a {
+    outline: none;
+}
+
+/* line 65, ../sass/lightbox.sass */
+.lb-prev, .lb-next {
+    width: 49%;
+    height: 100%;
+    background-image: url(/Website/js/lbox/loading.gif);
+    /* "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" */
+    /* Trick IE into showing hover */
+    display: block;
+}
+
+/* line 72, ../sass/lightbox.sass */
+.lb-prev {
+    left: 0;
+    float: left;
+}
+
+/* line 76, ../sass/lightbox.sass */
+.lb-next {
+    right: 0;
+    float: right;
+}
+
+/* line 81, ../sass/lightbox.sass */
+.lb-prev:hover {
+    background: url(/Website/js/lbox/prev.png) left 60% no-repeat;
+}
+
+/* line 85, ../sass/lightbox.sass */
+.lb-next:hover {
+    background: url(/Website/js/lbox/next.png) right 60% no-repeat;
+}
+
+/* line 88, ../sass/lightbox.sass */
+.lb-dataContainer {
+    margin: 0px auto;
+    padding: 10px;
+    /* *zoom: 1; */
+    width: auto;
+    height: auto;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -ms-border-bottom-left-radius: 4px;
+    -o-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -ms-border-bottom-right-radius: 4px;
+    -o-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-dataContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* line 95, ../sass/lightbox.sass */
+.lb-data {
+    margin: 0 auto;
+    padding: 10px;
+    color: #bbbbbb;
+}
+/* line 98, ../sass/lightbox.sass */
+.lb-data .lb-details {
+    width: 85%;
+    float: left;
+    text-align: left;
+    line-height: 1.1em;
+}
+/* line 103, ../sass/lightbox.sass */
+.lb-data .lb-caption {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1em;
+}
+/* line 107, ../sass/lightbox.sass */
+.lb-data .lb-number {
+    display: block;
+    clear: left;
+    padding-bottom: 1em;
+    font-size: 11px;
+}
+/* line 112, ../sass/lightbox.sass */
+.lb-data .lb-close {
+    width: 35px;
+    float: right;
+    padding-bottom: 0.7em;
+    outline: none;
+}
+/* line 117, ../sass/lightbox.sass */
+.lb-data .lb-close:hover {
+    cursor: pointer;
+}
+
+
+/* MY FIXES */
+.lb-image {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}

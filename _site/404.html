@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="en" />
+
+    <!-- FIXME -->
+    <link rel="alternate" type="application/rss+xml"
+        href="http://cycomachead.github.com/Website/atom.xml" />
+    <link rel="apple-touch-icon"
+        href="http://cycomachead.github.com/Website/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="http://cycomachead.github.com/Website/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="http://cycomachead.github.com/Website/images/apple-touch-icon.png" />
+    <!-- Google Search Info link -->
+    <link href="https://plus.google.com/109987956810230671866" rel="author" />
+    <!--Google Webmaster tools-->
+    <meta name="google-site-verification"
+        content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk" />
+
+    <meta name="author" content="Michael Ball" />
+    <meta name="description" content="SOMETHINGHERETODO" />
+
+
+    <title>404 - Page Not Found | Michael Ball Photo</title>
+    <meta name="title" content="404 - Page Not Found | Michael Ball Photo">
+
+
+
+
+    <meta name="keywords" content="iPhone apps, photography, Quad Solver, Michael Ball, college, Cal, Berkeley, computer science, programming, cycomachead, photo, apple, iOS, macs" />
+
+
+        <!--jQuery Script-->
+    <script src="http://cycomachead.github.com/Website/js/jquery-1.7.2.min.js"></script>
+
+    <!-- Lightbox script -->
+    <script src="http://cycomachead.github.com/Website/js/lightbox.js"></script>
+
+    <!--photosets script -->
+    <script>
+        $(document).ready(function() {
+        $(this).find('pho2').stop(false,true).animate( {
+            'width':$('.setImg').width(),
+            'height':$('.setImg').height(), 'top':'0', 'left':'0'},
+            {duration:100});
+        //move the image in pixel
+        var move = 0;
+        //zoom percentage, 1.2 =120%
+        var zoom = .99;
+        //On mouse over those thumbnail
+        $('.setImg').hover(function() {
+            //Set the width and height according to the zoom percentage
+            width = $('.setImg').width() * zoom;
+            height = $('.setImg').height() * zoom;
+
+            //Move and zoom the image
+            $(this).find('pho2').stop(false,true).animate( {
+                'width':width, 'height':height, 'top':move, 'left':move },
+                 {duration:175});
+            //Display the caption
+            $(this).find('div.caption').stop(false,true).fadeIn(175);
+        },
+        function() {
+            //Reset the image
+            $(this).find('pho2').stop(false,true).animate( {
+                'width':$('.setImg').width(), 'height':$('.setImg').height(),
+                'top':'0', 'left':'0'}, {duration:100});
+             //Hide the caption
+             $(this).find('div.caption').stop(false,true).fadeOut(175);
+             });
+         });
+     </script>
+
+     <!-- Google Plus Integration -->
+     <link href="https://plus.google.com/109987956810230671866" rel="author" />
+
+     <script type="text/javascript"
+         src="https://apis.google.com/js/plusone.js">{lang: 'en'}</script>
+
+    <!--CSS script for cantarell font-->
+    <link href='http://fonts.googleapis.com/css?family=Cardo|Cantarell'
+        rel='stylesheet' type='text/css'>
+
+    <!-- Lightbox CSS -->
+    <link href="http://cycomachead.github.com/Website/css/lightbox.css" rel='stylesheet'
+        type='text/css'>
+
+    <!-- Main CSS -->
+    <link href="http://cycomachead.github.com/Website/css/main.css" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="nav"> <!--nav pages, etc-->
+        <table border="0">
+    <tbody>
+        <tr>
+            <td><a href="http://cycomachead.github.com/Website">Home</a></td>
+            <td><a href="http://cycomachead.github.com/Website/blog">Blog</a></td>
+            <td><a href="http://cycomachead.github.com/Website/ios">iPhone Apps</a></td>
+            <td><a href="http://cycomachead.github.com/Website/photography">Photography</a></td>
+            <td><a href="http://cycomachead.github.com/Website/about">About</a></td>
+            <td><a href="http://cycomachead.github.com/Website/affiliates">Affiliates</a></td>
+            <td><a href="http://cycomachead.github.com/Website/archive/">Archive</a></td>
+        </tr>
+    </tbody>
+</table>
+    </div>
+
+    <div class="header">
+        <img src="http://cycomachead.github.com/Website/images/header.jpg"/>
+    </div>
+
+    <div class="middle">  <!--just for organization-->
+        <div class="content">
+            <h1>Uh oh!</h1>
+            <h3 style="line-height: 125%;">It appears that something has gone missing. Please check the link, or feel free to <a href="/contact">send me a note.</a>
+        </div>
+
+        <div class="side">
+            <aside>
+    <h2 class="links-list">Links</h2>
+    <ul class="links-list" style="margin-top: 0px;">
+        <h3><a href="http://aboutme.com/"
+            target="_blank">About.Me</a></h3>
+        <h3><a href="http://facebook.com/quadsolver"
+            target="_blank">Facebook</a></h3>
+        <h3><a href="http://flickr.com/cycomachead"
+             target="_blank">Flickr</a></h3>
+        <h3><a href="http://github.com/cycomachead"
+            target="_blank">Flickr</a></h3>
+        <h3><a href="http://plus.google.com/109987956810230671866"
+            target="_blank">Google+</a></h3>
+        <h3><a href="http://instagram.com/cycomachead"
+            target="_blank">Instagram</a></h3>
+        <h3><a href="http://itunes.com/apps/michaelball"
+            target="_blank">iOS App Store</a></h3>
+        <h3><a href="http://linkedin.com//pub/michael-ball/43/18a/81/"
+            target="_blank">LinkedIn</a></h3>
+        <h3><a href="http://www.tumblr.com/liked/by/cycomachead"
+            target="_blank">Posts I Like</a></h3>
+        <h3><a href="http://tumblr.com/follow/cycomachead"
+            target="_blank">Tumblr</a></h3>
+        <h3><a href="http://twitter.com/cycomachead"
+            target="_blank">Twitter</a></h3>
+        <h3><a href="http://youtube.com/cycomachead"
+            target="_blank">YouTube</a></h3>
+    </ul>
+
+    <h2 class="links-list">Site Updates</h2>
+    <ul class="links-list">
+        <h3><a href="http://fusion.google.com/add?source=atgs&feedurl=feed%3A//michaelballphoto.com/rss" target="_blank">Add to Google Reader</a></h3>
+        <!-- FIXME -->
+        <h3><a href="http://cycomachead.github.com/Website/atom.xml" target="_blank">RSS Feed</a></h3>
+        <h3><a href="http://twitter.com/michaelbphotos"
+            target="_blank">Twitter<br />(Posts Only)</a></h3>
+    </ul>
+
+    <div>
+        <br />
+        <p><img align="middle" height="32"
+             src="http://cycomachead.github.com/Website/images/mac_integration.png" width="150" />
+         </p>
+        <p><img align="middle" height="40"
+            src="http://cycomachead.github.com/Website/images/aperture_pro.png" width="150" />
+        </p>
+    </div>
+</aside>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+    <a href="http://cycomachead.github.com/Website/change-log" title="change log">
+        Version 2.0</a>
+    | &copy; 2011-2012 Michael Ball
+    | <a href="http://cycomachead.github.com/Website/about" title="about page">About</a>
+    | <a href="http://cycomachead.github.com/Website/affiliates" title="Affiliates">Affiliates</a>
+    | <a href="http://cycomachead.github.com/Website/contact" title="contact me">Contact</a>
+</p>
+    </div>
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-398665-8']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="en" />
+
+    <!-- FIXME -->
+    <link rel="alternate" type="application/rss+xml"
+        href="http://cycomachead.github.com/Website/atom.xml" />
+    <link rel="apple-touch-icon"
+        href="http://cycomachead.github.com/Website/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="http://cycomachead.github.com/Website/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="http://cycomachead.github.com/Website/images/apple-touch-icon.png" />
+    <!-- Google Search Info link -->
+    <link href="https://plus.google.com/109987956810230671866" rel="author" />
+    <!--Google Webmaster tools-->
+    <meta name="google-site-verification"
+        content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk" />
+
+    <meta name="author" content="Michael Ball" />
+    <meta name="description" content="SOMETHINGHERETODO" />
+
+    
+    <title>Some Tips on Metadata in Aperture 3 | Michael Ball Photo</title>
+    <meta name="title" content="Some Tips on Metadata in Aperture 3 | Michael Ball Photo">
+    
+
+
+    
+    <meta name="keywords" 
+    content=" aperture,  mac,  tips,  metadata,  hack,  blog,  aperture3,  presets,  photography, 
+         iPhone,  apps,  photography,  Quad Solver,  Michael Ball,  college,  Cal,  Berkeley,  computer science,  programming,  cycomachead,  photo,  apple,  iOS,  macs, " />
+    
+
+        <!--jQuery Script-->
+    <script src="http://cycomachead.github.com/Website/js/jquery-1.7.2.min.js"></script>
+
+    <!-- Lightbox script -->
+    <script src="http://cycomachead.github.com/Website/js/lightbox.js"></script>
+
+    <!--photosets script -->
+    <script>
+        $(document).ready(function() {
+        $(this).find('pho2').stop(false,true).animate( {
+            'width':$('.setImg').width(),
+            'height':$('.setImg').height(), 'top':'0', 'left':'0'},
+            {duration:100});
+        //move the image in pixel
+        var move = 0;
+        //zoom percentage, 1.2 =120%
+        var zoom = .99;
+        //On mouse over those thumbnail
+        $('.setImg').hover(function() {
+            //Set the width and height according to the zoom percentage
+            width = $('.setImg').width() * zoom;
+            height = $('.setImg').height() * zoom;
+
+            //Move and zoom the image
+            $(this).find('pho2').stop(false,true).animate( {
+                'width':width, 'height':height, 'top':move, 'left':move },
+                 {duration:175});
+            //Display the caption
+            $(this).find('div.caption').stop(false,true).fadeIn(175);
+        },
+        function() {
+            //Reset the image
+            $(this).find('pho2').stop(false,true).animate( {
+                'width':$('.setImg').width(), 'height':$('.setImg').height(),
+                'top':'0', 'left':'0'}, {duration:100});
+             //Hide the caption
+             $(this).find('div.caption').stop(false,true).fadeOut(175);
+             });
+         });
+     </script>
+
+     <!-- Google Plus Integration -->
+     <link href="https://plus.google.com/109987956810230671866" rel="author" />
+
+     <script type="text/javascript"
+         src="https://apis.google.com/js/plusone.js">{lang: 'en'}</script>
+
+    <!--CSS script for cantarell font-->
+    <link href='http://fonts.googleapis.com/css?family=Cardo|Cantarell'
+        rel='stylesheet' type='text/css'>
+
+    <!-- Lightbox CSS -->
+    <link href="http://cycomachead.github.com/Website/css/lightbox.css" rel='stylesheet' 
+        type='text/css'>
+
+    <!-- Main CSS -->
+    <link href="http://cycomachead.github.com/Website/css/main.css" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="nav"> <!--nav pages, etc-->
+        <table border="0">
+        <tr>
+            <td><a href="http://cycomachead.github.com/Website">Home</a></td>
+            <td><a href="http://cycomachead.github.com/Website/blog">Blog</a></td>
+            <td><a href="http://cycomachead.github.com/Website/ios">iOS Apps</a></td>
+            <td><a href="http://cycomachead.github.com/Website/photography">Photography</a></td>
+            <td><a href="http://cycomachead.github.com/Website/about">About</a></td>
+            <td><a href="http://cycomachead.github.com/Website/affiliates">Affiliates</a></td>
+            <!-- <td><a href="http://cycomachead.github.com/Website/archive">Archive</a></td> -->
+        </tr>
+</table>
+    </div>
+
+    <div class="header">
+        <img src="http://cycomachead.github.com/Website/images/header.jpg"/>
+    </div>
+
+    <div class="middle">  <!--just for organization-->
+        <div class="content">
+            <article class="blog" id="/blog/2012/03/31/Some-Tips-on-Metadata-in-Aperture-3">
+    <h4>
+        <a href="http://cycomachead.github.com/Website//blog/2012/03/31/Some-Tips-on-Metadata-in-Aperture-3/">Some Tips on Metadata in Aperture 3</a>
+    </h4>
+
+    <p>Recently, I had a problem where my entire autofill list disappeared from Aperture. Yikes! I've got a few years of metadata saved in there. So here's some things I've learned from the process:</p>
+
+<!--more-->
+
+
+
+
+<ol>
+        <li>All your autofill data is stored in your main Aperture preferences file, <code>com.Apple.Aperture.plist</code> in ~/Library/Preferences</li>
+
+        <li>Each metadata item is sorted as an array with your auto-complete data stored as items in that array as strings.  You can manually edit the prefs file with no ill effects if you'd like. (Perhaps using Find and Replace to correct a few common metadata differences or some other errors.) If you do make changes to the file, make sure Aperture is closed so it doesn't over write your changes when it saves.</li>
+
+        <li>If your autofill list does disappear: Restore an old version of your preferences file. To do this, you'll need some sort of a backup.
+
+            <ul>
+                <li>If you have Time Machine, navigate to ~/Library/Preferences and then enter Time Machine backups, go back a couple days and then select the <code>com.Apple.Aperture.plist</code> file and click restore</li>
+
+                <li>If you have any other backup try to find wherever you would have ~/Library/Preferences saved</li>
+
+                <li>You MAY need to change the permissions on your preferences file. To do this, in Finder open the Info window for the prefs file and move down to section that says "Sharing and Permissions" and make sure your user account says "Read and Write". If it doesn't, click the lock to put in your password, then click the plus to add your account and select "Read and Write" once it's been added.</li>
+            </ul>
+        </li>
+</ol>
+
+
+<h3>Multiple Libraries</h3>
+
+<p>Storing the Autofill items in the User preferences folder is interesting.  This means it's tied to your User Account and <em>not</em> a particular library, so here's some things to consider.</p>
+
+<ul>
+<li><p>If you work with different libraries on the same user account, they will have the same auto-complete data. (This may not be bad depending on how you work).</p></li>
+<li><p>If you work with <em>one</em> Library on two different accounts or computers (say a mobile device and a main machine) then you will need to &#8220;sync&#8221; the preferences files (via manual copy and paste) in order to have the same auto-complete data — if that matters to you.</p></li>
+</ul>
+
+
+<h3>Metadata Presets</h3>
+
+<ul>
+<li>Items saved in Metadata Presets aren't related to auto-complete at all (at a settings level). If you lose your preferences, then your metadata presets should be completely intact. (They're saved in ~/Library/Application Support/Aperture). Items which are saved in a metadata preset are <em>not</em> added to your auto-complete list when they are used. However, if you change the data in the in the preset while importing, using the metadata pane, or while batch processing, then it will be added to the auto-complete list. Essentially, if you change the actual metadata preset (via the edit interface) then it changes the preset, but not the autofill list, but if you modify a preset on the fly then it treats that metadata field differently and will add it to the autocomplete list.</li>
+</ul>
+
+
+<p>Well, I hope some of these findings help someone in the future!</p>
+ <!-- Post Body -->
+
+    <!-- FIXME -->
+    <!-- <p class="read-more"><a href="{Permalink}">Read More</a></p> -->
+
+    
+    
+
+
+    <p class="end-matter">Tagged:&nbsp;
+        
+        <a href="http://cycomachead.github.com/Website/tag/aperture">aperture</a>&nbsp;
+        
+        <a href="http://cycomachead.github.com/Website/tag/mac">mac</a>&nbsp;
+        
+        <a href="http://cycomachead.github.com/Website/tag/tips">tips</a>&nbsp;
+        
+        <a href="http://cycomachead.github.com/Website/tag/metadata">metadata</a>&nbsp;
+        
+        <a href="http://cycomachead.github.com/Website/tag/hack">hack</a>&nbsp;
+        
+        <a href="http://cycomachead.github.com/Website/tag/blog">blog</a>&nbsp;
+        
+        <a href="http://cycomachead.github.com/Website/tag/aperture3">aperture3</a>&nbsp;
+        
+        <a href="http://cycomachead.github.com/Website/tag/presets">presets</a>&nbsp;
+        
+        <a href="http://cycomachead.github.com/Website/tag/photography">photography</a>&nbsp;
+        
+    </p>
+    <p class="end-matter">Originally Posted:&nbsp;
+       Mar 31, 2012 at
+       01:25 pm
+    </p>
+
+    <div class="addthis_toolbox addthis_default_style "
+        addthis:title="Some Tips on Metadata in Aperture 3"
+        addthis:url="http://cycomachead.github.com/Website//blog/2012/03/31/Some-Tips-on-Metadata-in-Aperture-3/ ">
+        <a class="addthis_button_facebook_like"
+            fb:like:layout="button_count"></a>
+        <a class="addthis_button_tweet"></a>
+        <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    </div>
+    <script type="text/javascript"
+src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4ee43da6138c11c3">
+    </script>
+
+</article>
+
+
+
+<table id="pagination">
+    <tr>
+        <td class="left">
+            <li class="left">
+            
+                <a href="http://cycomachead.github.com/Website//photo/2012/03/27/This-is-Happening/">
+                    Previous Post</a>
+            
+            </li>
+        </td>
+        <td class="right">
+            <li class="right">
+             
+                <a href="http://cycomachead.github.com/Website//photo/2012/03/31/Blue-Hour-in-Hearst/">Next Post</a>
+            
+            </li>
+        </td>
+    </tr>
+</table>
+
+
+        </div>
+
+        <div class="side">
+            <aside>
+    <h2>Links</h2>
+    <h3><a href="http://aboutme.com/"
+        target="_blank">About.Me</a></h3>
+    <h3><a href="http://facebook.com/quadsolver"
+        target="_blank">Facebook</a></h3>
+    <h3><a href="http://flickr.com/cycomachead"
+         target="_blank">Flickr</a></h3>
+    <h3><a href="http://github.com/cycomachead"
+        target="_blank">Flickr</a></h3>
+    <h3><a href="http://plus.google.com/109987956810230671866"
+        target="_blank">Google+</a></h3>
+    <h3><a href="http://instagram.com/cycomachead"
+        target="_blank">Instagram</a></h3>
+    <h3><a href="http://itunes.com/apps/michaelball"
+        target="_blank">iOS App Store</a></h3>
+    <h3><a href="http://linkedin.com//pub/michael-ball/43/18a/81/"
+        target="_blank">LinkedIn</a></h3>
+    <h3><a href="http://www.tumblr.com/liked/by/cycomachead"
+        target="_blank">Posts I Like</a></h3>
+    <h3><a href="http://tumblr.com/follow/cycomachead"
+        target="_blank">Tumblr</a></h3>
+    <h3><a href="http://twitter.com/cycomachead"
+        target="_blank">Twitter</a></h3>
+    <h3><a href="http://youtube.com/cycomachead"
+        target="_blank">YouTube</a></h3>
+    <br /><br />
+    <h2>Site Updates</h2>
+    <h3><a href="http://fusion.google.com/add?source=atgs&feedurl=feed%3A//michaelballphoto.com/rss" target="_blank">
+            Add to Google Reader</a>
+    </h3>
+    <!-- FIXME -->
+    <h3><a href="http://cycomachead.github.com/Website/atom.xml" target="_blank">RSS Feed</a></h3>
+    <h3><a href="http://twitter.com/michaelbphotos"
+        target="_blank">Twitter<br />(Posts Only)</a>
+    </h3>
+    <div>
+        <img align="middle" height="32"
+             src="http://cycomachead.github.com/Website/images/mac_integration.png" width="150" />
+        <img align="middle" height="40"
+            src="http://cycomachead.github.com/Website/images/aperture_pro.png" width="150" />
+    </div>
+</aside>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>
+    <a href="http://cycomachead.github.com/Website/change-log" title="change log">
+        Version 2.0</a>
+    | &copy; 2011-2012 Michael Ball
+    | <a href="http://cycomachead.github.com/Website/about" title="about page">About</a>
+    | <a href="http://cycomachead.github.com/Website/affiliates" title="Affiliates">Affiliates</a>
+    | <a href="http://cycomachead.github.com/Website/contact" title="contact me">Contact</a>
+</p>
+    </div>
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-398665-8']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+</body>
+</html>
