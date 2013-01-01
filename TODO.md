@@ -3,14 +3,12 @@ A List of Things I'd Like to Fix:
 
 * Lightbox slideshow for iOS apps page
 * Search Features?
-* Better archive page
+* Need a real archive page
 *   --More visually interesting
-* Lots of testing needed
+* Lots of testing and checking needed
 * Clean up CSS (Less or Sass)
-* Better Indexing.
-* Fix Flickr Descriptions on photos without them.
-* Tag Pages
-* Move li bullet to right side for pagination 
-*   And make it on the same line...
+* Better Indexing and Pagination.
+*   Page jumps? Category pages?
+*   Blog page should be paginated.
 * Add Tumblr Add This.
 * Visual Resume

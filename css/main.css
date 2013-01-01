@@ -14,11 +14,11 @@ a:hover {
 }
 
 img {
-    -webkit-box-reflect: below 0px -webkit-gradient(
+    -webkit-box-reflect: below 2px -webkit-gradient(
         linear, left top, left bottom, from(transparent),
         color-stop(.8, transparent), to(rgba(255,255,255,0.20)));
     border-radius: 6px;
-    padding: 2px;
+    padding: 4px 4px 0px 4px;
     margin: 1em 1em 0em 1em;
     -webkit-box-shadow: none;
     -moz-box-shadow: 4px;
