@@ -8,9 +8,9 @@ date: 2012-04-21 21:55:00
 
 This was written a few weeks ago during midterms and I’ve finally gotten a chance to actually clean it up a bit—since my first draft was not good at all. Actually, this could probably use a bit of cleaning up, but I figured I might as well share some thoughts. :)
 
+<!--more-->
 
 Midterms week: I'm admittedly stressed from probably (err, definitely) not having studied enough multivariable calculus these past couple weeks and have found myself on YouTube. (Naturally, I'm watching one of the many excellent videos by Sal Kahn or "PartrickJMT" or MIT's 18.02 course.) So, what hit me?
-
 
 
 This was my moment for really seeing the value of online education. To be sure, I've always enjoyed the idea of learning online and the opportunities it can offer, but I've never been one to scoff that the traditional university either. I mean, I love almost everything about college so far, except exams naturally.. And I don't love the old notion of learning something just because you're supposed to, or just because there's an order to it.

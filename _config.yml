@@ -12,6 +12,7 @@ exclude: [Berkeley Websites, Templates, Tumblr, misc tools,
 
 permalink: pretty
 paginate: 6
+paginate_files: index.html, archive/index.html
 
 title: Michael Ball Photo
 author: Michael Ball

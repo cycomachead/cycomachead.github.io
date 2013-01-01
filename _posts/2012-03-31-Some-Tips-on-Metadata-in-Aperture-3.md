@@ -8,8 +8,9 @@ date: 2012-03-31 20:25:00
 
 Recently, I had a problem where my entire autofill list disappeared from Aperture. Yikes! I've got a few years of metadata saved in there. So here's some things I've learned from the process:
 
-<div>
-    <ol>
+<!--more-->
+
+<ol>
         <li>All your autofill data is stored in your main Aperture preferences file, <code>com.Apple.Aperture.plist</code> in ~/Library/Preferences</li>
 
         <li>Each metadata item is sorted as an array with your auto-complete data stored as items in that array as strings.  You can manually edit the prefs file with no ill effects if you'd like. (Perhaps using Find and Replace to correct a few common metadata differences or some other errors.) If you do make changes to the file, make sure Aperture is closed so it doesn't over write your changes when it saves.</li>
@@ -21,15 +22,13 @@ Recently, I had a problem where my entire autofill list disappeared from Apertur
 
                 <li>If you have any other backup try to find wherever you would have ~/Library/Preferences saved</li>
 
-                <li>You MAY need to change the permissions on your preferences file. To do this, in Finder open the Info window for the prefs file and move down to section that says &#8220;Sharing a Permissions&#8221; and make sure your user account says &#8220;Read and Write&#8221;. If it doesn't, click the lock to put in your password, then click the plus to add your account and select &#8220;Read and Write&#8221; once it's been added.</li>
+                <li>You MAY need to change the permissions on your preferences file. To do this, in Finder open the Info window for the prefs file and move down to section that says "Sharing and Permissions" and make sure your user account says "Read and Write". If it doesn't, click the lock to put in your password, then click the plus to add your account and select "Read and Write" once it's been added.</li>
             </ul>
         </li>
-    </ol>
-</div>
+</ol>
 
-<!-- more -->
 
-### Multiple Libraries ###
+### Multiple Libraries
 
 Storing the Autofill items in the User preferences folder is interesting.  This means it's tied to your User Account and _not_ a particular library, so here's some things to consider.
 

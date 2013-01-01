@@ -35,12 +35,12 @@
 
 
     {% if page.tags %}
-    <meta name="keywords"  content="{% for tag in page.tags %} {{ tag }},
-     &nbsp;{% endfor %} {% for key in site.keywords %} {{ key }},
-     &nbsp;{% endfor %}" />
+    <meta name="keywords" 
+    content="{% for tag in page.tags %} {{ tag }}, {% endfor %}
+        {% for key in site.keywords %} {{ key }}, {% endfor %}" />
     {% else %}
-    <meta name="keywords" content="{% for key in site.keywords %} {{ key }},
-     &nbsp;{% endfor %}" />
+    <meta name="keywords"
+        content="{% for key in site.keywords %} {{ key }}, {% endfor %}" />
     {% endif %}
 
     {% include css.html %}

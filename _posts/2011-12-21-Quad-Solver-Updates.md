@@ -20,7 +20,7 @@ Great news! There's finally an update to [Quad Solver](/ios)! Quad Solver 1.5 br
 
 If you already have a current version, the update is free as it always will be! If not, do me a favor, and please head over to the [App Store](http://itunes.com/apps/quadsolver) and check it out! Thanks!
 
-<!-- more -->
+<!--more-->
 
 **cycomachead - version 1.1**
 
