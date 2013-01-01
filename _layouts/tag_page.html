@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: page
+title: {{ page.tag }}
 ---
 
-{% for post in page.articles %}
+{% for post in page.posts %}
         <article>
             <h4>
                 <a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a>

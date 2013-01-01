@@ -2,17 +2,19 @@ source: .
 destination: ./_site/
 # FIXME
 url: http://cycomachead.github.com/Website
-safe: true
+safe: false
 pygments: true
 lsi: false
 markdown: rdiscount
 
-exclude: [Berkeley Websites, Templates, Tumblr, misc tools,
- README.md, TODO.md, LICENSE]
+exclude: [Berkeley Websites, Templates, tools, README.md, TODO.md, LICENSE]
 
 permalink: pretty
 paginate: 6
-paginate_files: index.html, archive/index.html
+paginate_files: index.html
+
+tag_page_layout: tag_page
+tag_page_dir: tag
 
 title: Michael Ball Photo
 author: Michael Ball
