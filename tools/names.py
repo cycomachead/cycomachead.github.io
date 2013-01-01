@@ -47,7 +47,8 @@ def name():
             # new_name = file[:11] + title + ".md"
             # Pass 2 Fix ugly chars.
             # new_name = re.sub("…|!|'|\?|the|The", "", file)
-            # Pass 3 fix --
+            # Pass 3 fix -- and also "a"
+            new_name = re.sub(".*\\-A\\-.*", "-", file)
             new_name = re.sub("--", "-", file)
             os.rename(file, new_name)
 

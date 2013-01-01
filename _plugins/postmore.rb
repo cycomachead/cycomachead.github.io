@@ -9,3 +9,5 @@ module PostMore
 end
 
 Liquid::Template.register_filter(PostMore)
+
+# Make the more tag handle spaces...

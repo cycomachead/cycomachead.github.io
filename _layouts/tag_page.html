@@ -1,9 +1,12 @@
 ---
-layout: page
-title: {{ page.tag }}
+layout: default
 ---
+<h1>
+    <a href="{{ site.url }}/{{ page.tag }}">{{ page.tag }}</a>
+</h1>
+<br />
 
-{% for post in page.posts %}
+{% for post in page.posts limit:1 %}
         <article>
             <h4>
                 <a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a>
@@ -16,3 +19,15 @@ title: {{ page.tag }}
             {% include endmatter.html %}
         </article>
 {% endfor %}
+
+<br />
+<ul>
+    {% for post in page.posts %}
+            <article>
+                <li><h4>
+                    <a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a>
+                </h4></li>
+            </article>
+    {% endfor %}
+
+</ul>

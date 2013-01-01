@@ -1,12 +1,12 @@
 ---
 layout: photo
-category: photo
+category: blog
 title: A Semester of Tech
 tags: [school, college, cal, classes, computer, macs,]
 date: 2012-01-16 15:29:00
 ---
 
-<a href="http://www.flickr.com/photos/cycomachead/6712574633/" title="Clock by cycomachead, on Flickr"><img src="http://farm8.staticflickr.com/7027/6712574633_a8991ca168.jpg" width="333" height="500" alt="Clock" style="text-align:center;"/>
+<img src="http://farm8.staticflickr.com/7027/6712574633_a8991ca168.jpg" width="333" height="500" alt="Clock" style="text-align:center;"/>
 
 **A New Mac**
 
@@ -14,6 +14,7 @@ Well, my previous Mac had been having a few problems over time and I had multipl
 
 I just want to publicly say Thanks to the guys at the San Francisco Apple store, and especially the market leader, Larry Verter who has been helping me with everything the past couple months. Apple does stand by their products and AppleCare is an excellent value and if you ever have problems, someone will help! It's great that even though it took a little while for everything so get sorted out, it all went better than I expected in the end. :)
 
+<!--more--> 
 
 **A Semester of Tech!**
 
