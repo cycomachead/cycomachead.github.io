@@ -1,13 +1,13 @@
 # do the work to actually push a post to gh.
 
-cd ~/Dropbox/Projects/michaelballphoto.com
+cd ~/Dropbox/Projects/Website
 git checkout source
 jekyll
 git add *
 git commit -a -m "Added new post"
 git push
-git checkout gh-pages
-mv -f _site/* .
-git commit -a -m "Added new post to complied branch"
+cp -rf _site/* ../michaelballphoto.com
+cd ../michaelballphoto.com
+git add *
+git commit -a -m "Added new post to complied repo"
 git push
-git checkout source
