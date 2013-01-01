@@ -157,6 +157,7 @@
 
 /* line 95, ../sass/lightbox.sass */
 .lb-data {
+    margin: 0 auto;
     padding: 10px;
     color: #bbbbbb;
 }
