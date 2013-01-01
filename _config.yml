@@ -7,7 +7,7 @@ pygments: true
 lsi: false
 markdown: rdiscount
 
-exclude: [Berkeley Websites, Templates, tools, README.md, TODO.md, LICENSE]
+exclude: [Templates, tools, README.md, TODO.md, LICENSE]
 
 permalink: pretty
 paginate: 6

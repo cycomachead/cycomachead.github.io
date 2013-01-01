@@ -2,11 +2,12 @@
 
 cd ~/Dropbox/Projects/michaelballphoto.com
 git checkout source
+jekyll
 git add *
-gca -m "Added new post"
-gp
+git commit -a -m "Added new post"
+git push
 git checkout gh-pages
 mv -r _site/* .
-gca -m "Added new post to complied branch"
-gp
+git commit -a -m "Added new post to complied branch"
+git push
 git checkout source
