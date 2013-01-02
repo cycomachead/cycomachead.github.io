@@ -3,7 +3,7 @@
         <td class="left">
             <li class="left">
                 {% if paginator.next_page %}
-                <a href="{{ site.url }}/page{{paginator.next_page}}">
+                <a href="{{ site.url }}/page{{ paginator.next_page }}">
                     Older Posts</a>
             {% else %}
                 No Older Posts
@@ -11,7 +11,7 @@
             </li>
         </td>
         <td class="center">
-            Page: {{paginator.page}} of {{paginator.total_pages}}
+            Page: {{ paginator.page }} of {{ paginator.total_pages }}
         </td>
         <td class="right">
             {% if paginator.previous_page %}

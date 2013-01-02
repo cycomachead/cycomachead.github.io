@@ -3,7 +3,7 @@ layout: page
 title: Quad Solver
 ---
 
-<img alt="Quad Solver" src="{{ site.url}}/images/qs-1.5-0.png"
+<img alt="Quad Solver" src="{{ site.url }}/images/qs-1.5-0.png"
 height="372" width="198" style="margin-right: 2em; float: left" />
 
 Quad Solver is in my (not-so-humble) option the single best application in the App Store for dealing with quadratic equations.
@@ -32,20 +32,20 @@ Screenshots:
 </div>
 
 <div class="center">
-    <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-1.png">
+    <a rel="lightbox[qs]" href="{{ site.url }}/images/qs-1.5-1.png">
         <img align="middle" height="190" width="100"
-            src="{{ site.url}}/images/qs-1.5-1.png" />
+            src="{{ site.url }}/images/qs-1.5-1.png" />
     </a>
-    <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-2.png">
+    <a rel="lightbox[qs]" href="{{ site.url }}/images/qs-1.5-2.png">
         <img align="middle" height="190" width="100"
-            src="{{ site.url}}/images/qs-1.5-2.png" />
+            src="{{ site.url }}/images/qs-1.5-2.png" />
     </a>
-    <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-3.png">
+    <a rel="lightbox[qs]" href="{{ site.url }}/images/qs-1.5-3.png">
         <img align="middle" height="190" width="100"
-            src="{{ site.url}}/images/qs-1.5-3.png" />
+            src="{{ site.url }}/images/qs-1.5-3.png" />
     </a>
-    <a rel="lightbox[qs]" href="{{ site.url}}/images/qs-1.5-4.png">
+    <a rel="lightbox[qs]" href="{{ site.url }}/images/qs-1.5-4.png">
         <img align="middle" height="190" width="100"
-            src="{{ site.url}}/images/qs-1.5-4.png" />
+            src="{{ site.ur l}}/images/qs-1.5-4.png" />
     </a>
 </div>

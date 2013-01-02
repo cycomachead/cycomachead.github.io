@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>
-    <a href="{{ site.url }}/{{ page.tag }}">{{ page.tag }}</a>
+    <a href="{{ site.url }}{{ page.tag }}">{{ page.tag }}</a>
 </h1>
 <br />
 
@@ -26,7 +26,7 @@ layout: default
         {% if forloop.index > 1 %}
             <article>
                 <li><h4>
-                    <a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                 </h4></li>
             </article>
         {% endif %}

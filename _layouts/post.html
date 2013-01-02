@@ -4,13 +4,10 @@ layout: default
 
 <article class="{{ page.category }}" id="{{ page.id }}">
     <h4>
-        <a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
     </h4>
 
     {{ content }} <!-- Post Body -->
-
-    <!-- FIXME -->
-    <!-- <p class="read-more"><a href="{Permalink}">Read More</a></p> -->
 
     {% include endmatter.html %}
 

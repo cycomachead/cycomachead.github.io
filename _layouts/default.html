@@ -35,7 +35,7 @@
 
 
     {% if page.tags %}
-    <meta name="keywords" 
+    <meta name="keywords"
     content="{% for tag in page.tags %} {{ tag }}, {% endfor %}
         {% for key in site.keywords %} {{ key }}, {% endfor %}" />
     {% else %}

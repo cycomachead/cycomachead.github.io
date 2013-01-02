@@ -6,7 +6,7 @@ title: About
 <div style="postion: relative; float: right">
     <img align="center" alt="Me" height="250" width="250"
         style="border-radius: 14px;"
-        src="{{ site.url}}/images/profile.jpg" />
+        src="{{ site.url }}/images/profile.jpg" />
     <div style="position: relative; float: bottom; align:center;
         padding-left: 30px; width: 240px">
         <a href="https://twitter.com/cycomachead" class="twitter-follow-button"
@@ -16,7 +16,7 @@ title: About
     </div>
 </div>
 
-#[ Welcome to My Piece of the Internet](/Website/about)
+#[ Welcome to My Piece of the Internet](/about)
 
 Hello, my name is Michael Ball! I'm a current UC Berkeley undergraduate and
  I'm addicted to photography and all sorts of technology.
@@ -31,7 +31,7 @@ I'm also an artist, and enjoy exploring the Bay Area, my home town, or finding u
 
 There's really so much more than that which I'm interested in and work on. I'm also an Apple Certified Professional for Aperture 3 and Apple Certified Associate for Mac OS X Lion 10.7 Mac Integration. If any of this sounds cool feel free to follow me at any of the links below or view my  [resume.](/Website/Resume.pdf)
 
-## So what's here? ##
+## So what's here?
 
 The main purpose of this site is for me to share my work, including what's going on at school. The Photography page will be evolving quite a bit as I keep uploading more photos and organizing galleries of shots that I've taken a long time ago. My iPhone Apps page isn't likely to change too much, but do give it a look, and maybe click the download link!
 
