@@ -1,6 +1,6 @@
 source: .
 destination: _site/
-url: http://michaelballphoto.com/
+url: http://michaelballphoto.com
 safe: false
 pygments: true
 lsi: false
