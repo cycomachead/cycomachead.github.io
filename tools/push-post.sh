@@ -1,9 +1,9 @@
 # do the work to actually push a post to gh.
 if [ -z "$1" ]
     then
-        msg = "Added post to compiled repo"
+        msg="Added post to compiled repo"
     else
-        msg = "$1"
+        msg="$1"
 fi
 
 cd ~/Dropbox/Projects/Website
