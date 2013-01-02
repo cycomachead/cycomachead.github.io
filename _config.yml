@@ -1,13 +1,12 @@
 source: .
-destination: ./_site/
-# FIXME
-url: http://cycomachead.github.com/Website
+destination: _site/
+url: http://michaelballphoto.com/
 safe: false
 pygments: true
 lsi: false
 markdown: rdiscount
 
-exclude: [Templates, tools, README.md, TODO.md, LICENSE]
+exclude: [Berkeley Websites, Templates, tools]
 
 permalink: pretty
 paginate: 6
@@ -22,7 +21,8 @@ version: 2.0
 copy-start: 2011
 copy-end: 2012
 # FIXME
-description: SOMETHINGHERETODO
+description: A (mostly) daily photo blog with a bit about Apple, Macs, college life, UC Berkeley, and anything I feel like sharing.
+
 keywords: [iPhone, apps, photography, Quad Solver, Michael Ball, college, Cal,
     Berkeley, computer science, programming, cycomachead, photo, apple, iOS,
     macs]

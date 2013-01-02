@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>Michael Ball Photo</title>
-    <link href="http://cycomachead.github.com/Website"/>
+    <link href="http://michaelballphoto.com/"/>
     <link type="application/atom+xml" rel="self"
-        href="http://cycomachead.github.com/Website/atom.xml"/>
-    <updated>2013-01-01T15:27:53-08:00</updated>
-    <id>http://cycomachead.github.com/Website</id>
+        href="http://michaelballphoto.com//atom.xml"/>
+    <updated>2013-01-01T16:00:54-08:00</updated>
+    <id>http://michaelballphoto.com/</id>
     <author>
         <name>Michael Ball</name>
         <email>cycomachead@gmail.com</email>
@@ -14,15 +14,15 @@
 
     
     <entry>
-        <id>http://cycomachead.github.com/Website//blog/2012/12/24/test-post</id>
+        <id>http://michaelballphoto.com///blog/2012/12/24/test-post</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//blog/2012/12/24/test-post/"/>
+                href="http://michaelballphoto.com///blog/2012/12/24/test-post/"/>
         <title>This is a test post</title>
         <published>2012-12-24T04:34:56-08:00</published>
         <updated>2012-12-24T04:34:56-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This post has some useless content and a link.&lt;/p&gt;
 
@@ -32,105 +32,105 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/24/Back-In-Berkeley</id>
+        <id>http://michaelballphoto.com///photo/2012/06/24/Back-In-Berkeley</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/24/Back-In-Berkeley/"/>
+                href="http://michaelballphoto.com///photo/2012/06/24/Back-In-Berkeley/"/>
         <title>Back In Berkeley!</title>
         <published>2012-06-24T08:23:00-07:00</published>
         <updated>2012-06-24T08:23:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Well, I've spent a few days-busy days-moving everything back to a new apartment in Berkley where I'll be for the summer. It feels pretty good t0 be back up here and getting more involved with summer classes, so I thought I should post a Berkeley shot for today.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/19/Carthay-Circle-ater</id>
+        <id>http://michaelballphoto.com///photo/2012/06/19/Carthay-Circle-ater</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/19/Carthay-Circle-ater/"/>
+                href="http://michaelballphoto.com///photo/2012/06/19/Carthay-Circle-ater/"/>
         <title>Carthay Circle Theater</title>
         <published>2012-06-19T08:50:00-07:00</published>
         <updated>2012-06-19T08:50:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Here's a proper shot of the Carthay Circle Theater - and before the craziness of the 15th. It looks great and it really Flo's well with all the new improvements (see what i did there?) and is already a DLR icon if you ask me. The 15th was great by the way but I have yet to go through photos because apparently I've been taking too many lately and I needed to upgrade my hard drive. :O Now that that's done hopefully I post a few soon. :)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/17/Catalina-Dock</id>
+        <id>http://michaelballphoto.com///photo/2012/06/17/Catalina-Dock</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/17/Catalina-Dock/"/>
+                href="http://michaelballphoto.com///photo/2012/06/17/Catalina-Dock/"/>
         <title>Catalina Dock</title>
         <published>2012-06-17T08:34:00-07:00</published>
         <updated>2012-06-17T08:34:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Many years ago, I had the opportunity to go the Catalina Island Marine Institute with school, way back in 7th and 8th grade. Not only was this great for just enjoying scenery and learning, but my science teacher was also a wedding photographer. I owe him at lot for really pushing my interest in photography, and doing awesome things- like helping me develop a couple rolls of film! :)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/16/Broad-Tailed-Hummingbird</id>
+        <id>http://michaelballphoto.com///photo/2012/06/16/Broad-Tailed-Hummingbird</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/16/Broad-Tailed-Hummingbird/"/>
+                href="http://michaelballphoto.com///photo/2012/06/16/Broad-Tailed-Hummingbird/"/>
         <title>The Broad-Tailed Hummingbird</title>
         <published>2012-06-16T08:27:00-07:00</published>
         <updated>2012-06-16T08:27:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Well, this is one of those times where you pack the extra lens (the heavy 70-200 in this case) and are really glad you did! :) While at Zion we found this female Broad-tailed Hummingbird (or Selasphorus platycercus if you really wanted to know), and she wasn't really afraid to get close to the camera. It's amazing how fast they move because we were in very bright daylight and I was only at f/10 - and the wings are still a bit blurry. I'm very happy to have been borrowing the 1D Mark IV at that time because the speed of the AF system really came in handy! I didn't do much to this shot except for a bit of a crop and boosting the color in Aperture a bit.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/14/Old-Cart</id>
+        <id>http://michaelballphoto.com///photo/2012/06/14/Old-Cart</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/14/Old-Cart/"/>
+                href="http://michaelballphoto.com///photo/2012/06/14/Old-Cart/"/>
         <title>The Old Cart</title>
         <published>2012-06-14T08:14:00-07:00</published>
         <updated>2012-06-14T08:14:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;When I went to Utah last month, I got to stay with some friends and they recently had their backyard landscaped and found this, which really does fit in with all the scenery around! :)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/12/Rarther-Large-Soda</id>
+        <id>http://michaelballphoto.com///photo/2012/06/12/Rarther-Large-Soda</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/12/Rarther-Large-Soda/"/>
+                href="http://michaelballphoto.com///photo/2012/06/12/Rarther-Large-Soda/"/>
         <title>A Rather Large Soda</title>
         <published>2012-06-12T08:00:00-07:00</published>
         <updated>2012-06-12T08:00:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;AT&amp;amp;T Park in San Francisco has one of the largest bottles of Coke I've ever seen. Of course, it is actually fake but I think that's ok because inside here, there's about 4 (maybe even 5…) metal slides which are not only long but are also designed for racing in pairs!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//blog/2012/06/11/Round-Tripping-with-ACR-Aperture-3</id>
+        <id>http://michaelballphoto.com///blog/2012/06/11/Round-Tripping-with-ACR-Aperture-3</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//blog/2012/06/11/Round-Tripping-with-ACR-Aperture-3/"/>
+                href="http://michaelballphoto.com///blog/2012/06/11/Round-Tripping-with-ACR-Aperture-3/"/>
         <title>Round Tripping with ACR and Aperture 3</title>
         <published>2012-06-11T07:27:00-07:00</published>
         <updated>2012-06-11T07:27:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m5g0uphwpB1qjg6k8.png&quot; width=&quot;150&quot; height=&quot;150&quot; align=&quot;left&quot; alt=&quot;&quot;/&gt;Aperture has long made it easy to round-trip with an external editor. That is, if you want to edit an image in Photoshop or GIMP, then all you need to do is right click the image from within Aperture, and it will open in your desired editor and when it’s saved, the image is automatically in your Aperture library, right alongside its original version. However, open files in Adobe Camera Raw has takes a bit more configuring. The reason is that when Aperture round trips, it creates a new file from the master, and ACR will only open files under certain conditions, and it won’t open PSD files.&lt;/p&gt;
 
@@ -151,135 +151,135 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/11/Doges-Palace</id>
+        <id>http://michaelballphoto.com///photo/2012/06/11/Doges-Palace</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/11/Doges-Palace/"/>
+                href="http://michaelballphoto.com///photo/2012/06/11/Doges-Palace/"/>
         <title>The Doges' Palace</title>
         <published>2012-06-11T07:23:00-07:00</published>
         <updated>2012-06-11T07:23:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;There's nothing like the detail of old buildings in Venice (and other parts of Europe)! The Doges' Palace is the place where the Doges (who were the rulers of Venice long ago) lived and met. Inside is even more interesting, though photography is a bit limited inside because they'd like to preserve everything.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/10/Tours-Departing-Daily</id>
+        <id>http://michaelballphoto.com///photo/2012/06/10/Tours-Departing-Daily</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/10/Tours-Departing-Daily/"/>
+                href="http://michaelballphoto.com///photo/2012/06/10/Tours-Departing-Daily/"/>
         <title>Tours Departing Daily</title>
         <published>2012-06-10T07:26:00-07:00</published>
         <updated>2012-06-10T07:26:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Wow, there's just so much detail for the Jungle Cruise, and I'm not sure why the ride has such a poor reputation - it is quite nice. (Though admittedly, being 10 feet away from Indy is quite a tall order, and that may be cause for some of it!)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/09/Very-Haunted-House</id>
+        <id>http://michaelballphoto.com///photo/2012/06/09/Very-Haunted-House</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/09/Very-Haunted-House/"/>
+                href="http://michaelballphoto.com///photo/2012/06/09/Very-Haunted-House/"/>
         <title>A Very Haunted House</title>
         <published>2012-06-09T07:10:00-07:00</published>
         <updated>2012-06-09T07:10:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This is was taken a couple weeks ago, well after park closing while we were hanging out as long as possible. :) There’s always so many fun shots of this place, especially in the dark! Not to mention, it was while I was still borrowing a 1D Mark IV, which is honestly a beast! It’s a very fun camera, and capable of amazing things, but way out of my league!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/08/Night-by-Golden-Gate-Bridge</id>
+        <id>http://michaelballphoto.com///photo/2012/06/08/Night-by-Golden-Gate-Bridge</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/08/Night-by-Golden-Gate-Bridge/"/>
+                href="http://michaelballphoto.com///photo/2012/06/08/Night-by-Golden-Gate-Bridge/"/>
         <title>A Night by the Golden Gate Bridge</title>
         <published>2012-06-08T07:13:00-07:00</published>
         <updated>2012-06-08T07:13:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Just after classes ended my friends and I spent a day exploring San Francisco and our last stop with the Golden Gate. (It was also the furthest point from downtown.) The skies were nice a blue, and relatively clear, but surprise surprise, there was a layer of Bay Area Fog to deal with. Still, the bridge at night is a great sight!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/07/Under-Tuscan-Sun</id>
+        <id>http://michaelballphoto.com///photo/2012/06/07/Under-Tuscan-Sun</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/07/Under-Tuscan-Sun/"/>
+                href="http://michaelballphoto.com///photo/2012/06/07/Under-Tuscan-Sun/"/>
         <title>Under the Tuscan Sun</title>
         <published>2012-06-07T07:06:00-07:00</published>
         <updated>2012-06-07T07:06:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Under the Tuscan Sun&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/05/Rushing-River</id>
+        <id>http://michaelballphoto.com///photo/2012/06/05/Rushing-River</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/05/Rushing-River/"/>
+                href="http://michaelballphoto.com///photo/2012/06/05/Rushing-River/"/>
         <title>Rushing River</title>
         <published>2012-06-05T07:52:00-07:00</published>
         <updated>2012-06-05T07:52:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Rushing River&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/04/We-Welcome-Carthay-ater</id>
+        <id>http://michaelballphoto.com///photo/2012/06/04/We-Welcome-Carthay-ater</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/04/We-Welcome-Carthay-ater/"/>
+                href="http://michaelballphoto.com///photo/2012/06/04/We-Welcome-Carthay-ater/"/>
         <title>We Welcome the Carthay Theater</title>
         <published>2012-06-04T07:45:00-07:00</published>
         <updated>2012-06-04T07:45:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;We Welcome the Carthay Theater&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/03/Stormy-NorCal-Day</id>
+        <id>http://michaelballphoto.com///photo/2012/06/03/Stormy-NorCal-Day</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/03/Stormy-NorCal-Day/"/>
+                href="http://michaelballphoto.com///photo/2012/06/03/Stormy-NorCal-Day/"/>
         <title>Stormy NorCal Day</title>
         <published>2012-06-03T07:38:00-07:00</published>
         <updated>2012-06-03T07:38:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Stormy NorCal Day&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//blog/2012/06/03/Importing-Large-Memory-Cards-to-iPad</id>
+        <id>http://michaelballphoto.com///blog/2012/06/03/Importing-Large-Memory-Cards-to-iPad</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//blog/2012/06/03/Importing-Large-Memory-Cards-to-iPad/"/>
+                href="http://michaelballphoto.com///blog/2012/06/03/Importing-Large-Memory-Cards-to-iPad/"/>
         <title>Importing Large Memory Cards to the iPad</title>
         <published>2012-06-03T07:34:00-07:00</published>
         <updated>2012-06-03T07:34:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;&lt;img src=&quot;http://media.tumblr.com/tumblr_m522lv2XO31qjg6k8.jpg&quot; alt=&quot;iPad with Camera&quot; /&gt;&lt;/p&gt;
 
@@ -318,255 +318,255 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/02/Great-Day-at-Mill</id>
+        <id>http://michaelballphoto.com///photo/2012/06/02/Great-Day-at-Mill</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/02/Great-Day-at-Mill/"/>
+                href="http://michaelballphoto.com///photo/2012/06/02/Great-Day-at-Mill/"/>
         <title>Great Day at the Mill</title>
         <published>2012-06-02T07:31:00-07:00</published>
         <updated>2012-06-02T07:31:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Great Day at the Mill&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/06/01/Maaaaaark-Twwwwwaaaiinnn</id>
+        <id>http://michaelballphoto.com///photo/2012/06/01/Maaaaaark-Twwwwwaaaiinnn</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/06/01/Maaaaaark-Twwwwwaaaiinnn/"/>
+                href="http://michaelballphoto.com///photo/2012/06/01/Maaaaaark-Twwwwwaaaiinnn/"/>
         <title>Maaaaaark Twwwwwaaaiinnn!</title>
         <published>2012-06-01T07:24:00-07:00</published>
         <updated>2012-06-01T07:24:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Maaaaaark Twwwwwaaaiinnn!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/31/Virgin-Sky</id>
+        <id>http://michaelballphoto.com///photo/2012/05/31/Virgin-Sky</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/31/Virgin-Sky/"/>
+                href="http://michaelballphoto.com///photo/2012/05/31/Virgin-Sky/"/>
         <title>The Virgin Sky</title>
         <published>2012-05-31T07:18:00-07:00</published>
         <updated>2012-05-31T07:18:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The Virgin Sky&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/30/Virgin-River</id>
+        <id>http://michaelballphoto.com///photo/2012/05/30/Virgin-River</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/30/Virgin-River/"/>
+                href="http://michaelballphoto.com///photo/2012/05/30/Virgin-River/"/>
         <title>The Virgin River</title>
         <published>2012-05-30T07:11:00-07:00</published>
         <updated>2012-05-30T07:11:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The Virgin River&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/29/Stormy-Beach</id>
+        <id>http://michaelballphoto.com///photo/2012/05/29/Stormy-Beach</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/29/Stormy-Beach/"/>
+                href="http://michaelballphoto.com///photo/2012/05/29/Stormy-Beach/"/>
         <title>Stormy Beach</title>
         <published>2012-05-29T07:04:00-07:00</published>
         <updated>2012-05-29T07:04:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Stormy Beach&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/28/Grand-Teton</id>
+        <id>http://michaelballphoto.com///photo/2012/05/28/Grand-Teton</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/28/Grand-Teton/"/>
+                href="http://michaelballphoto.com///photo/2012/05/28/Grand-Teton/"/>
         <title>A Grand Teton</title>
         <published>2012-05-28T16:38:00-07:00</published>
         <updated>2012-05-28T16:38:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;A Grand Teton.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/26/Full-Circle-Partners</id>
+        <id>http://michaelballphoto.com///photo/2012/05/26/Full-Circle-Partners</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/26/Full-Circle-Partners/"/>
+                href="http://michaelballphoto.com///photo/2012/05/26/Full-Circle-Partners/"/>
         <title>Full Circle Partners</title>
         <published>2012-05-26T16:24:00-07:00</published>
         <updated>2012-05-26T16:24:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Full Circle Partners&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/25/Empty-Beach</id>
+        <id>http://michaelballphoto.com///photo/2012/05/25/Empty-Beach</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/25/Empty-Beach/"/>
+                href="http://michaelballphoto.com///photo/2012/05/25/Empty-Beach/"/>
         <title>Empty Beach</title>
         <published>2012-05-25T16:18:00-07:00</published>
         <updated>2012-05-25T16:18:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Empty Beach&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/24/Mt.-Rainier-National-Park</id>
+        <id>http://michaelballphoto.com///photo/2012/05/24/Mt.-Rainier-National-Park</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/24/Mt.-Rainier-National-Park/"/>
+                href="http://michaelballphoto.com///photo/2012/05/24/Mt.-Rainier-National-Park/"/>
         <title>Mt. Rainier National Park</title>
         <published>2012-05-24T16:12:00-07:00</published>
         <updated>2012-05-24T16:12:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Mt. Rainier National Park&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/23/Spring-in-Yosemite</id>
+        <id>http://michaelballphoto.com///photo/2012/05/23/Spring-in-Yosemite</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/23/Spring-in-Yosemite/"/>
+                href="http://michaelballphoto.com///photo/2012/05/23/Spring-in-Yosemite/"/>
         <title>Spring in Yosemite</title>
         <published>2012-05-23T16:05:00-07:00</published>
         <updated>2012-05-23T16:05:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Spring in Yosemite&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/22/Not-Your-Normal-Lobby</id>
+        <id>http://michaelballphoto.com///photo/2012/05/22/Not-Your-Normal-Lobby</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/22/Not-Your-Normal-Lobby/"/>
+                href="http://michaelballphoto.com///photo/2012/05/22/Not-Your-Normal-Lobby/"/>
         <title>Not Your Normal Lobby!</title>
         <published>2012-05-22T16:59:00-07:00</published>
         <updated>2012-05-22T16:59:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Not Your Normal Lobby!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/19/Lots-of-Books-Above-Me</id>
+        <id>http://michaelballphoto.com///photo/2012/05/19/Lots-of-Books-Above-Me</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/19/Lots-of-Books-Above-Me/"/>
+                href="http://michaelballphoto.com///photo/2012/05/19/Lots-of-Books-Above-Me/"/>
         <title>Lots of Books Above Me</title>
         <published>2012-05-19T16:39:00-07:00</published>
         <updated>2012-05-19T16:39:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Lots of Books Above Me&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/18/Mickey,-Mickey-and-Walt</id>
+        <id>http://michaelballphoto.com///photo/2012/05/18/Mickey,-Mickey-and-Walt</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/18/Mickey%2C-Mickey-and-Walt/"/>
+                href="http://michaelballphoto.com///photo/2012/05/18/Mickey%2C-Mickey-and-Walt/"/>
         <title>Mickey, Mickey and Walt</title>
         <published>2012-05-18T16:33:00-07:00</published>
         <updated>2012-05-18T16:33:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Mickey, Mickey and Walt&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/17/Spring-Day-at-Hub</id>
+        <id>http://michaelballphoto.com///photo/2012/05/17/Spring-Day-at-Hub</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/17/Spring-Day-at-Hub/"/>
+                href="http://michaelballphoto.com///photo/2012/05/17/Spring-Day-at-Hub/"/>
         <title>Spring Day at the Hub</title>
         <published>2012-05-17T16:33:00-07:00</published>
         <updated>2012-05-17T16:33:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Spring Day at the Hub&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/05/04/Sunset-Under-Golden-Gate</id>
+        <id>http://michaelballphoto.com///photo/2012/05/04/Sunset-Under-Golden-Gate</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/05/04/Sunset-Under-Golden-Gate/"/>
+                href="http://michaelballphoto.com///photo/2012/05/04/Sunset-Under-Golden-Gate/"/>
         <title>Sunset Under the Golden Gate</title>
         <published>2012-05-04T15:41:00-07:00</published>
         <updated>2012-05-04T15:41:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Wow! I finally got a chance to get down to Fort Point. That was amazing! It took more than 10 miles of walking throughout the day, but it was totally worth ending the year walking through SF with friends. (Also, it turns out, the bus to Fort Point wasn't running last weekend, though this led to a couple shots I would have otherwise missed, so that was good.)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/04/21/Yellowstone-Butterfly</id>
+        <id>http://michaelballphoto.com///photo/2012/04/21/Yellowstone-Butterfly</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/04/21/Yellowstone-Butterfly/"/>
+                href="http://michaelballphoto.com///photo/2012/04/21/Yellowstone-Butterfly/"/>
         <title>Yellowstone Butterfly</title>
         <published>2012-04-21T14:55:00-07:00</published>
         <updated>2012-04-21T14:55:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Yellowstone Butterfly&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//blog/2012/04/21/My-Thoughts-on-Online-Education</id>
+        <id>http://michaelballphoto.com///blog/2012/04/21/My-Thoughts-on-Online-Education</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//blog/2012/04/21/My-Thoughts-on-Online-Education/"/>
+                href="http://michaelballphoto.com///blog/2012/04/21/My-Thoughts-on-Online-Education/"/>
         <title>My Thoughts on Online Education</title>
         <published>2012-04-21T14:55:00-07:00</published>
         <updated>2012-04-21T14:55:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This was written a few weeks ago during midterms and I’ve finally gotten a chance to actually clean it up a bit—since my first draft was not good at all. Actually, this could probably use a bit of cleaning up, but I figured I might as well share some thoughts. :)&lt;/p&gt;
 
@@ -590,105 +590,105 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/04/15/On-Way-to-School</id>
+        <id>http://michaelballphoto.com///photo/2012/04/15/On-Way-to-School</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/04/15/On-Way-to-School/"/>
+                href="http://michaelballphoto.com///photo/2012/04/15/On-Way-to-School/"/>
         <title>On the Way to School…</title>
         <published>2012-04-15T14:18:00-07:00</published>
         <updated>2012-04-15T14:18:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;On the Way to School…&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/04/09/Defending-Public-Education</id>
+        <id>http://michaelballphoto.com///photo/2012/04/09/Defending-Public-Education</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/04/09/Defending-Public-Education/"/>
+                href="http://michaelballphoto.com///photo/2012/04/09/Defending-Public-Education/"/>
         <title>Defending Public Education</title>
         <published>2012-04-09T13:23:00-07:00</published>
         <updated>2012-04-09T13:23:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;A few weeks ago there was a rally at Cal for Defending Public Education. It's pretty interesting to see how many people show up to even small rallies there was last least a thousand or two people at this rally, many of whom weren't students or professors.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/04/05/Along-Arno-River</id>
+        <id>http://michaelballphoto.com///photo/2012/04/05/Along-Arno-River</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/04/05/Along-Arno-River/"/>
+                href="http://michaelballphoto.com///photo/2012/04/05/Along-Arno-River/"/>
         <title>Along the Arno River</title>
         <published>2012-04-05T13:57:00-07:00</published>
         <updated>2012-04-05T13:57:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Awnings along the Arno River in Florence, just past the Ponte Vecchio bridge.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/04/03/Rancho-del-Zocalo-Restaurante</id>
+        <id>http://michaelballphoto.com///photo/2012/04/03/Rancho-del-Zocalo-Restaurante</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/04/03/Rancho-del-Zocalo-Restaurante/"/>
+                href="http://michaelballphoto.com///photo/2012/04/03/Rancho-del-Zocalo-Restaurante/"/>
         <title>Rancho del Zocalo Restaurante</title>
         <published>2012-04-03T13:44:00-07:00</published>
         <updated>2012-04-03T13:44:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The Rancho del Zocalo Restaurante in Frontierland, Disneyland, Anaheim, CA.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/04/01/Nice-Day-at-Hollywood-Tower-Hotel</id>
+        <id>http://michaelballphoto.com///photo/2012/04/01/Nice-Day-at-Hollywood-Tower-Hotel</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/04/01/Nice-Day-at-Hollywood-Tower-Hotel/"/>
+                href="http://michaelballphoto.com///photo/2012/04/01/Nice-Day-at-Hollywood-Tower-Hotel/"/>
         <title>Nice Day at the Hollywood Tower Hotel</title>
         <published>2012-04-01T13:30:00-07:00</published>
         <updated>2012-04-01T13:30:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;What could possibly go wrong on a nice spring day in California Adventure?&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/03/31/Blue-Hour-in-Hearst</id>
+        <id>http://michaelballphoto.com///photo/2012/03/31/Blue-Hour-in-Hearst</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/03/31/Blue-Hour-in-Hearst/"/>
+                href="http://michaelballphoto.com///photo/2012/03/31/Blue-Hour-in-Hearst/"/>
         <title>Blue Hour in Hearst</title>
         <published>2012-03-31T13:27:00-07:00</published>
         <updated>2012-03-31T13:27:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;I really doubt I'll ever get over my fascination with this building! It's been pouring lately soI thought I'd go back from some photos from when it was last like this a couple months ago.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//blog/2012/03/31/Some-Tips-on-Metadata-in-Aperture-3</id>
+        <id>http://michaelballphoto.com///blog/2012/03/31/Some-Tips-on-Metadata-in-Aperture-3</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//blog/2012/03/31/Some-Tips-on-Metadata-in-Aperture-3/"/>
+                href="http://michaelballphoto.com///blog/2012/03/31/Some-Tips-on-Metadata-in-Aperture-3/"/>
         <title>Some Tips on Metadata in Aperture 3</title>
         <published>2012-03-31T13:25:00-07:00</published>
         <updated>2012-03-31T13:25:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Recently, I had a problem where my entire autofill list disappeared from Aperture. Yikes! I've got a few years of metadata saved in there. So here's some things I've learned from the process:&lt;/p&gt;
 
@@ -737,135 +737,135 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/03/27/This-is-Happening</id>
+        <id>http://michaelballphoto.com///photo/2012/03/27/This-is-Happening</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/03/27/This-is-Happening/"/>
+                href="http://michaelballphoto.com///photo/2012/03/27/This-is-Happening/"/>
         <title>This is Happening!</title>
         <published>2012-03-27T13:02:00-07:00</published>
         <updated>2012-03-27T13:02:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Drop the Charges!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/03/25/Busy-Day-at-Ferry-Building</id>
+        <id>http://michaelballphoto.com///photo/2012/03/25/Busy-Day-at-Ferry-Building</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/03/25/Busy-Day-at-Ferry-Building/"/>
+                href="http://michaelballphoto.com///photo/2012/03/25/Busy-Day-at-Ferry-Building/"/>
         <title>Busy Day at the Ferry Building</title>
         <published>2012-03-25T12:22:00-07:00</published>
         <updated>2012-03-25T12:22:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;If you can't tell by the rest of my posts, it's one of my favorite buildings in the city! :)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/03/24/Storms-Above-Bay</id>
+        <id>http://michaelballphoto.com///photo/2012/03/24/Storms-Above-Bay</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/03/24/Storms-Above-Bay/"/>
+                href="http://michaelballphoto.com///photo/2012/03/24/Storms-Above-Bay/"/>
         <title>Storms Above The Bay</title>
         <published>2012-03-24T12:28:00-07:00</published>
         <updated>2012-03-24T12:28:00-07:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;A view of the San Francisco Bay from the UC Berkeley / Lawrence Berkeley Labs, Lawrence Hall of Science.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/03/05/Memorial-Pool,-Berkeley</id>
+        <id>http://michaelballphoto.com///photo/2012/03/05/Memorial-Pool,-Berkeley</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/03/05/Memorial-Pool%2C-Berkeley/"/>
+                href="http://michaelballphoto.com///photo/2012/03/05/Memorial-Pool%2C-Berkeley/"/>
         <title>Memorial Pool, Berkeley</title>
         <published>2012-03-05T10:23:00-08:00</published>
         <updated>2012-03-05T10:23:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Memorial Pool is a small, and somewhat secluded reflection pool which sits along the edge of memorial glade with views of both the campanile and a little bit of Doe Library. It's surrounded by trees which makes it nice and quiet and an excellent study spot when the weather is warm!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/26/Fill-Up-at-Goofys-Gas</id>
+        <id>http://michaelballphoto.com///photo/2012/02/26/Fill-Up-at-Goofys-Gas</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/26/Fill-Up-at-Goofys-Gas/"/>
+                href="http://michaelballphoto.com///photo/2012/02/26/Fill-Up-at-Goofys-Gas/"/>
         <title>Fill Up at Goofy's Gas!</title>
         <published>2012-02-26T10:37:00-08:00</published>
         <updated>2012-02-26T10:37:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Given Goofy's nature, I'm sure this is some of the highest octane fuel you can find in So Cal! There's no guarantee of what it may do to your vehicle, but you're sure to have a fun ride!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/25/Wheeler-Hall</id>
+        <id>http://michaelballphoto.com///photo/2012/02/25/Wheeler-Hall</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/25/Wheeler-Hall/"/>
+                href="http://michaelballphoto.com///photo/2012/02/25/Wheeler-Hall/"/>
         <title>Wheeler Hall</title>
         <published>2012-02-25T10:30:00-08:00</published>
         <updated>2012-02-25T10:30:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Wheeler Hall has a reputation on campus, especially within the last two years. Initially, everyone has mixed feeling because Wheeler Hall is home to UC Berkeley's largest lecture hall where we've all spent plenty of time in both good and bad classes. However, recently, Wheeler has a sense of excitement around it. Since the UC financial crisis began in 2009, Wheeler Hall has been the place for many gatherings, protests, and other (not so great) incidents. It's one place on campus where there's always something going on.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/24/Hyde-Street-Pier</id>
+        <id>http://michaelballphoto.com///photo/2012/02/24/Hyde-Street-Pier</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/24/Hyde-Street-Pier/"/>
+                href="http://michaelballphoto.com///photo/2012/02/24/Hyde-Street-Pier/"/>
         <title>Hyde Street Pier</title>
         <published>2012-02-24T10:23:00-08:00</published>
         <updated>2012-02-24T10:23:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;If you follow Hyde Street to North Beach you'll end up at Hyde Street Pier which was once used a ferry dock among other things. Today, it's home to a great collection of historic ships and other maritime artifacts, and great views! Behind the sign is the ship &lt;a href=&quot;http://en.wikipedia.org/wiki/Eureka_(1890&quot;&gt;Eureka.&lt;/a&gt;)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/22/Vatican-Museum</id>
+        <id>http://michaelballphoto.com///photo/2012/02/22/Vatican-Museum</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/22/Vatican-Museum/"/>
+                href="http://michaelballphoto.com///photo/2012/02/22/Vatican-Museum/"/>
         <title>The Vatican Museum</title>
         <published>2012-02-22T10:11:00-08:00</published>
         <updated>2012-02-22T10:11:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The staircase at the Vatican Museum is pretty amazing from the top! It's also pretty interesting when you look at it, the staircase is actually a double spiral design, so there's really two sets of stairs in the same column.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/21/Making-Rounds</id>
+        <id>http://michaelballphoto.com///photo/2012/02/21/Making-Rounds</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/21/Making-Rounds/"/>
+                href="http://michaelballphoto.com///photo/2012/02/21/Making-Rounds/"/>
         <title>Making Rounds</title>
         <published>2012-02-21T10:06:00-08:00</published>
         <updated>2012-02-21T10:06:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This Monorail is making it's journey around the Lagoon! I'll let you see if you can guess which one it is. :)&lt;/p&gt;
 
@@ -874,15 +874,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/20/University-Library</id>
+        <id>http://michaelballphoto.com///photo/2012/02/20/University-Library</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/20/University-Library/"/>
+                href="http://michaelballphoto.com///photo/2012/02/20/University-Library/"/>
         <title>The University Library</title>
         <published>2012-02-20T10:00:00-08:00</published>
         <updated>2012-02-20T10:00:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Doe Library is generally referred to as the main library on campus, though I'm pretty sure most people go to specialized libraries on campus or head to the Main Stacks if they actually need one of those antiquated things we call books.&lt;/p&gt;
 
@@ -891,165 +891,165 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/19/Window-Into-Hearst</id>
+        <id>http://michaelballphoto.com///photo/2012/02/19/Window-Into-Hearst</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/19/Window-Into-Hearst/"/>
+                href="http://michaelballphoto.com///photo/2012/02/19/Window-Into-Hearst/"/>
         <title>A Window Into Hearst</title>
         <published>2012-02-19T09:33:00-08:00</published>
         <updated>2012-02-19T09:33:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;By now, it should be no secret that I love Hearst Mining Building at Berkeley! Built in 1902 this is one of the older buildings on campus which has a very cool stone look, and one of the few with real wood for decoration. It just has one of those &quot;academic&quot; feelings, like real learning is supposed to be going on there.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/18/SF-Maritime-Park</id>
+        <id>http://michaelballphoto.com///photo/2012/02/18/SF-Maritime-Park</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/18/SF-Maritime-Park/"/>
+                href="http://michaelballphoto.com///photo/2012/02/18/SF-Maritime-Park/"/>
         <title>SF Maritime Park</title>
         <published>2012-02-18T09:27:00-08:00</published>
         <updated>2012-02-18T09:27:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Well, it's been a little while since I posted a shot! This is from the San Francisco Maritime Park area looking towards the Golden Gate. It's a pretty cool area because there's lots of places to get both high and low, and Ghirardelli square isn't too far away as well! :)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/11/Galleria-Vittorio-Emanuele</id>
+        <id>http://michaelballphoto.com///photo/2012/02/11/Galleria-Vittorio-Emanuele</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/11/Galleria-Vittorio-Emanuele/"/>
+                href="http://michaelballphoto.com///photo/2012/02/11/Galleria-Vittorio-Emanuele/"/>
         <title>Galleria Vittorio Emanuele</title>
         <published>2012-02-11T09:47:00-08:00</published>
         <updated>2012-02-11T09:47:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This shopping center in Milan is one of the most interesting malls there probably is in the world. It's shaped like a giant cross and in the center of the arcade are drawing on each side to represent the 'four' continents. (You can see two of them).&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/10/Coming-Soon-to-Disneys-California-Adventure</id>
+        <id>http://michaelballphoto.com///photo/2012/02/10/Coming-Soon-to-Disneys-California-Adventure</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/10/Coming-Soon-to-Disneys-California-Adventure/"/>
+                href="http://michaelballphoto.com///photo/2012/02/10/Coming-Soon-to-Disneys-California-Adventure/"/>
         <title>Coming Soon to Disney's California Adventure</title>
         <published>2012-02-10T09:41:00-08:00</published>
         <updated>2012-02-10T09:41:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The entrance has been complete, and currently a maze of walls rests behind it. We're all waiting for the opening of Beuna Vista Street and the Carthay Theater which will hopefully live up to all the hype! So far, the progress seems pretty exciting. :)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/09/Roman-Convergence</id>
+        <id>http://michaelballphoto.com///photo/2012/02/09/Roman-Convergence</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/09/Roman-Convergence/"/>
+                href="http://michaelballphoto.com///photo/2012/02/09/Roman-Convergence/"/>
         <title>Roman Convergence</title>
         <published>2012-02-09T09:36:00-08:00</published>
         <updated>2012-02-09T09:36:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Space is definitely a premium in Rome, and though the buildings are no where near the height of sky scrapers, looking up at the many obelisks gives a feeling of being closed in despite the semi-open spaces. This is the Solare or Obelisk of Montecitorio, located just past the Piazza de Spanga which is home to the famous Spanish Steps.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/08/Sunset-Studying</id>
+        <id>http://michaelballphoto.com///photo/2012/02/08/Sunset-Studying</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/08/Sunset-Studying/"/>
+                href="http://michaelballphoto.com///photo/2012/02/08/Sunset-Studying/"/>
         <title>Sunset Studying</title>
         <published>2012-02-08T09:31:00-08:00</published>
         <updated>2012-02-08T09:31:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;It's a bit cold sometimes in the winter, but sitting by the Campanile is a good place to study! (Or, perhaps, check your phone in this moment.) It's also really interesting to see how the scenes changes here throughout the year.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/07/Welcome-to-Disneyland</id>
+        <id>http://michaelballphoto.com///photo/2012/02/07/Welcome-to-Disneyland</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/07/Welcome-to-Disneyland/"/>
+                href="http://michaelballphoto.com///photo/2012/02/07/Welcome-to-Disneyland/"/>
         <title>Welcome to Disneyland!</title>
         <published>2012-02-07T09:25:00-08:00</published>
         <updated>2012-02-07T09:25:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;One of the very first things you see upon entering Disneyland! This 3 shot HDR was made just as I heard &quot;Your attention, please: the Disneyland Limited, now arriving from a trip around Walt Disney’s Magic Kingdom. Passengers will stand by to board.&quot; through the loud speakers.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/06/Up-or-Down</id>
+        <id>http://michaelballphoto.com///photo/2012/02/06/Up-or-Down</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/06/Up-or-Down/"/>
+                href="http://michaelballphoto.com///photo/2012/02/06/Up-or-Down/"/>
         <title>Up or Down?</title>
         <published>2012-02-06T09:20:00-08:00</published>
         <updated>2012-02-06T09:20:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This is another image from Embarcadero Center in SF. The place is just full of interesting photos, although, apparently photography is only allowed with &lt;em&gt;written permission&lt;/em&gt;. So, I wrote myself a mental note, and made some images.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/05/Paradise-Bay</id>
+        <id>http://michaelballphoto.com///photo/2012/02/05/Paradise-Bay</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/05/Paradise-Bay/"/>
+                href="http://michaelballphoto.com///photo/2012/02/05/Paradise-Bay/"/>
         <title>Paradise Bay</title>
         <published>2012-02-05T09:14:00-08:00</published>
         <updated>2012-02-05T09:14:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;It really is one of the most fun places to shoot in the park!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/03/Ferry-Building</id>
+        <id>http://michaelballphoto.com///photo/2012/02/03/Ferry-Building</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/03/Ferry-Building/"/>
+                href="http://michaelballphoto.com///photo/2012/02/03/Ferry-Building/"/>
         <title>The Ferry Building</title>
         <published>2012-02-03T09:02:00-08:00</published>
         <updated>2012-02-03T09:02:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;I love the angle of this shot which was made from the top of Coit Tower in San Francisco. (Clearly I have some favorite subjects!)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/02/On-Horizon</id>
+        <id>http://michaelballphoto.com///photo/2012/02/02/On-Horizon</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/02/On-Horizon/"/>
+                href="http://michaelballphoto.com///photo/2012/02/02/On-Horizon/"/>
         <title>On the Horizon</title>
         <published>2012-02-02T08:36:00-08:00</published>
         <updated>2012-02-02T08:36:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Joshua Tree National Park, the morning after the Perseids Meteor Shower 2011.&lt;/p&gt;
 
@@ -1058,15 +1058,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/02/01/Two-Ways-Down</id>
+        <id>http://michaelballphoto.com///photo/2012/02/01/Two-Ways-Down</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/02/01/Two-Ways-Down/"/>
+                href="http://michaelballphoto.com///photo/2012/02/01/Two-Ways-Down/"/>
         <title>Two Ways Down</title>
         <published>2012-02-01T08:31:00-08:00</published>
         <updated>2012-02-01T08:31:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;2 Embarcadero Center, San Francisco, CA.&lt;/p&gt;
 
@@ -1075,30 +1075,30 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/31/Quiet-Night-in-Hearst</id>
+        <id>http://michaelballphoto.com///photo/2012/01/31/Quiet-Night-in-Hearst</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/31/Quiet-Night-in-Hearst/"/>
+                href="http://michaelballphoto.com///photo/2012/01/31/Quiet-Night-in-Hearst/"/>
         <title>Quiet Night in Hearst</title>
         <published>2012-01-31T08:25:00-08:00</published>
         <updated>2012-01-31T08:25:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Here's another shot of Hearst Memorial Mining Building at Berkeley. It's one room where you cam easily spend hours taking photos of the interior, which is pretty much what I did a couple weeks ago. What fun, too bad projects are in full swing now.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/30/CALifornia-Sunset</id>
+        <id>http://michaelballphoto.com///photo/2012/01/30/CALifornia-Sunset</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/30/CALifornia-Sunset/"/>
+                href="http://michaelballphoto.com///photo/2012/01/30/CALifornia-Sunset/"/>
         <title>A CALifornia Sunset</title>
         <published>2012-01-30T08:21:00-08:00</published>
         <updated>2012-01-30T08:21:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This was made while walking around at sunset working on some photos for a project of mine. The skyline was absolutely amazing that night, and it also happened to be during the Cal-Stanford basketball game, which we won!&lt;/p&gt;
 
@@ -1107,15 +1107,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/29/Sunset-on-Embarcadero</id>
+        <id>http://michaelballphoto.com///photo/2012/01/29/Sunset-on-Embarcadero</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/29/Sunset-on-Embarcadero/"/>
+                href="http://michaelballphoto.com///photo/2012/01/29/Sunset-on-Embarcadero/"/>
         <title>Sunset on the Embarcadero</title>
         <published>2012-01-29T08:15:00-08:00</published>
         <updated>2012-01-29T08:15:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The Embarcadero in San Francisco runs along the water and while sections of it are a little, well… sketchy, it's an amazing walk to see views of the bay. Fortunately, the Ferry Building is a great sport, because not only is it probably one of the least sketchy places in the city, but it's filled with excellent food and gift shops!&lt;/p&gt;
 
@@ -1124,75 +1124,75 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/29/Blue-Paradise-Bay</id>
+        <id>http://michaelballphoto.com///photo/2012/01/29/Blue-Paradise-Bay</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/29/Blue-Paradise-Bay/"/>
+                href="http://michaelballphoto.com///photo/2012/01/29/Blue-Paradise-Bay/"/>
         <title>A Blue Paradise Bay</title>
         <published>2012-01-29T08:08:00-08:00</published>
         <updated>2012-01-29T08:08:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Paradise Bay is one of those (large) spots which always has so many interesting angles! This one was made shortly after sunset during Blue Hour.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/26/Ferry-Building</id>
+        <id>http://michaelballphoto.com///photo/2012/01/26/Ferry-Building</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/26/Ferry-Building/"/>
+                href="http://michaelballphoto.com///photo/2012/01/26/Ferry-Building/"/>
         <title>The Ferry Building</title>
         <published>2012-01-26T08:57:00-08:00</published>
         <updated>2012-01-26T08:57:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;A view from Embarcadero Center, San Francisco.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/25/Storm-Above-Hearst</id>
+        <id>http://michaelballphoto.com///photo/2012/01/25/Storm-Above-Hearst</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/25/Storm-Above-Hearst/"/>
+                href="http://michaelballphoto.com///photo/2012/01/25/Storm-Above-Hearst/"/>
         <title>Storm Above Hearst</title>
         <published>2012-01-25T08:51:00-08:00</published>
         <updated>2012-01-25T08:51:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;One of my newest fascinations with Berkeley is Hearst Memorial Mining Building. It's a pretty cool building, especially for photographers! I spent about an hour or so in the entrance to the building the other day, and will go back again sometime soon. I'm also going to use it as a great place to teach some people who are interested in photography, too. :)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/24/Dizzying-Cup</id>
+        <id>http://michaelballphoto.com///photo/2012/01/24/Dizzying-Cup</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/24/Dizzying-Cup/"/>
+                href="http://michaelballphoto.com///photo/2012/01/24/Dizzying-Cup/"/>
         <title>A Dizzying Cup</title>
         <published>2012-01-24T08:45:00-08:00</published>
         <updated>2012-01-24T08:45:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;I love playing with long exposures and the tea cups! This one was hard to do as I wanted. I really wanted a photo from a tea cup with light blur, that would have no other motion than the circular motion of a tea cup. This one came out pretty well, though there is a slight shake evident in a couple of the lights. It was also tough to get a good balance of the lights with the tea cup spinning asynchronously from the platform, but I do like the affect it had on 'looping' the green and pink lights.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/23/Wet-Day-at-Cal</id>
+        <id>http://michaelballphoto.com///photo/2012/01/23/Wet-Day-at-Cal</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/23/Wet-Day-at-Cal/"/>
+                href="http://michaelballphoto.com///photo/2012/01/23/Wet-Day-at-Cal/"/>
         <title>Wet Day at Cal</title>
         <published>2012-01-23T08:39:00-08:00</published>
         <updated>2012-01-23T08:39:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;It's been raining a lot here lately, and that's all the more reason to go out and take some photos! I really wish this courtyard had a name, but it's a very cool place to walk through (and quite convenient too).&lt;/p&gt;
 
@@ -1201,30 +1201,30 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/22/Beads-In-Night</id>
+        <id>http://michaelballphoto.com///photo/2012/01/22/Beads-In-Night</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/22/Beads-In-Night/"/>
+                href="http://michaelballphoto.com///photo/2012/01/22/Beads-In-Night/"/>
         <title>Beads In the Night</title>
         <published>2012-01-22T08:34:00-08:00</published>
         <updated>2012-01-22T08:34:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This was made as I turned around to leave the Court of Angles at Disneyland. In some ways, it was a type of happy accident because I wanted to see how the light would turn out, but I didn't really have time to compose much of a shot since we were on the way out, rushing to get to somewhere..Plus, this was with my 70-200 f.2.8L and handheld which isn't generally a very good combo at night!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/22/Soaking-up-Sun</id>
+        <id>http://michaelballphoto.com///photo/2012/01/22/Soaking-up-Sun</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/22/Soaking-up-Sun/"/>
+                href="http://michaelballphoto.com///photo/2012/01/22/Soaking-up-Sun/"/>
         <title>Soaking up the Sun</title>
         <published>2012-01-22T08:30:00-08:00</published>
         <updated>2012-01-22T08:30:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;As with many SoCal natives, it seems this tree has had many years to soak up all the sun it can get, seeing how it's grown outward, even if it is the winter and all its leave are gone.&lt;/p&gt;
 
@@ -1233,30 +1233,30 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/19/150-Years</id>
+        <id>http://michaelballphoto.com///photo/2012/01/19/150-Years</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/19/150-Years/"/>
+                href="http://michaelballphoto.com///photo/2012/01/19/150-Years/"/>
         <title>150 Years!</title>
         <published>2012-01-19T08:16:00-08:00</published>
         <updated>2012-01-19T08:16:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;A completely unexpected surprise during our trip to Italy this summer was the timing of their 150th year of Italian Unification. It was pretty cool to go during a week of national pride and celebration, including this fun shot. While walking around St. Mark's Square one morning we got a very cool fly over! These plans were relatively low (this was only at 70mm) and flew over us two or three times.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/18/Sunset-at-Woods-Cove</id>
+        <id>http://michaelballphoto.com///photo/2012/01/18/Sunset-at-Woods-Cove</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/18/Sunset-at-Woods-Cove/"/>
+                href="http://michaelballphoto.com///photo/2012/01/18/Sunset-at-Woods-Cove/"/>
         <title>Sunset at Woods Cove</title>
         <published>2012-01-18T08:10:00-08:00</published>
         <updated>2012-01-18T08:10:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Woods Cove was an amazing little find in Laguna Beach! It's rocky, but pretty spacious, and easy to get to. Because it's Southern California, it's also lovely even in winter, when this shot was made.&lt;/p&gt;
 
@@ -1265,45 +1265,45 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/17/Very-Fine-Dust</id>
+        <id>http://michaelballphoto.com///photo/2012/01/17/Very-Fine-Dust</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/17/Very-Fine-Dust/"/>
+                href="http://michaelballphoto.com///photo/2012/01/17/Very-Fine-Dust/"/>
         <title>A Very Fine Dust</title>
         <published>2012-01-17T08:02:00-08:00</published>
         <updated>2012-01-17T08:02:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;From a little winery in Barollo, Italy. It was a very cool tour to see everything, especially all the old stuff they've been keeping!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/16/See-Ya-Real-Soon</id>
+        <id>http://michaelballphoto.com///photo/2012/01/16/See-Ya-Real-Soon</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/16/See-Ya-Real-Soon/"/>
+                href="http://michaelballphoto.com///photo/2012/01/16/See-Ya-Real-Soon/"/>
         <title>See Ya Real Soon!</title>
         <published>2012-01-16T07:39:00-08:00</published>
         <updated>2012-01-16T07:39:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;As Disneyland closes for the night, the Partners kindly bid us farewell from their Magic Kingdom.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//blog/2012/01/16/Semester-of-Tech</id>
+        <id>http://michaelballphoto.com///blog/2012/01/16/Semester-of-Tech</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//blog/2012/01/16/Semester-of-Tech/"/>
+                href="http://michaelballphoto.com///blog/2012/01/16/Semester-of-Tech/"/>
         <title>A Semester of Tech</title>
         <published>2012-01-16T07:29:00-08:00</published>
         <updated>2012-01-16T07:29:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7027/6712574633_a8991ca168.jpg&quot; width=&quot;333&quot; height=&quot;500&quot; alt=&quot;Clock&quot; style=&quot;text-align:center;&quot;/&gt;&lt;/p&gt;
 
@@ -1325,15 +1325,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/15/Very-Mad-Tea-Party</id>
+        <id>http://michaelballphoto.com///photo/2012/01/15/Very-Mad-Tea-Party</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/15/Very-Mad-Tea-Party/"/>
+                href="http://michaelballphoto.com///photo/2012/01/15/Very-Mad-Tea-Party/"/>
         <title>A Very Mad Tea Party</title>
         <published>2012-01-15T07:33:00-08:00</published>
         <updated>2012-01-15T07:33:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The tea cups are an excellent ride at Disneyland! Not only because they're fun to spin as fast as possible, but they also make excellent photos at night when playing with long exposure.&lt;/p&gt;
 
@@ -1342,15 +1342,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/13/Grand-Cave</id>
+        <id>http://michaelballphoto.com///photo/2012/01/13/Grand-Cave</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/13/Grand-Cave/"/>
+                href="http://michaelballphoto.com///photo/2012/01/13/Grand-Cave/"/>
         <title>A Grand Cave</title>
         <published>2012-01-13T07:19:00-08:00</published>
         <updated>2012-01-13T07:19:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;It's interesting how in Italy quite a few wineries want to produce wines &quot;the new way&quot; with more control and technology like is done with modern wineries in California. Argenteria winery fairly recently renovated much place and built an amazing new cave for all their barrels to age in.&lt;/p&gt;
 
@@ -1359,90 +1359,90 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/12/Hollywood-Tower-Doesnt-Feel-so-Tall</id>
+        <id>http://michaelballphoto.com///photo/2012/01/12/Hollywood-Tower-Doesnt-Feel-so-Tall</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/12/Hollywood-Tower-Doesnt-Feel-so-Tall/"/>
+                href="http://michaelballphoto.com///photo/2012/01/12/Hollywood-Tower-Doesnt-Feel-so-Tall/"/>
         <title>The Hollywood Tower Doesn't Feel so Tall</title>
         <published>2012-01-12T07:16:00-08:00</published>
         <updated>2012-01-12T07:16:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;I'm always amazed by Bugs Land when I actually spend the time to stop and look at the detail. It's pretty amazing how well the imagineers were able to completely change the scale of life. I think this shot helps capture that because not only do things already seem out of proportion, but with the hotel in the background, it really appears much smaller than it actually is.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/11/Detail-at-top</id>
+        <id>http://michaelballphoto.com///photo/2012/01/11/Detail-at-top</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/11/Detail-at-top/"/>
+                href="http://michaelballphoto.com///photo/2012/01/11/Detail-at-top/"/>
         <title>Detail at the top</title>
         <published>2012-01-11T07:11:00-08:00</published>
         <updated>2012-01-11T07:11:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;A more detailed view of the Campanile from the top.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/10/Colorful-Catalina</id>
+        <id>http://michaelballphoto.com///photo/2012/01/10/Colorful-Catalina</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/10/Colorful-Catalina/"/>
+                href="http://michaelballphoto.com///photo/2012/01/10/Colorful-Catalina/"/>
         <title>Colorful Catalina</title>
         <published>2012-01-10T07:03:00-08:00</published>
         <updated>2012-01-10T07:03:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;An early morning view of California from a great little island. I believe it's facing Long Beach, but I can't be sure since this shot was taken many years ago while at CIMI in 8th grade. It was the idea of a few of us photographers (one of whom is a teacher) for a sunrise hike. :)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/10/Campanile</id>
+        <id>http://michaelballphoto.com///photo/2012/01/10/Campanile</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/10/Campanile/"/>
+                href="http://michaelballphoto.com///photo/2012/01/10/Campanile/"/>
         <title>The Campanile</title>
         <published>2012-01-10T07:02:00-08:00</published>
         <updated>2012-01-10T07:02:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;It's taller than Hoover Tower. :)&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/08/Big-Thunder-Mountain-RR</id>
+        <id>http://michaelballphoto.com///photo/2012/01/08/Big-Thunder-Mountain-RR</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/08/Big-Thunder-Mountain-RR/"/>
+                href="http://michaelballphoto.com///photo/2012/01/08/Big-Thunder-Mountain-RR/"/>
         <title>Big Thunder Mountain RR</title>
         <published>2012-01-08T07:52:00-08:00</published>
         <updated>2012-01-08T07:52:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This here's the wildest ride in the Wilderness!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/07/Screamin-at-Top</id>
+        <id>http://michaelballphoto.com///photo/2012/01/07/Screamin-at-Top</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/07/Screamin-at-Top/"/>
+                href="http://michaelballphoto.com///photo/2012/01/07/Screamin-at-Top/"/>
         <title>Screamin' at the Top</title>
         <published>2012-01-07T07:44:00-08:00</published>
         <updated>2012-01-07T07:44:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Whether you're scared out of your mind, or having the time of your life, California Screamin was very aptly named!&lt;/p&gt;
 
@@ -1453,15 +1453,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/04/Florence-Pano</id>
+        <id>http://michaelballphoto.com///photo/2012/01/04/Florence-Pano</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/04/Florence-Pano/"/>
+                href="http://michaelballphoto.com///photo/2012/01/04/Florence-Pano/"/>
         <title>Florence Pano</title>
         <published>2012-01-04T07:32:00-08:00</published>
         <updated>2012-01-04T07:32:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Taken from the top of the Duomo (Cathedral) in Florence. I walked all the around the top and took around 40 shots, but there's a bit less resolution because I overlapped quite a bit…&lt;/p&gt;
 
@@ -1470,15 +1470,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/03/Which-way</id>
+        <id>http://michaelballphoto.com///photo/2012/01/03/Which-way</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/03/Which-way/"/>
+                href="http://michaelballphoto.com///photo/2012/01/03/Which-way/"/>
         <title>Which way?</title>
         <published>2012-01-03T07:26:00-08:00</published>
         <updated>2012-01-03T07:26:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Take your pick of which way you'd like to go!&lt;/p&gt;
 
@@ -1487,15 +1487,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/03/Indecision</id>
+        <id>http://michaelballphoto.com///photo/2012/01/03/Indecision</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/03/Indecision/"/>
+                href="http://michaelballphoto.com///photo/2012/01/03/Indecision/"/>
         <title>Indecision…</title>
         <published>2012-01-03T07:15:00-08:00</published>
         <updated>2012-01-03T07:15:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;A couple days ago a friend and I decided to head out to Laguna Beach and try some long exposures.&lt;/p&gt;
 
@@ -1504,15 +1504,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/02/Light</id>
+        <id>http://michaelballphoto.com///photo/2012/01/02/Light</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/02/Light/"/>
+                href="http://michaelballphoto.com///photo/2012/01/02/Light/"/>
         <title>The Light</title>
         <published>2012-01-02T07:20:00-08:00</published>
         <updated>2012-01-02T07:20:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;I was bored one day and looking for interesting things in my dorm… this is the ceiling light and is at the minimum focus distance for the 70-200 which made some really interesting DoF.&lt;/p&gt;
 
@@ -1521,45 +1521,45 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2012/01/01/Mickeys-Fun-Wheel-at-Paradise-Pier</id>
+        <id>http://michaelballphoto.com///photo/2012/01/01/Mickeys-Fun-Wheel-at-Paradise-Pier</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2012/01/01/Mickeys-Fun-Wheel-at-Paradise-Pier/"/>
+                href="http://michaelballphoto.com///photo/2012/01/01/Mickeys-Fun-Wheel-at-Paradise-Pier/"/>
         <title>Mickey's Fun Wheel at Paradise Pier</title>
         <published>2012-01-01T07:13:00-08:00</published>
         <updated>2012-01-01T07:13:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Disney's California Adventure.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/31/On-Road-Again</id>
+        <id>http://michaelballphoto.com///photo/2011/12/31/On-Road-Again</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/31/On-Road-Again/"/>
+                href="http://michaelballphoto.com///photo/2011/12/31/On-Road-Again/"/>
         <title>On the Road Again…</title>
         <published>2011-12-31T07:10:00-08:00</published>
         <updated>2011-12-31T07:10:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This was made somewhere around Zion National Park in Utah, but it's hard to pin point exactly where, however, it did have a very cool and unique reddish color!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/31/Ferrari-California</id>
+        <id>http://michaelballphoto.com///photo/2011/12/31/Ferrari-California</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/31/Ferrari-California/"/>
+                href="http://michaelballphoto.com///photo/2011/12/31/Ferrari-California/"/>
         <title>Ferrari California</title>
         <published>2011-12-31T07:08:00-08:00</published>
         <updated>2011-12-31T07:08:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Yes, I rode in one… for about 10 minutes and everyone was having too much fun to pay attention to the speedometer, but it was amazing!&lt;/p&gt;
 
@@ -1568,60 +1568,60 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/29/Crystal-Cove</id>
+        <id>http://michaelballphoto.com///photo/2011/12/29/Crystal-Cove</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/29/Crystal-Cove/"/>
+                href="http://michaelballphoto.com///photo/2011/12/29/Crystal-Cove/"/>
         <title>Crystal Cove</title>
         <published>2011-12-29T07:00:00-08:00</published>
         <updated>2011-12-29T07:00:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;It's funny how there's just a little shack at the entrance to the beach.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/28/Blue-Bottle-Coffee</id>
+        <id>http://michaelballphoto.com///photo/2011/12/28/Blue-Bottle-Coffee</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/28/Blue-Bottle-Coffee/"/>
+                href="http://michaelballphoto.com///photo/2011/12/28/Blue-Bottle-Coffee/"/>
         <title>Blue Bottle Coffee</title>
         <published>2011-12-28T06:34:00-08:00</published>
         <updated>2011-12-28T06:34:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;It's a lot smaller inside than you might think given the hype but it's worth the wait in line if you're around the city.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/28/Huntington-Beach</id>
+        <id>http://michaelballphoto.com///photo/2011/12/28/Huntington-Beach</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/28/Huntington-Beach/"/>
+                href="http://michaelballphoto.com///photo/2011/12/28/Huntington-Beach/"/>
         <title>Huntington Beach</title>
         <published>2011-12-28T06:23:00-08:00</published>
         <updated>2011-12-28T06:23:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This was made waiting for the stop light to change standing on the corner before we ran down the pier to continue shooting. Despite the somewhat cliche nature of SoCal and Huntington Beach, there are plenty of cool opportunities as long as you're careful in such large crowds!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/25/Merry-Christmas</id>
+        <id>http://michaelballphoto.com///photo/2011/12/25/Merry-Christmas</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/25/Merry-Christmas/"/>
+                href="http://michaelballphoto.com///photo/2011/12/25/Merry-Christmas/"/>
         <title>Merry Christmas!</title>
         <published>2011-12-25T06:20:00-08:00</published>
         <updated>2011-12-25T06:20:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This is definitely a benefit of Berkeley, BART and good breaks!&lt;/p&gt;
 
@@ -1632,60 +1632,60 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/23/Castle-Geyser</id>
+        <id>http://michaelballphoto.com///photo/2011/12/23/Castle-Geyser</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/23/Castle-Geyser/"/>
+                href="http://michaelballphoto.com///photo/2011/12/23/Castle-Geyser/"/>
         <title>Castle Geyser</title>
         <published>2011-12-23T06:09:00-08:00</published>
         <updated>2011-12-23T06:09:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Castle Geyser, Yellowstone National Park.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/22/St.-Marks-Square</id>
+        <id>http://michaelballphoto.com///photo/2011/12/22/St.-Marks-Square</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/22/St.-Marks-Square/"/>
+                href="http://michaelballphoto.com///photo/2011/12/22/St.-Marks-Square/"/>
         <title>St. Mark's Square</title>
         <published>2011-12-22T06:04:00-08:00</published>
         <updated>2011-12-22T06:04:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Rome, Italy. It's a shame there's always construction.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/21/Grand-Tetons</id>
+        <id>http://michaelballphoto.com///photo/2011/12/21/Grand-Tetons</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/21/Grand-Tetons/"/>
+                href="http://michaelballphoto.com///photo/2011/12/21/Grand-Tetons/"/>
         <title>The Grand Tetons</title>
         <published>2011-12-21T06:59:00-08:00</published>
         <updated>2011-12-21T06:59:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;A classic view from Grand Teton National Park, Wyoming.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//blog/2011/12/21/Quad-Solver-Updates</id>
+        <id>http://michaelballphoto.com///blog/2011/12/21/Quad-Solver-Updates</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//blog/2011/12/21/Quad-Solver-Updates/"/>
+                href="http://michaelballphoto.com///blog/2011/12/21/Quad-Solver-Updates/"/>
         <title>Quad Solver Updates!</title>
         <published>2011-12-21T06:57:00-08:00</published>
         <updated>2011-12-21T06:57:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Great news! There's finally an update to &lt;a href=&quot;/ios&quot;&gt;Quad Solver&lt;/a&gt;! Quad Solver 1.5 brings mostly small, but welcome updates:&lt;/p&gt;
 
@@ -1715,30 +1715,30 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/20/Wellington-Waters</id>
+        <id>http://michaelballphoto.com///photo/2011/12/20/Wellington-Waters</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/20/Wellington-Waters/"/>
+                href="http://michaelballphoto.com///photo/2011/12/20/Wellington-Waters/"/>
         <title>Wellington Waters</title>
         <published>2011-12-20T06:54:00-08:00</published>
         <updated>2011-12-20T06:54:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;This was taken in New Zealand on a drive trough Wellington to one of the stops on our debate tournament. It's actually from a moving tour bus, so I'm pretty happy with the result. Except, I just feel like the cars are on the wrong side of the road.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//blog/2011/12/20/Cal-Part-1-of-8</id>
+        <id>http://michaelballphoto.com///blog/2011/12/20/Cal-Part-1-of-8</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//blog/2011/12/20/Cal-Part-1-of-8/"/>
+                href="http://michaelballphoto.com///blog/2011/12/20/Cal-Part-1-of-8/"/>
         <title>Cal&#058; Part 1 of 8</title>
         <published>2011-12-20T06:51:00-08:00</published>
         <updated>2011-12-20T06:51:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7157/6542299475_9a076e59f0_z.jpg&quot; alt=&quot;Berkeley in the Rain&quot; /&gt;&lt;/p&gt;
 
@@ -1764,30 +1764,30 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/19/Ghirardelli-Square</id>
+        <id>http://michaelballphoto.com///photo/2011/12/19/Ghirardelli-Square</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/19/Ghirardelli-Square/"/>
+                href="http://michaelballphoto.com///photo/2011/12/19/Ghirardelli-Square/"/>
         <title>Ghirardelli Square</title>
         <published>2011-12-19T06:49:00-08:00</published>
         <updated>2011-12-19T06:49:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Ghirardelli Square in San Francisco during the holidays. It's too bad the lines are always way too long to get something there.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/18/It-really-does-lean</id>
+        <id>http://michaelballphoto.com///photo/2011/12/18/It-really-does-lean</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/18/It-really-does-lean/"/>
+                href="http://michaelballphoto.com///photo/2011/12/18/It-really-does-lean/"/>
         <title>It really does lean!</title>
         <published>2011-12-18T06:44:00-08:00</published>
         <updated>2011-12-18T06:44:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;If you haven't ever been, it's the most freaky/amazing feeling walking around stairs which aren't parallel!&lt;/p&gt;
 
@@ -1796,30 +1796,30 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/17/Aging</id>
+        <id>http://michaelballphoto.com///photo/2011/12/17/Aging</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/17/Aging/"/>
+                href="http://michaelballphoto.com///photo/2011/12/17/Aging/"/>
         <title>Aging</title>
         <published>2011-12-17T06:38:00-08:00</published>
         <updated>2011-12-17T06:38:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Argenteria Winery in Tuscany, Italy&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/16/In-case-it-falls</id>
+        <id>http://michaelballphoto.com///photo/2011/12/16/In-case-it-falls</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/16/In-case-it-falls/"/>
+                href="http://michaelballphoto.com///photo/2011/12/16/In-case-it-falls/"/>
         <title>...In case it falls</title>
         <published>2011-12-16T06:33:00-08:00</published>
         <updated>2011-12-16T06:33:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Home for the next few years! :)&lt;/p&gt;
 
@@ -1830,60 +1830,60 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/15/Supermoon</id>
+        <id>http://michaelballphoto.com///photo/2011/12/15/Supermoon</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/15/Supermoon/"/>
+                href="http://michaelballphoto.com///photo/2011/12/15/Supermoon/"/>
         <title>The Supermoon!</title>
         <published>2011-12-15T06:28:00-08:00</published>
         <updated>2011-12-15T06:28:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The Supermoon is a full moon when it's at its closest distance to earth. Unfortunately, there was a bit of cloud cover that night so it was hard to get a perfectly clean image, but the clouds also made for other very interesting views.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/14/Florence-from-Duomo</id>
+        <id>http://michaelballphoto.com///photo/2011/12/14/Florence-from-Duomo</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/14/Florence-from-Duomo/"/>
+                href="http://michaelballphoto.com///photo/2011/12/14/Florence-from-Duomo/"/>
         <title>Florence from the Duomo</title>
         <published>2011-12-14T06:24:00-08:00</published>
         <updated>2011-12-14T06:24:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The &lt;em&gt;Duomo&lt;/em&gt; is the Italian word for Cathedral, every large city, and most smaller ones have one. In Florence you can go to the top of the Dome as well at that tower which you can see, though the Dome provides much more interesting views of the city, and from a greater height, the downside is that there isn't an elevator.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/13/Bryce-Canyon</id>
+        <id>http://michaelballphoto.com///photo/2011/12/13/Bryce-Canyon</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/13/Bryce-Canyon/"/>
+                href="http://michaelballphoto.com///photo/2011/12/13/Bryce-Canyon/"/>
         <title>Bryce Canyon</title>
         <published>2011-12-13T06:19:00-08:00</published>
         <updated>2011-12-13T06:19:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Bryce Canyon&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/12/Vatican-Museum-Staircase</id>
+        <id>http://michaelballphoto.com///photo/2011/12/12/Vatican-Museum-Staircase</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/12/Vatican-Museum-Staircase/"/>
+                href="http://michaelballphoto.com///photo/2011/12/12/Vatican-Museum-Staircase/"/>
         <title>The Vatican Museum Staircase</title>
         <published>2011-12-12T06:12:00-08:00</published>
         <updated>2011-12-12T06:12:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;It's just an awesome staircase!&lt;/p&gt;
 
@@ -1892,45 +1892,45 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/11/Rainbow-in-Mist</id>
+        <id>http://michaelballphoto.com///photo/2011/12/11/Rainbow-in-Mist</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/11/Rainbow-in-Mist/"/>
+                href="http://michaelballphoto.com///photo/2011/12/11/Rainbow-in-Mist/"/>
         <title>Rainbow in the Mist</title>
         <published>2011-12-11T06:09:00-08:00</published>
         <updated>2011-12-11T06:09:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Along the Mist Trail in Yosemite on the way up to Nevada Falls in Yosemite National Park.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/11/Martin-Lur-King-Student-Center</id>
+        <id>http://michaelballphoto.com///photo/2011/12/11/Martin-Lur-King-Student-Center</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/11/Martin-Lur-King-Student-Center/"/>
+                href="http://michaelballphoto.com///photo/2011/12/11/Martin-Lur-King-Student-Center/"/>
         <title>Martin Luther King Student Center</title>
         <published>2011-12-11T06:07:00-08:00</published>
         <updated>2011-12-11T06:07:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;It's a pretty quite day down there actually! This was just before classes started.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/08/Warming-Up</id>
+        <id>http://michaelballphoto.com///photo/2011/12/08/Warming-Up</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/08/Warming-Up/"/>
+                href="http://michaelballphoto.com///photo/2011/12/08/Warming-Up/"/>
         <title>Warming Up</title>
         <published>2011-12-08T05:45:00-08:00</published>
         <updated>2011-12-08T05:45:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;In the early morning of Joshua Tree, the light is bright and warm, but not yet deadly.&lt;/p&gt;
 
@@ -1939,15 +1939,15 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/07/Double-Rainbow</id>
+        <id>http://michaelballphoto.com///photo/2011/12/07/Double-Rainbow</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/07/Double-Rainbow/"/>
+                href="http://michaelballphoto.com///photo/2011/12/07/Double-Rainbow/"/>
         <title>Double Rainbow</title>
         <published>2011-12-07T05:30:00-08:00</published>
         <updated>2011-12-07T05:30:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Looking out towards Zion National Park.&lt;/p&gt;
 
@@ -1956,75 +1956,75 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/06/Morning-Fog</id>
+        <id>http://michaelballphoto.com///photo/2011/12/06/Morning-Fog</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/06/Morning-Fog/"/>
+                href="http://michaelballphoto.com///photo/2011/12/06/Morning-Fog/"/>
         <title>Morning Fog</title>
         <published>2011-12-06T05:15:00-08:00</published>
         <updated>2011-12-06T05:15:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;There's a bit of a mist around this Joshua Tree in the wee hours before it's met with unbearable heat.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/12/02/Dark-Side-of-Moon</id>
+        <id>http://michaelballphoto.com///photo/2011/12/02/Dark-Side-of-Moon</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/12/02/Dark-Side-of-Moon/"/>
+                href="http://michaelballphoto.com///photo/2011/12/02/Dark-Side-of-Moon/"/>
         <title>The Dark Side of the Moon</title>
         <published>2011-12-02T05:00:00-08:00</published>
         <updated>2011-12-02T05:00:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The Dark Side of the Moon&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/11/30/Catalina-Sunrise</id>
+        <id>http://michaelballphoto.com///photo/2011/11/30/Catalina-Sunrise</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/11/30/Catalina-Sunrise/"/>
+                href="http://michaelballphoto.com///photo/2011/11/30/Catalina-Sunrise/"/>
         <title>Catalina Sunrise</title>
         <published>2011-11-30T05:57:00-08:00</published>
         <updated>2011-11-30T05:57:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Catalina Sunset&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/11/29/Wet-Day-in-Yellowstone</id>
+        <id>http://michaelballphoto.com///photo/2011/11/29/Wet-Day-in-Yellowstone</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/11/29/Wet-Day-in-Yellowstone/"/>
+                href="http://michaelballphoto.com///photo/2011/11/29/Wet-Day-in-Yellowstone/"/>
         <title>Wet Day in Yellowstone</title>
         <published>2011-11-29T05:52:00-08:00</published>
         <updated>2011-11-29T05:52:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The Grand Canyon of Yellowstone during a somewhat rainy day a few years ago. I wish the rainbow showed up a little bit better in the picture, but it is an amazing view still!&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/11/28/This-is-why-we-do-rallies</id>
+        <id>http://michaelballphoto.com///photo/2011/11/28/This-is-why-we-do-rallies</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/11/28/This-is-why-we-do-rallies/"/>
+                href="http://michaelballphoto.com///photo/2011/11/28/This-is-why-we-do-rallies/"/>
         <title>This is why we do rallies!</title>
         <published>2011-11-28T05:47:00-08:00</published>
         <updated>2011-11-28T05:47:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Let's Go Class of 2014!!&lt;/p&gt;
 
@@ -2033,45 +2033,45 @@
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/11/27/Weared-Ponte-Vecchio</id>
+        <id>http://michaelballphoto.com///photo/2011/11/27/Weared-Ponte-Vecchio</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/11/27/Weared-Ponte-Vecchio/"/>
+                href="http://michaelballphoto.com///photo/2011/11/27/Weared-Ponte-Vecchio/"/>
         <title>The Weathered Ponte Vecchio</title>
         <published>2011-11-27T05:44:00-08:00</published>
         <updated>2011-11-27T05:44:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;My take on a classic icon of Florence.. For all it's age, the colors are still very interesting--even in midday.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//photo/2011/11/27/Cold-Day-in-Wellington</id>
+        <id>http://michaelballphoto.com///photo/2011/11/27/Cold-Day-in-Wellington</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//photo/2011/11/27/Cold-Day-in-Wellington/"/>
+                href="http://michaelballphoto.com///photo/2011/11/27/Cold-Day-in-Wellington/"/>
         <title>Cold Day in Wellington</title>
         <published>2011-11-27T05:44:00-08:00</published>
         <updated>2011-11-27T05:44:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;The Port of Wellington.&lt;br/&gt; Russel McVeagh Debating Tour 2011, New Zealand.&lt;/p&gt;
 </content>
     </entry>
     
     <entry>
-        <id>http://cycomachead.github.com/Website//blog/2011/11/27/Welcome</id>
+        <id>http://michaelballphoto.com///blog/2011/11/27/Welcome</id>
         <link type="text/html" rel="alternate"
-                href="http://cycomachead.github.com/Website//blog/2011/11/27/Welcome/"/>
+                href="http://michaelballphoto.com///blog/2011/11/27/Welcome/"/>
         <title>Welcome!</title>
         <published>2011-11-27T05:19:00-08:00</published>
         <updated>2011-11-27T05:19:00-08:00</updated>
         <author>
             <name>Michael Ball</name>
-            <uri>http://cycomachead.github.com/Website</uri>
+            <uri>http://michaelballphoto.com/</uri>
         </author>
         <content type="html">&lt;p&gt;Well, there is it! I've finally gotten a new site together. Actually, I think it speaks for itself at this point so there isn't too much to say. My previous site was OK, but hosting on my old laptop wasn't the greatest idea for reliability. So, welcome!&lt;/p&gt;
 
