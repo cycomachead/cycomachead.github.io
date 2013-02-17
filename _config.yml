@@ -6,11 +6,13 @@ pygments: true
 lsi: false
 markdown: rdiscount
 
-exclude: [Berkeley Websites, Templates, tools]
+exclude: [Berkeley Websites, Templates, tools, drafts]
 
 permalink: pretty
 paginate: 6
-paginate_files: index.html
+paginate_files:
+ - blog.html
+ - archive.html
 
 tag_page_layout: tag_page
 tag_page_dir: tag

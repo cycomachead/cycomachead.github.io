@@ -7,6 +7,7 @@ if [ -z "$1" ]
 fi
 
 cd ~/Dropbox/Projects/Website
+cp -f "~/Dropbox/Docs and Apps/Resumes/Resume.pdf" .
 jekyll
 git add *
 git commit -a -m "Added new post"
