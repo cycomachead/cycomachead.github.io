@@ -10,10 +10,10 @@ cd ~/Dropbox/Projects/Website
 cp -f "~/Dropbox/Docs and Apps/Resumes/Resume.pdf" .
 jekyll
 git add *
-git commit -a -m "Added new post"
+git commit -am "Added new post"
 git push
-cp -r _site/* ../michaelballphoto.com/
+rsync -avz _site/* ../michaelballphoto.com/
 cd ../michaelballphoto.com
 git add *
-git commit -a -m "$msg"
+git commit -am "$msg"
 git push

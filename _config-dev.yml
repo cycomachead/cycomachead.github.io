@@ -1,14 +1,10 @@
 source: .
-destination: ../michaelballphoto.com/
+destination: ./_site
 url: http://michaelballphoto.com
-safe: true
+safe: false
 pygments: true
 lsi: false
 markdown: redcarpet
-
-excerpt_seperator: "\n\n"
-
-timezone: America/Los_Angeles
 
 exclude: [Berkeley Websites, Templates, tools, TODO.md, README.md]
 

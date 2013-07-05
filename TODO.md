@@ -12,3 +12,10 @@ A List of Things I'd Like to Fix:
 *   Blog page should be paginated.
 * Add Tumblr Add This.
 * Visual Resume
+* Bootstrap 3
+* Responsive
+* Clean up gradients and make more standard
+* static nav bar
+* responsive image sizes
+* built in flickr galleries
+
