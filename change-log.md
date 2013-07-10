@@ -1,5 +1,6 @@
 ---
-layout: change-log
+layout: page
+pageclass: change-log
 title: Change Log
 ---
 
@@ -128,12 +129,17 @@ please send me a note and let me know!
 * Made the photos page super awesome by adding ALL my Flickr sets
 * The jQuery hovers also now link to the flickr sets pages
 
-#### 2.0 12/XX/2012
+#### 2.0 12/31/2012
 * MAJOR Rewrite! Moved to Jekyll and GH pages! :)
 * Changed layout of images on main page (no descriptions)
 * rounded backgrounds on links list
 * Fixed TONS of typos and cleaned up tags across all posts!
-* No date index pages.
+
+#### 2.1 7/15/2013
+* Lots of little fixes
+* Focus on page load optimizations
+* Reduced DOM elements that were unnecessary
+* Cleaner index pages (no tags)
 
 ### Features for the Future: ###
 #### Add more photos to photos page - Eternal item.
@@ -145,9 +151,6 @@ please send me a note and let me know!
 * Other sites?
 * Amazon - Need to improve links
 * B&H Photo
-
-#### Test the site in IE
-* I really hate IE... :(
 
 #### Fix Screenshots alignment on iPhone page
 * Possibly make it a pop out slideshow
@@ -207,6 +210,7 @@ please send me a note and let me know!
 #### Make decision about sharing buttons
 * Facebook, Twitter, +1, Tumblr
 * Added: ver 1.5.3, 4/3/2012, (no Tumblr...)
+* Ditch add this?
 
 #### Clean up all previous tags for tumblr
 * Accomplished with ver 2.0!

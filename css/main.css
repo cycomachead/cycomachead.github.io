@@ -38,7 +38,7 @@ html, body {
     font-size: 98%;
     line-height: 1.4em;
     margin: 0 5%;
-    width: 90%;
+    width: 100%;
     float: center;
     color: #666;
 }
@@ -61,8 +61,7 @@ h3 {
     margin-bottom: .8em;
 }
 
-/* Used for Post Titles */
-h4 {
+h4 { /* Post Titles */
     font-size: 24px;
     font-weight: 300;
     margin-bottom: .4em;
@@ -74,20 +73,22 @@ h4 {
 p { text-indent: 1.4em; }
 
 .nav {
-    position: relative; /*relative to body and main */
+    width: 100%;
+    position: fixed; /*relative to body */
     top: 20px;
     margin: .5em auto;
-    width: 100%;
-    float: center;
     text-align: center;
     font-size: 120%;
+    box-shadow: 0 3px 6px rgba(182, 182, 182, 0.75);
+    z-index: 1000;
 }
 
 .nav table {
     width: auto;
     text-align: center;
     padding: .1em;
-    margin: 0 auto;
+    float: center;
+    margin: 0;
 }
 
 .nav tr td a,
@@ -111,12 +112,14 @@ p { text-indent: 1.4em; }
     padding: .2em;
     margin: 1.5em 0px -3em 0px;
 }
+
 .header img {
     -webkit-box-reflect: none;
     box-shadow: 0;
     border-radius: 0;
     margin: 0;
 }
+
 .middle {
     margin-top: -20px;
     position: relative;

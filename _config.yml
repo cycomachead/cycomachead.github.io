@@ -4,13 +4,13 @@ url: http://michaelballphoto.com
 safe: true
 pygments: true
 lsi: false
-markdown: redcarpet
+markdown: rdiscount
 
-excerpt_seperator: "\n\n"
+excerpt_seperator: "<!--more-->"
 
 timezone: America/Los_Angeles
 
-exclude: [Berkeley Websites, Templates, tools, TODO.md, README.md]
+exclude: [Berkeley Websites, Templates, tools, TODO.md, README.md, LICENSE, CNAME]
 
 permalink: pretty
 paginate: 6
