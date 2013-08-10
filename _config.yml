@@ -1,7 +1,6 @@
 source: .
 destination: ../michaelballphoto.com/
-url: http://michaelballphoto.com
-safe: true
+#url:
 pygments: true
 lsi: false
 markdown: rdiscount
@@ -13,10 +12,10 @@ timezone: America/Los_Angeles
 exclude: [Berkeley Websites, Templates, tools, TODO.md, README.md, LICENSE, CNAME]
 
 permalink: pretty
-paginate: 6
-paginate_files:
- - blog.html
- - archive.html
+#paginate: 6
+#paginate_files:
+# - blog.html
+# - archive.html
 
 tag_page_layout: tag_page
 tag_page_dir: tag

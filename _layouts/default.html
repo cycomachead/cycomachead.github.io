@@ -7,8 +7,7 @@
     <meta http-equiv="content-language" content="en" />
 
     <!-- FIXME -->
-    <link rel="alternate" type="application/rss+xml"
-        href="{{ site.url }}/atom.xml" />
+    <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
     <link rel="apple-touch-icon"
         href="{{ site.url }}/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="72x72"
@@ -29,7 +28,7 @@
     <meta name="title" content="{{ page.title }} | {{ site.title }}">
     {% else %}
     <title>{{ site.title }}</title>
-    <meta name="title" content="{{ page.title }} | {{ site.title }}">
+    <meta name="title" content="{{ site.title }}">
     {% endif %}
 
 
@@ -51,17 +50,15 @@
     </div>
 
     <div class="header">
-        <img src="{{ site.url }}/images/header.jpg"/>
+        <img src="/images/header.jpg"/>
     </div>
 
-    <div class="middle">  <!--just for organization-->
-        <div class="content">
-            {{ content }}
-        </div>
+    <div class="content">
+        {{ content }}
+    </div>
 
-        <div class="side">
-            {% include side.html %}
-        </div>
+    <div class="side">
+        {% include side.html %}
     </div>
 
     <div class="footer">

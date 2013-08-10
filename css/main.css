@@ -32,19 +32,17 @@ img {
          -o-box-shadow: 4px;
 }
 
-html, body {
-    background: white;
+body {
+    background: whitesmoke;
     font-family: 'Helvetica Neue', 'Helvetica','Cantarell', arial, sans-serif;
-    font-size: 98%;
-    line-height: 1.4em;
-    margin: 0 5%;
+    line-height: 1.3em;
     width: 100%;
     float: center;
     color: #666;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cardo', serif;
+h1, h2, h3, h5, h6 {
+    font-family: 'Cardo', 'Times', serif;
     font-weight: 300;
     color: #666;
 }
@@ -57,26 +55,25 @@ h2 {
     margin-bottom: .2em;
 }
 h3 {
-    font-size: 32px;
+    font-size: 32px; /* FIXME */
     margin-bottom: .8em;
 }
 
 h4 { /* Post Titles */
-    font-size: 24px;
+    font-size: 24px; /* FIXME */
     font-weight: 300;
     margin-bottom: .4em;
     text-indent: .6em;
     margin-top: .2em;
-    font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', arial, sans-serif;
+    font-family: 'Helvetica  Neue Light', 'Helvetica  Neue', 'Helvetica','Cantarell', arial, sans-serif;
 }
 
 p { text-indent: 1.4em; }
 
 .nav {
-    width: 100%;
-    position: fixed; /*relative to body */
-    top: 20px;
-    margin: .5em auto;
+    position: fixed;
+    margin-top: .5em;
+    padding: .2em;
     text-align: center;
     font-size: 120%;
     box-shadow: 0 3px 6px rgba(182, 182, 182, 0.75);
@@ -88,12 +85,11 @@ p { text-indent: 1.4em; }
     text-align: center;
     padding: .1em;
     float: center;
-    margin: 0;
+    margin: auto;
 }
 
 .nav tr td a,
 .nav tr td a:visited {
-    width: 100%;
     text-align: center;
     color: #666;
     margin: 0 .5em;
@@ -107,7 +103,7 @@ p { text-indent: 1.4em; }
 .header {
     position: relative;
     width: 100%;
-    float: right;
+    float: center;
     text-align: center;
     padding: .2em;
     margin: 1.5em 0px -3em 0px;
@@ -115,18 +111,20 @@ p { text-indent: 1.4em; }
 
 .header img {
     -webkit-box-reflect: none;
+    width: auto;
     box-shadow: 0;
     border-radius: 0;
     margin: 0;
 }
 
-.middle {
+/*.middle {
     margin-top: -20px;
     position: relative;
     width: 100%;
-}
+}*/
 .content {
-    margin: -20px 2% 0 0;
+    /*margin: -20px 2% 0 0;*/
+    margin-left: 10%;
     width: 73%;
     position: relative;
     float: left;

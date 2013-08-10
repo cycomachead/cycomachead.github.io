@@ -25,9 +25,11 @@ layout: default
     {% for post in page.posts %}
         {% if forloop.index > 1 %}
             <article>
-                <li><h4>
-                    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                </h4></li>
+                <li>
+                 <h4>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                 </h4>
+               </li>
             </article>
         {% endif %}
     {% endfor %}
