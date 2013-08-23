@@ -6,12 +6,12 @@ layout: default
 {% for post in page.articles %}
         <article>
             <h4>
-                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                <a href="{{ post.url }}">{{ post.title }}</a>
             </h4>
             {% if post.category == "photo" %}
                 {% include flickrimage.html %}
             {% else %}
-                {{ page.content | postmorefilter: page.url, "Read More" }}
+                {{ post.excerpt }}
             {% endif %}
             {% include endmatter.html %}
         </article>

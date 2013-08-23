@@ -1,9 +1,10 @@
 source: .
-destination: ../michaelballphoto.com/
-#url:
-pygments: true
-lsi: false
-markdown: rdiscount
+destination: ./_site
+# A blank URL breaks the XML escape tag in sitemap
+url: http://michaelballphoto.com
+#pygments: true
+#lsi: false
+#markdown: rdiscount
 
 excerpt_seperator: "<!--more-->"
 
@@ -11,14 +12,17 @@ timezone: America/Los_Angeles
 
 exclude: [Berkeley Websites, Templates, tools, TODO.md, README.md, LICENSE, CNAME]
 
+#permalink: /:categories/:year/:i_month/:title/
 permalink: pretty
-#paginate: 6
+paginate: 6
+#Roughly, 1 in 5 posts will be a text post?
+paginate_path: "posts/page:num"
 #paginate_files:
 # - blog.html
 # - archive.html
 
-tag_page_layout: tag_page
-tag_page_dir: tag
+#tag_page_layout: tag_page
+#tag_page_dir: tag
 
 title: Michael Ball Photo
 author: Michael Ball

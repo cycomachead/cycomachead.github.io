@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<article class="{{ page.category }}">
+<div class="article {{ page.category }}">
     <h4>
-        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ page.url }}">{{ page.title }}</a>
     </h4>
 
     {{ content }} <!-- Post Body -->
 
     {% include endmatter.html %}
 
-</article>
+</div>
 
 {% include next_prev.html %}
 

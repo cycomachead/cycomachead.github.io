@@ -2,6 +2,8 @@
 layout: page
 pageclass: change-log
 title: Change Log
+permalink: change-log/index.html
+
 ---
 
 ## michaelballphoto.com

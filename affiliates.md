@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Affiliates
+permalink: affiliates/index.html
 ---
 
 I'll spare you the story about being a college kid and what-not, and will instead simply provide a list of stuff which I like and think you may find useful. Yes, I will benefit from these links, but I promise all of it goes back to trying to create more content or… books (some things never change!). If you really do like what I've done, please use one of these links to do something you might already do, or check out something new.

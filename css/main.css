@@ -1,6 +1,6 @@
 /* Fixes for deprecated tags. */
-strong { font-weight: bold; }
-em { font-style: italic; }
+.strong, strong { font-weight: bold; }
+.em, em { font-style: italic; }
 
 a,
 a:visited {
@@ -17,7 +17,7 @@ img {
     /*-webkit-box-reflect: below 2px -webkit-gradient(
         linear, left top, left bottom, from(transparent),
         color-stop(.8, transparent), to(rgba(255,255,255,0.20)));*/
-        -webkit-box-reflect: below 2px -webkit-linear-gradient(top,
+    -webkit-box-reflect: below 2px -webkit-linear-gradient(top,
             transparent, transparent .8, rgba(255,255,255,0.20));
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
@@ -39,6 +39,8 @@ body {
     width: 100%;
     float: center;
     color: #666;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h5, h6 {
@@ -72,8 +74,11 @@ p { text-indent: 1.4em; }
 
 .nav {
     position: fixed;
-    margin-top: .5em;
-    padding: .2em;
+    width: 100%;
+    top: 0;
+    background: whitesmoke;
+    margin: auto;
+    padding: .5em;
     text-align: center;
     font-size: 120%;
     box-shadow: 0 3px 6px rgba(182, 182, 182, 0.75);
@@ -103,36 +108,39 @@ p { text-indent: 1.4em; }
 .header {
     position: relative;
     width: 100%;
-    float: center;
+    top: 1.8em;
     text-align: center;
-    padding: .2em;
-    margin: 1.5em 0px -3em 0px;
+    padding: 0;
+    left: 0;
+    margin-bottom: 1em;
 }
 
 .header img {
     -webkit-box-reflect: none;
-    width: auto;
+    width: 100%;
     box-shadow: 0;
+    padding: 0;
     border-radius: 0;
     margin: 0;
 }
 
-/*.middle {
-    margin-top: -20px;
+.middle {
+    margin: 0 0 2em 0;
+    top: 1em;
     position: relative;
     width: 100%;
-}*/
+}
+
 .content {
-    /*margin: -20px 2% 0 0;*/
-    margin-left: 10%;
-    width: 73%;
+    margin: .5em 0 2em 5%;
+    width: 70%;
     position: relative;
     float: left;
     overflow: none;
 }
 .side {
-    margin: -20px 0 0 2%;
-    width: 23%;
+    margin: .5em 5% 0 0;
+    width: 20%;
     position: relative;
     float: right;
     text-align: center;
@@ -147,8 +155,9 @@ p { text-indent: 1.4em; }
     border-top: 1px dashed #ccc;
     float: left;
 }
+.addthis_toolbox { margin: 0 0 1em 0; }
 
-article {
+.article {
     text-align: left;
     margin: 0 1em  1.4em 0;
     position: relative;
@@ -156,38 +165,41 @@ article {
     float: left;
 }
 
-article h1 {
+.article h1 {
     font-family: 'Cardo', serif;
     margin-bottom: 0px;
 }
 
-article, h2 {
-    border-bottom: 1px dashed #ccc;
+.article, h2 { /* dashed borders, for posts and link headers */
+    border-bottom: 1.5px dashed #CCC;
     border-width: 100%;
 }
 
 /* Stuff in the side column, h3 is for links titles */
-aside {
+.aside {
     text-align: center;
-    margin: 0 0 0 .2em;
     padding: 0;
-    float: center;
+    margin-top: .5em;
+    margin-right: 5%;
+    width: 20%;
+    position: relative;
+    float: right;
 }
 
-aside h2 {
+.aside h2 {
     width: 100%;
     line-height: 100%;
     margin: 0 0 .15em 0;
-    padding-bottom: .15em;
+    padding: 0 0 .15em 0;
     font-size: 1.5em;
     border-bottom: 1.5px dashed #ccc;
     color: #666;
 }
 
-aside h3,
-aside h3 a,
-aside h3 a:visited,
-aside h3 a:hover {
+.aside h3,
+.aside h3 a,
+.aside h3 a:visited,
+.aside h3 a:hover {
     font-family: 'Helvetica Neue', 'Helvetica', 'Cantarell', arial, sans-serif;
     font-weight: 400;
     display: inline-block;
@@ -197,11 +209,11 @@ aside h3 a:hover {
     margin: 1.5px;
     width: 94%;
     border-radius: 5px;
-    background: #ccc;
-    color: white;
+    background: #CCC;
+    color: #FFF;
 }
 
-photo img {
+.photo img {
     -webkit-box-reflect: below 4px -webkit-gradient(
         linear, left top, left bottom, from(transparent),
         color-stop(.8, transparent), to(rgba(255,255,255,0.20)));
@@ -281,58 +293,4 @@ td .right:after {
     font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', arial, sans-serif;;
     text-indent: 1em;
     margin: .2em;
-}
-
-/* Photography page jQuery CSS */
-.setImg {
-    width:215px;
-    height:215px;
-    padding: 0px;
-    border:10px ridge gray;
-    box-shadow: 8px 8px 5px #aaa;
-    border-radius: 10px;
-    margin: 10px 18px;
-    /* required to hide the image after resized */
-    overflow:hidden;
-    /* for child absolute position */
-    position:relative;
-    /* display div in line */
-    float:left;
-}
-.setImg .caption {
-    width: 215px;
-    height: 215px;
-    background: #000;
-    color: white;
-    font-weight :bold;
-    text-align: left;
-    /* fix it at the bottom */
-    position: absolute;
-    /* hide it by default */
-    display: none;
-    /* opacity setting */
-    filter:alpha(opacity=70);  /* IE */
-    -moz-opacity:0.7;
-    -khtml-opacity: 0.7;
-    opacity: 0.7;
-}
-.setImg .caption p {
-    text-indent: 0;
-    padding: 15px;
-    margin: 2px;
-    font-size: 16px;
-}
-.pho2 {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    border-radius: 0;
-    width: 215px;
-    height: 215px;
-}
-.photoslinks {
-    text-align: center;
-    vertical-align: top;
-    line-height: 40px;
-    font-size: 112%;
 }

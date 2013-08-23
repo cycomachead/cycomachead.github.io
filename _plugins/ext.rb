@@ -1,2 +1,2 @@
 require 'jekyll/tagging'
-require 'jekyll/pagination'
+#require 'jekyll/pagination'

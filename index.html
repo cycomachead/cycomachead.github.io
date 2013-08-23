@@ -2,23 +2,16 @@
 layout: default
 title: Welcome
 ---
-<!-- 0 pagination so I can change whether I want the message easily -->
-{% if paginator.page == 0 %}
-    <h1>Welcome!</h1>
-{% endif %}
-
 <!-- This doesn't work for too many text posts in a row.. -->
 {% for post in paginator.posts %}
     {% if post.category == "photo" %}
-        <article>
+        <div class="article">
             <h4>
-                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                <a href="{{ post.url }}">{{ post.title }}</a>
             </h4>
-
             {% include flickrimage.html %}
-
             {% include endmatter.html %}
-        </article>
+        </div>
     {% endif %}
 {% endfor %}
 

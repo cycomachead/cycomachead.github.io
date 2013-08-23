@@ -1,12 +1,13 @@
 ---
 layout: default
 title: About
+permalink: about/index.html
 ---
 
 <div style="postion: relative; float: right">
     <img align="center" alt="Me" height="250" width="250"
         style="border-radius: 14px;"
-        src="{{ site.url }}/images/profile.jpg" />
+        src="images/profile.jpg" />
     <div style="position: relative; float: bottom; align:center;
         padding-left: 30px; width: 240px">
         <a href="https://twitter.com/cycomachead" class="twitter-follow-button"

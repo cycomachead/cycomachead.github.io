@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Contact Me
+permalink: contact/index.html
+
 ---
 
 <br />

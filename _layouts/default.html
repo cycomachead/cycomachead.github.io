@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="content-language" content="en" />
 
     <!-- FIXME -->
     <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
     <link rel="apple-touch-icon"
-        href="{{ site.url }}/images/apple-touch-icon.png" />
+        href="/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="72x72"
-        href="{{ site.url }}/images/apple-touch-icon.png" />
+        href="/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="114x114"
-        href="{{ site.url }}/images/apple-touch-icon.png" />
+        href="/images/apple-touch-icon.png" />
     <!-- Google Search Info link -->
     <link href="https://plus.google.com/109987956810230671866" rel="author" />
     <!--Google Webmaster tools-->
@@ -45,21 +43,23 @@
 </head>
 
 <body>
-    <div class="nav">
+    <nav class="nav">
         {% include nav.html %}
-    </div>
+    </nav>
 
     <div class="header">
-        <img src="/images/header.jpg"/>
+        <img src="/images/header2.png"/>
     </div>
+    
+    <div class="middle">
+        <div class="content">
+            {{ content }}
+        </div>
 
-    <div class="content">
-        {{ content }}
-    </div>
-
-    <div class="side">
-        {% include side.html %}
-    </div>
+        <div class="aside">
+            {% include side.html %}
+        </div>
+    </div> 
 
     <div class="footer">
         {% include footer.html %}
