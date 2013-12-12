@@ -1,5 +1,5 @@
 ---
-layout: photo
+layout: post
 category: blog
 title: A Semester of Tech
 tags: [school, college, cal, classes, computer, macs,]
@@ -14,7 +14,7 @@ Well, my previous Mac had been having a few problems over time and I had multipl
 
 I just want to publicly say Thanks to the guys at the San Francisco Apple store, and especially the market leader, Larry Verter who has been helping me with everything the past couple months. Apple does stand by their products and AppleCare is an excellent value and if you ever have problems, someone will help! It's great that even though it took a little while for everything so get sorted out, it all went better than I expected in the end. :)
 
-<!--more--> 
+<!--more-->
 
 **A Semester of Tech!**
 

@@ -3,7 +3,7 @@ destination: ./_site
 # A blank URL breaks the XML escape tag in sitemap
 url: http://michaelballphoto.com
 #pygments: true
-#lsi: false
+lsi: true
 #markdown: rdiscount
 
 excerpt_seperator: "<!--more-->"
@@ -44,7 +44,7 @@ flickr: cycomachead
 github: cycomachead
 googleplus: 109987956810230671866
 instagram: cycomachead
-linkedin: /pub/michael-ball/43/18a/81/
+linkedin: pub/michael-ball/43/18a/81/
 tumblr: cycomachead
 twitter: cycomachead
 twitterposts: michaelbphotos

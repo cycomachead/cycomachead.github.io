@@ -6,16 +6,15 @@ A List of Things I'd Like to Fix:
 * Need a real archive page
 *   --More visually interesting
 * Lots of testing and checking needed
-* Clean up CSS (Less or Sass)
+* LESS for CSS
 * Better Indexing and Pagination.
 *   Page jumps? Category pages?
 *   Blog page should be paginated.
-* Add Tumblr Add This.
+* Add Tumblr to Add This.
 * Visual Resume
-* Bootstrap 3
 * Responsive
+    need to figure this out on photos page
 * Clean up gradients and make more standard
-* static nav bar
 * responsive image sizes
 * built in flickr galleries
 

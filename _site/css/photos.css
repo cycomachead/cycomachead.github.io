@@ -1,0 +1,53 @@
+/* Photography page jQuery CSS */
+.setImg {
+    width:215px;
+    height:215px;
+    padding: 0px;
+    border:10px ridge gray;
+    box-shadow: 8px 8px 5px #aaa;
+    border-radius: 10px;
+    margin: 10px 18px;
+    /* required to hide the image after resized */
+    overflow:hidden;
+    /* for child absolute position */
+    position:relative;
+    /* display div in line */
+    float:left;
+}
+.setImg .caption {
+    width: 215px;
+    height: 215px;
+    background: #000;
+    color: white;
+    font-weight :bold;
+    text-align: left;
+    /* fix it at the bottom */
+    position: absolute;
+    /* hide it by default */
+    display: none;
+    /* opacity setting */
+    filter:alpha(opacity=70);  /* IE */
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+.setImg .caption p {
+    text-indent: 0;
+    padding: 15px;
+    margin: 2px;
+    font-size: 16px;
+}
+.pho2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    width: 215px;
+    height: 215px;
+}
+.photoslinks {
+    text-align: center;
+    vertical-align: top;
+    line-height: 40px;
+    font-size: 112%;
+}
