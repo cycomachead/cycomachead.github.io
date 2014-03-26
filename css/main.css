@@ -1,6 +1,5 @@
-/* Fixes for deprecated tags. */
-.strong, strong { font-weight: bold; }
-.em, em { font-style: italic; }
+.strong { font-weight: bold; }
+.em { font-style: italic; }
 
 a,
 a:visited {
