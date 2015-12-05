@@ -1,7 +1,7 @@
 source: .
 destination: ./_site
 # A blank URL breaks the XML escape tag in sitemap
-url: http://michaelballphoto.com
+url: http://www.michaelballphoto.com
 #pygments: true
 lsi: true
 #markdown: rdiscount
