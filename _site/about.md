@@ -4,7 +4,7 @@ title: About
 permalink: about/index.html
 ---
 
-<div style="postion: relative; float: right">
+<div style="position: relative; float: right">
     <img align="center" alt="Me" height="250" width="250"
         style="border-radius: 14px;"
         src="/images/profile.jpg" />
