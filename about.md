@@ -1,4 +1,4 @@
- ---
+---
 layout: default
 title: About
 permalink: about/index.html
@@ -17,7 +17,8 @@ permalink: about/index.html
     </div>
 </div>
 
-#[Welcome to My Very Out of Date Site...](/about)
+
+# [Welcome to My Very Out of Date Site...](/about)
 
 Hello, my name is Michael Ball! I'm a currently a Lecturer in the UC Berkeley Computer Science Department, and a Software Engineer at Gradescope!
 
@@ -30,8 +31,10 @@ I was also fortunate to join Gradescope shortly after graduating. Gradescope is 
 -Michael
 
 <blockquote>
-    <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a>
-    <br />This <span>work</span> by <a href="http://michaelballphoto.com" rel="cc:attributionURL">Michael Ball</a>&nbsp;is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.</a>
-    <br />Based on work at <a href="http://michaelballphoto.com" rel="dct:source">michaelballphoto.com.</a>
-    <br />Permissions beyond the scope of this license may be available at <a href="http://michaelballphoto.com" rel="cc:morePermissions">http://michaelballphoto.com/about</a>.
+    <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license">
+     <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" />
+    </a>
+    <br />This <span>work</span> by <a href="{{ site.url }}" rel="cc:attributionURL">Michael Ball</a>&nbsp;is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.</a>
+    <br />Based on work at <a href="{{ site.url }}" rel="dct:source">{{ site.url }}</a>
+    <br />Permissions beyond the scope of this license may be available at <a href="{{ site.url }}" rel="cc:morePermissions">{{ site.url }}</a>.
 </blockquote>
