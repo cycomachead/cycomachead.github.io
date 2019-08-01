@@ -5,7 +5,7 @@ permalink: about/index.html
 ---
 
 <div style="position: relative; float: right">
-    <img align="center" alt="Me" height="250" width="250"
+    <img align="center" alt="Michael Ball staff photo" height="375" width="250"
         style="border-radius: 14px;"
         src="/images/MichaelBallTake3.jpg" />
     <div style="position: relative; float: bottom; align:center;
