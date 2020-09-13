@@ -1,57 +1,67 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+const Webpack = require('webpack');
 
 module.exports = {
   entry: {
-    app: './_src/index.js',
+    app: './_src/js/app.js',
   },
   plugins: [
-    new FaviconsWebpackPlugin({
-      logo: './icon.png',
+    // new FaviconsWebpackPlugin({
+    //   logo: './icon.png',
+    // }),
+    new MiniCssExtractPlugin(), // '[name].css'
+    new CopyWebpackPlugin([
+      { from: path.resolve('_images'), to: 'images/', },
+      { from: '_src/fonts', to: 'fonts' },
+      { from: '_src/img', to: 'img' }
+    ]),
+    // jQuery and PopperJS
+    new Webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      jquery: "jquery",
+      "window.jQuery": "jquery",
+      "window.$": "jquery",
+      Popper: ['popper.js', 'default']
     }),
-    new HtmlWebpackPlugin({
-      template: './_src/template/default.html',
-      filename: '../_layouts/default.html',
-    }),
-    new ExtractTextPlugin('[name].css'),
-    new CopyWebpackPlugin([{
-      from: path.resolve('_images'),
-      to: 'images/',
-    }]),
   ],
   module: {
-    rules: [
+      rules: [
       {
         test: /\.js$/,
-        exclude: /(node_modules|bower_components)/,
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env'],
+            presets: ['@babel/preset-env'],
           },
         },
       },
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader',
+        options: {
+          emitWarning: true,
+        }
+      },
+      {
         test: /\.(css|scss)$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
+        use: [
+            { loader: MiniCssExtractPlugin.loader, options: { publicPath: 'assets/css/' } },
             { loader: 'css-loader', options: { importLoaders: 1 } },
             {
               loader: 'postcss-loader',
               options: {
-                config: {
-                  path: 'config/postcss.config.js',
-                },
+                postcssOptions: { config: true }
               },
             },
             { loader: 'sass-loader' },
-          ],
-        }),
+        ],
       },
       {
         test: /\.(png|svg|jpg|gif)$/,

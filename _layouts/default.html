@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="content-language" content="en" />
@@ -12,8 +12,8 @@
         href="{{ site.url }}/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="114x114"
         href="{{ site.url }}/images/apple-touch-icon.png" />
-    <!-- Google Search Info link -->
-    <link href="https://plus.google.com/109987956810230671866" rel="author" />
+
+    <!-- TODO: CONFIG. -->
     <!--Google Webmaster tools-->
     <meta name="google-site-verification"
         content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk" />
@@ -39,13 +39,11 @@
         content="{% for key in site.keywords %} {{ key }}, {% endfor %}" />
     {% endif %}
 
-    {% include css.html %}
+    {% include bootstrap-css.html %}
 </head>
 
 <body>
-    <nav class="nav">
-        {% include nav.html %}
-    </nav>
+    {% include bootstrap-nav.html %}
 
     <div class="header">
         <img src="/images/header2.png"/>

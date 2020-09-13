@@ -1,12 +1,12 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const Merge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const CommonConfig = require('./webpack.common.js');
 const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
 
-module.exports = Merge(CommonConfig, {
+module.exports = merge(CommonConfig, {
   output: {
     filename: '[name]-[hash].bundle.js',
     path: path.resolve('assets'),

@@ -1,10 +1,10 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const Merge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const ProdConfig = require('./webpack.prod.js');
 const path = require('path');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 
-module.exports = Merge(ProdConfig, {
+module.exports = merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
       name: 'Super-website',

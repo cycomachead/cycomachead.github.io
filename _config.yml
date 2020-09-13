@@ -20,7 +20,7 @@ keywords: [Michael Ball, college, Cal,
 
 flickr:
     enabled: false
-# Social Links
+# Social Linksd
 social:
     flickr: cycomachead
     github: cycomachead
@@ -49,7 +49,10 @@ exclude:
     - _images
     - package.json
     - package-lock.json
-    - config
+    - config # webpack template
+    - dist # milo
+    - docs # milo
+    - '*.config.js'
 
 #permalink: /:categories/:year/:i_month/:title/
 permalink: pretty
