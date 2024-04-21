@@ -4,8 +4,6 @@ url: https://mball.co
 baseurl: ""
 
 title: Michael Ball
-# author: Michael Ball
-version: 2.0
 copy-start: 2011
 copy-end: 2024
 description:
@@ -29,7 +27,7 @@ keywords:
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Michael Ball"
+  name             : Michael Ball
   pronouns         : he/him
   bio              : "Short biography for the left-hand sidebar"
   location         : "San Francisco"
