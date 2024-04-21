@@ -1,53 +1,126 @@
 source: .
 destination: ./_site
-# A blank URL breaks the XML escape tag in sitemap
-url: https://michaelball.co
-#pygments: true
-lsi: true
-#markdown: rdiscount
+url: https://mball.co
+baseurl: ""
 
-excerpt_seperator: "<!--more-->"
-
-timezone: America/Los_Angeles
-
-exclude: [Berkeley Websites, Templates, tools, TODO.md, README.md, LICENSE, CNAME]
-
-#permalink: /:categories/:year/:i_month/:title/
-permalink: pretty
-paginate: 6
-#Roughly, 1 in 5 posts will be a text post?
-paginate_path: "posts/page:num"
-#paginate_files:
-# - blog.html
-# - archive.html
-
-#tag_page_layout: tag_page
-#tag_page_dir: tag
-
-title: Michael Ball Photo
-author: Michael Ball
+title: Michael Ball
+# author: Michael Ball
 version: 2.0
 copy-start: 2011
-copy-end: 2019
-# FIXME
-description: A (mostly) daily photo blog with a bit about Apple, Macs, college life, UC Berkeley, and anything I feel like sharing.
+copy-end: 2024
+description:
 
-keywords: [iPhone, apps, photography, Quad Solver, Michael Ball, college, Cal,
-    Berkeley, computer science, programming, cycomachead, photo, apple, iOS,
-    macs]
+keywords:
+  - photography
+  - Michael Ball
+  - UC Berkeley
+  - cycomachead
+  - cs education
+  - computer science
+  - programming
+  - travel
+  - academia
 
 
-# aboutme: michaelball
-# appstore: michaelball
-# facebook: quadsolver
+# TODO: This comes from Academic Pages, update all settings+template
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "Michael Ball"
+  pronouns         : he/him
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "San Francisco"
+  employer         : "UC Berkeley"
+  uri              : https://mball.co
+  email            : ball@berkeley.edu
+
+  # Academic websites
+  # TODO -- pages to add to template:
+  # dblp
+  # ucberkeley
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  # impactstory      : # URL
+  orcid            : "http://orcid.org/yourorcidurl"
+  # researchgate     : # URL
+
+  github           : "cycomachead"
+  flickr           : # Username
+  keybase          : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  twitter          : # Username for X / Twitter
+  youtube          : # Username
+
+
+# TODO: This legacy section needs to be removed...
 flickr: cycomachead
 github: cycomachead
-# googleplus: 109987956810230671866
 instagram: cycomachead
 linkedin: pub/michael-ball/43/18a/81/
-# tumblr: cycomachead
-twitter: cycomachead
-# twitterposts: michaelbphotos
-# youtube: cycomachead
+twitter: _mball_
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
+# Outputting
+permalink: /:categories/:title/
+paginate: 6
+paginate_path: "posts/page:num"
+timezone: America/Los_Angeles
+
+include:
+  - .htaccess
+  - _pages
+  - files
+  - assets
+  - images
+exclude:
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+encoding: "utf-8"
+
+
+# Conversion
+markdown: CommonMark
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
