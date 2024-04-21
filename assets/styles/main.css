@@ -13,9 +13,6 @@ a:hover {
 }
 
 img {
-    /*-webkit-box-reflect: below 2px -webkit-gradient(
-        linear, left top, left bottom, from(transparent),
-        color-stop(.8, transparent), to(rgba(255,255,255,0.20)));*/
     -webkit-box-reflect: below 2px -webkit-linear-gradient(top,
             transparent, transparent .8, rgba(255,255,255,0.20));
     -webkit-border-radius: 6px;
@@ -33,9 +30,9 @@ img {
 
 body {
     background: white;
-    font-family: 'Helvetica Neue', 'Helvetica','Cantarell', arial, sans-serif;
+    font-family: 'freight-sans-pro', 'Helvetica', sans-serif;
     line-height: 125%;
-    width: 100%
+    width: 100%;
     float: center;
     color: #666;
     margin: 0;
@@ -43,10 +40,11 @@ body {
 }
 
 h1, h2, h3, h5, h6 {
-    font-family: 'Cardo', 'Times', serif;
-    font-weight: 300;
-    color: #666;
+  font-family: 'freight-text-pro', 'Times', serif;
+  font-weight: 400;
+  color: #666;
 }
+
 h1 {
     font-size: 1.7em;
     margin-bottom: .2em;
@@ -66,7 +64,7 @@ h4 { /* Post Titles */
     margin-bottom: .4em;
     text-indent: .6em;
     margin-top: .2em;
-    font-family: 'Helvetica  Neue Light', 'Helvetica  Neue', 'Helvetica','Cantarell', arial, sans-serif;
+    font-family: 'freight-text-pro', 'Baskerville', serif;
 }
 
 p { text-indent: 1.4em; }
@@ -165,7 +163,7 @@ p { text-indent: 1.4em; }
 }
 
 .article h1 {
-    font-family: 'Cardo', serif;
+    font-family: 'freight-text-pro', 'Baskerville', serif;
     margin-bottom: 0px;
 }
 
@@ -199,8 +197,7 @@ p { text-indent: 1.4em; }
 .aside h3 a,
 .aside h3 a:visited,
 .aside h3 a:hover {
-    font-family: 'Helvetica Neue', 'Helvetica', 'Cantarell', arial, sans-serif;
-    font-weight: 400;
+    font-family: 'Freight Sans', 'Helvetica', sans-serif;
     display: inline-block;
     font-size: 1em;
     letter-spacing: 2px;
@@ -280,16 +277,4 @@ td .right:after {
     font-size: 170%;
     line-height: 50%;
     vertical-align: -.15em;
-}
-
-.change-log h4 {
-    font-size: 1.1em;
-    font-weight: 200;
-    margin: .1em;
-    font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', arial, sans-serif;
-}
-.change-log ul {
-    font-family: 'Helvetica  Neue', 'Helvetica','Cantarell', arial, sans-serif;
-    text-indent: 1em;
-    margin: .2em;
 }
