@@ -6,13 +6,15 @@
 
     <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
     <link rel="apple-touch-icon"
-        href="{{ site.url }}/images/apple-touch-icon.png" />
+        href="{{ site.url }}/assets/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="72x72"
-        href="{{ site.url }}/images/apple-touch-icon.png" />
+        href="{{ site.url }}/assets/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="114x114"
-        href="{{ site.url }}/images/apple-touch-icon.png" />
+        href="{{ site.url }}/assets/images/apple-touch-icon.png" />
 
-        <!--Google Webmaster tools-->
+    {% include css.html %}
+
+    <!--Google Webmaster tools-->
     <meta name="google-site-verification"
         content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk" />
 
@@ -36,8 +38,6 @@
     <meta name="keywords"
         content="{% for key in site.keywords %} {{ key }}, {% endfor %}" />
     {% endif %}
-
-    {% include css.html %}
 </head>
 
 <body>
@@ -46,7 +46,7 @@
     </nav>
 
     <div class="header">
-        <img src="/images/header2.png" alt="Michael Ball, header image of the Golden Gate Bridge from the campanile" />
+        <img src="/assets/images/header2.png" alt="Michael Ball, header image of the Golden Gate Bridge from the campanile" />
     </div>
 
     <div class="middle">
