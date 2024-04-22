@@ -1,7 +1,7 @@
 ---
-layout: default
-title: About
-permalink: /about/
+layout: milo-default
+title: Milo About
+permalink: /milo-about/
 ---
 
 <div style="position: relative; float: right">

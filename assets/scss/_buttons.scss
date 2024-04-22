@@ -1,0 +1,24 @@
+.btn {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-sm {
+  font-size: 75%;
+}
+
+.btn-success {
+  @include button-variant($success, $success, $white);
+}
+
+.btn-warning {
+  @include button-variant($warning, $warning, $white);
+}
+
+.btn-outline-success {
+  @include button-outline-variant($success, $white);
+}
+
+.btn-outline-warning {
+  @include button-outline-variant($warning, $white);
+}
