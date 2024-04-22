@@ -2,6 +2,7 @@ source: .
 destination: ./_site
 url: https://mball.co
 baseurl: ""
+repository: cycomachead/cycomachead.github.io
 
 title: Michael Ball
 copy-start: 2011
@@ -26,18 +27,16 @@ keywords:
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "profile.png"
+  avatar: /assets/images/profile.jpg
   name: Michael Ball
-  pronouns: he/him
-  bio: "Short biography for the left-hand sidebar"
+  bio: Lectuer at UC Berkeley, Software Engineer, Snap! and BJC developer, Photographer and Travel Agent
   location: "San Francisco"
   employer: "UC Berkeley"
-  uri: https://mball.co
+  uri: https://www2.eecs.berkeley.edu/Faculty/Homepages/mball.html
   email: ball@berkeley.edu
 
   # Academic websites
   dblp: https://dblp.org/pid/175/6457.html
-  ucberkeley:
   googlescholar: https://scholar.google.com/citations?hl=en&user=UBJ4SvIAAAAJ
   orcid: https://orcid.org/0000-0002-7036-3902
   # researchgate: # URL
@@ -47,11 +46,14 @@ author:
   flickr: cycomachead
   instagram: cycomachead
   keybase: # Username
-  linkedin: https://linkedin.com/pub/michael-ball/43/18a/81/
-  mastodon: # URL
+  linkedin: /pub/michael-ball/43/18a/81/
+  mastodon: https://hci.social/deck/@_mball_
   twitter: _mball_
   youtube: # Username
 
+collections:
+  pages:
+    output: true
 
 # TODO: This legacy section needs to be removed...
 flickr: cycomachead
@@ -59,6 +61,19 @@ github: cycomachead
 instagram: cycomachead
 linkedin: pub/michael-ball/43/18a/81/
 twitter: _mball_
+
+navbar:
+  title: Michael Ball
+  pre_title:
+    - title: Photography
+      url: /photos
+  post_title:
+    - title: About
+      url: /about
+    - title: CV
+      url: /cv
+  options:
+    search: false
 
 # Sass/SCSS
 sass:
@@ -97,8 +112,7 @@ exclude:
 encoding: "utf-8"
 
 
-# Conversion
-markdown: CommonMark
+markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"

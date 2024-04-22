@@ -6,3 +6,12 @@
     margin-right: .5rem;
   }
 }
+
+header {
+  .navbar a {
+    &,
+    &:visited {
+      color: #000;
+    }
+  }
+}

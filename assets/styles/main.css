@@ -40,7 +40,7 @@ body {
 }
 
 h1, h2, h3, h5, h6 {
-  font-family: 'freight-text-pro', 'Times', serif;
+  font-family: 'freight-micro-pro', 'Times', serif;
   font-weight: 400;
   color: #666;
 }
@@ -64,7 +64,7 @@ h4 { /* Post Titles */
     margin-bottom: .4em;
     text-indent: .6em;
     margin-top: .2em;
-    font-family: 'freight-text-pro', 'Baskerville', serif;
+    font-family: 'freight-micro-pro', 'Baskerville', serif;
 }
 
 p { text-indent: 1.4em; }
@@ -163,7 +163,7 @@ p { text-indent: 1.4em; }
 }
 
 .article h1 {
-    font-family: 'freight-text-pro', 'Baskerville', serif;
+    font-family: 'freight-micro-pro', 'Baskerville', serif;
     margin-bottom: 0px;
 }
 

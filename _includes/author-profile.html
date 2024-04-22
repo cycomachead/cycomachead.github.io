@@ -1,0 +1,90 @@
+<!-- This page largely comes from https://github.com/academicpages/academicpages.github.io/blob/master/_includes/sidebar.html -->
+{% assign base_path = site.url | append: site.baseurl %}
+
+{% assign author = site.author %}
+
+<div itemscope itemtype="http://schema.org/Person">
+  <div class="card m-1">
+    <div class="card-body">
+      <h3 class="card-title m-0">
+        <img src="{{ author.avatar }}" class="author__avatar rounded-circle m-0" alt="{{ author.name }}">
+        {{ author.name }}
+      </h3>
+      {% if author.bio %}
+      <div class="card-text">
+          {{ author.bio }}
+          <br>
+          <ul class="pt-1">
+            {% if author.location %}
+            <li><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+            {% endif %}
+            {% if author.employer %}
+              <li><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+            {% endif %}
+            {% if author.uri %}
+              <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Faculty Page</a></li>
+            {% endif %}
+            {% if author.email %}
+              <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+            {% endif %}
+          </ul>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="card m-1">
+    <div class="card-body">
+      <!-- <button class="btn btn--inverse">Follow</button> -->
+      <h3 class="card-title">Social</h3>
+      <div class="card-text">
+        <ul class="social-icons">
+          <!-- Font Awesome and Academicons icons / Academic websites -->
+          {% if author.dblp %}
+            <li><a href="{{ author.dblp }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>DBLP</a></li>
+          {% endif %}
+          {% if author.googlescholar %}
+            <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+          {% endif %}
+          {% if author.impactstory %}
+            <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right"></i>Impactstory</a></li>
+          {% endif %}
+          {% if author.orcid %}
+            <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+          {% endif %}
+
+          <!-- Font Awesome icons / Repositories and software development -->
+          {% if author.github %}
+            <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+          {% endif %}
+
+          <!-- Font Awesome icons / Social media -->
+          {% if author.flickr %}
+            <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr icon-pad-right" aria-hidden="true"></i>Flickr</a></li>
+          {% endif %}
+          {% if author.foursquare %}
+            <li><a href="https://foursquare.com/{{ author.foursquare }}"><i class="fab fa-fw fa-foursquare icon-pad-right" aria-hidden="true"></i>Foursquare</a></li>
+          {% endif %}
+          {% if author.goodreads %}
+            <li><a href="https://www.goodreads.com/{{ author.goodreads }}"><i class="fab fa-fw fa-goodreads icon-pad-right" aria-hidden="true"></i>Goodreads</a></li>
+          {% endif %}
+          {% if author.keybase %}
+            <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key icon-pad-right" aria-hidden="true"></i>Keybase</a></li>
+          {% endif %}
+          {% if author.instagram %}
+            <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram icon-pad-right" aria-hidden="true"></i>Instagram</a></li>
+          {% endif %}
+          {% if author.linkedin %}
+            <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+          {% endif %}
+          {% if author.mastodon %}
+            <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
+          {% endif %}
+          {% if author.twitter %}
+            <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-x-twitter icon-pad-right" aria-hidden="true"></i>Twitter</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

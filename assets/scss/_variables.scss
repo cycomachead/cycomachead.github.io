@@ -24,7 +24,7 @@ $dark:    darken($gray-900, 12.5%);
 $light:   lighten($gray-200, 3%);
 
 // Constrast
-$min-contrast-ratio: 3.5;
+$min-contrast-ratio: 4.5;
 
 // Spacing
 $spacer: 1rem;
@@ -39,7 +39,7 @@ $headings-font-family:   $font-family-serif;
 $headings-font-weight:   600;
 
 // Font sizes
-$font-size-base: .875rem;
+$font-size-base: 1rem;
 
 // Grid
 $grid-gutter-width: 20px;
