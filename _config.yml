@@ -2,6 +2,7 @@ source: .
 destination: ./_site
 url: https://mball.co
 baseurl: ""
+repository: cycomachead/cycomachead.github.io
 
 title: Michael Ball
 copy-start: 2011
