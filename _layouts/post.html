@@ -3,15 +3,15 @@ layout: milo-default
 author_profile: true
 ---
 
-<div class="article {{ page.category }}">
-    <h4>
+<article class="article {{ page.category }}">
+    <h2>
         <a href="{{ page.url }}">{{ page.title }}</a>
-    </h4>
+    </h2>
 
     {{ content }} <!-- Post Body -->
 
     {% include endmatter.html %}
 
-</div>
+</article>
 
 {% include next_prev.html %}

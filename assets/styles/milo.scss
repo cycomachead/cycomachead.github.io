@@ -1,5 +1,4 @@
 ---
-# Front-matter so this file is compiled...
 ---
 
 // Fonts
@@ -10,6 +9,9 @@
 
 // Font Awesome
 @import "@fortawesome/fontawesome-free/scss/fontawesome";
+// TODO: Import only specific icons as needed...
+@import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/brands";
 
 // Bootstrap
 // @import '~/bootstrap/scss/functions';
@@ -17,13 +19,16 @@
 // @import '~/bootstrap/scss/mixins';
 @import "bootstrap/scss/bootstrap";
 
+// old-main
+@import "main";
+
 // Theme components
 @import "forms";
 @import "buttons";
 @import "nav";
 @import "navbar";
 @import "card";
-@import "main";
+@import "milo-main";
 @import "intro";
 @import "footer";
 @import "instagram";
@@ -31,5 +36,7 @@
 @import "newsletter";
 @import "vimeo";
 @import "preview";
+
+@import "academic-icons";
 
 @import "academic-pages/sidebar";

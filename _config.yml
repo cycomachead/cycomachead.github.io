@@ -30,9 +30,9 @@ author:
   avatar: /assets/images/profile.jpg
   name: Michael Ball
   bio: Lectuer at UC Berkeley, Software Engineer, Snap! and BJC developer, Photographer and Travel Agent
-  location: "San Francisco"
-  employer: "UC Berkeley"
-  uri: https://www2.eecs.berkeley.edu/Faculty/Homepages/mball.html
+  location: San Francisco
+  employer: UC Berkeley, Data Science & EECS
+  uri: https://www.eecs.berkeley.edu/Faculty/Homepages/mball.html
   email: ball@berkeley.edu
 
   # Academic websites
@@ -55,13 +55,12 @@ collections:
   pages:
     output: true
 
-# TODO: This legacy section needs to be removed...
-flickr: cycomachead
-github: cycomachead
-instagram: cycomachead
-linkedin: pub/michael-ball/43/18a/81/
-twitter: _mball_
 
+copy_to_dest:
+  - source: node_modules/@fortawesome/fontawesome-free/webfonts/.
+    target: assets/webfonts/
+  # - source: node_modules/flag-icon-css/flags/.
+  #   target: assets/flags/
 navbar:
   title: Michael Ball
   pre_title:
