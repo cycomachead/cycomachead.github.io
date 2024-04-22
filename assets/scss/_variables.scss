@@ -24,19 +24,19 @@ $dark:    darken($gray-900, 12.5%);
 $light:   lighten($gray-200, 3%);
 
 // Constrast
-$min-contrast-ratio: 3;
+$min-contrast-ratio: 3.5;
 
 // Spacing
 $spacer: 1rem;
 
 // Fonts
-$font-family-sans-serif: 'PT Sans Caption', sans-serif;
-$font-family-serif:      'PT Serif', serif;
+$font-family-sans-serif: 'freight-sans-pro', 'Helvetica', sans-serif;
+$font-family-serif:      'freight-micro-pro', serif;
 $font-family-base:       $font-family-sans-serif;
 
 // Headings
 $headings-font-family:   $font-family-serif;
-$headings-font-weight:   700;
+$headings-font-weight:   600;
 
 // Font sizes
 $font-size-base: .875rem;

@@ -64,6 +64,10 @@ twitter: _mball_
 sass:
   sass_dir: assets/scss/
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  load_paths:
+    - node_modules/
+  verbose: true
+
 
 
 # Outputting
