@@ -26,31 +26,31 @@ keywords:
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : Michael Ball
-  pronouns         : he/him
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "San Francisco"
-  employer         : "UC Berkeley"
-  uri              : https://mball.co
-  email            : ball@berkeley.edu
+  avatar: "profile.png"
+  name: Michael Ball
+  pronouns: he/him
+  bio: "Short biography for the left-hand sidebar"
+  location: "San Francisco"
+  employer: "UC Berkeley"
+  uri: https://mball.co
+  email: ball@berkeley.edu
 
   # Academic websites
-  # TODO -- pages to add to template:
-  # dblp
-  # ucberkeley
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  # impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  # researchgate     : # URL
+  dblp: https://dblp.org/pid/175/6457.html
+  ucberkeley:
+  googlescholar: https://scholar.google.com/citations?hl=en&user=UBJ4SvIAAAAJ
+  orcid: https://orcid.org/0000-0002-7036-3902
+  # researchgate: # URL
+  # impactstory: # URL
 
-  github           : "cycomachead"
-  flickr           : # Username
-  keybase          : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  twitter          : # Username for X / Twitter
-  youtube          : # Username
+  github: cycomachead
+  flickr: cycomachead
+  instagram: cycomachead
+  keybase: # Username
+  linkedin: https://linkedin.com/pub/michael-ball/43/18a/81/
+  mastodon: # URL
+  twitter: _mball_
+  youtube: # Username
 
 
 # TODO: This legacy section needs to be removed...
@@ -62,7 +62,7 @@ twitter: _mball_
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
+  sass_dir: assets/_sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
@@ -74,25 +74,18 @@ timezone: America/Los_Angeles
 
 include:
   - .htaccess
-  - _pages
   - files
   - assets
-  - images
 exclude:
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
-  - Capfile
   - Gemfile
-  - Gruntfile.js
   - LICENSE
   - README
   - Rakefile
-  - config
-  - gulpfile.js
-  - log
   - node_modules
   - package.json
   - tmp
