@@ -8,6 +8,7 @@ title: Michael Ball
 copy-start: 2011
 copy-end: 2024
 description:
+  > Michael Ball is a lecturer in EECS and Data Science at UC Berkeley.
 
 keywords:
   - photography
@@ -34,14 +35,10 @@ author:
   employer: UC Berkeley, Data Science & EECS
   uri: https://www.eecs.berkeley.edu/Faculty/Homepages/mball.html
   email: ball@berkeley.edu
-
   # Academic websites
   dblp: https://dblp.org/pid/175/6457.html
   googlescholar: https://scholar.google.com/citations?hl=en&user=UBJ4SvIAAAAJ
   orcid: https://orcid.org/0000-0002-7036-3902
-  # researchgate: # URL
-  # impactstory: # URL
-
   github: cycomachead
   flickr: cycomachead
   instagram: cycomachead
@@ -121,14 +118,11 @@ incremental: false
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
 
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jemoji
