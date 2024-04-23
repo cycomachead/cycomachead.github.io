@@ -11,6 +11,7 @@ source "https://rubygems.org"
 ruby file: '.tool-versions'
 
 gem "jekyll", "~> 4"
+gem "csv"
 
 group :jekyll_plugins do
   gem 'jekyll-commonmark'
