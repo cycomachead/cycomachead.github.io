@@ -1,24 +1,25 @@
 ---
-layout: default
+layout: milo-default
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 <div style="position: relative; float: right">
     <img align="center" alt="Michael Ball staff photo" height="375" width="250"
         style="border-radius: 14px;"
         src="/assets/images/MichaelBallTake3.jpg" />
-    <div style="position: relative; float: bottom; align:center;
+    <!-- <div style="position: relative; float: bottom; align:center;
         padding-left: 30px; width: 240px">
-        <a href="https://twitter.com/cycomachead" class="twitter-follow-button"
-         data-show-count="true">Follow @cycomachead</a>
+        <a href="https://twitter.com/_mball_" class="twitter-follow-button"
+         data-show-count="true">Follow @_mball_</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
         </script>
-    </div>
+    </div> -->
 </div>
 
 
-# [Welcome to My Very Out of Date Site...](/about)
+# Welcome!
 
 Hello, my name is Michael Ball! I'm a currently a Lecturer in the UC Berkeley Computer Science Department, and a Software Engineer at Gradescope!
 
@@ -28,7 +29,7 @@ During my undergraduate and masters work, I spent most of my time working on "Th
 
 I was also fortunate to join Gradescope shortly after graduating. Gradescope is a feedback and assessment platform which makes it easy to give detailed feedback, and provides incredibly powerful workflows for teaching large courses. I used the prototypes as a student and TA before it was even a company! Gradescope was acquired by Turnitin where we've had the ability to work with many talented engineers and educators.
 
--Michael
+—Michael
 
 <blockquote>
     <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license">

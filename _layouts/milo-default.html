@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Google Webmaster tools-->
+  <meta name="google-site-verification"
+      content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk" />
+
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="description" content="{{ site.description }}" />
+
+  {% if page.title %}
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="title" content="{{ page.title }} | {{ site.title }}">
+  {% else %}
+  <title>{{ site.title }}</title>
+  <meta name="title" content="{{ site.title }}">
+  {% endif %}
+
+
+  {% if page.tags %}
+  <meta name="keywords"
+  content="{% for tag in page.tags %} {{ tag }}, {% endfor %}
+      {% for key in site.keywords %} {{ key }}, {% endfor %}" />
+  {% else %}
+  <meta name="keywords"
+      content="{% for key in site.keywords %} {{ key }}, {% endfor %}" />
+  {% endif %}
+
+  <link href="/assets/styles/milo.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/gxx8oul.css">
+</head>
+<body>
+
+  {% include milo-navbar.html %}
+
+  <section class="pb-2">
+    <img src="/assets/images/stadium-sunset.jpg" class="m-0 p-0" width="100%"
+      alt="UC Berkeley Memorial Stadium at Sunset" style="height: 250px"/>
+  </section>
+
+  <main class="main pt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          {{ content }}
+        </div>
+        <div class="col-md-4 ms-auto">
+          {% include sidebar.html %}
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  {% include milo-footer.html %}
+
+  <!-- <script src="/assets/js/app.js"></script> -->
+</body>
+</html>

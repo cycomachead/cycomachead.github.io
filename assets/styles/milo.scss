@@ -1,0 +1,42 @@
+---
+---
+
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Serif:700');
+
+// Theme variables
+@import "variables";
+
+// Font Awesome
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+// TODO: Import only specific icons as needed...
+@import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/brands";
+
+// Bootstrap
+// @import '~/bootstrap/scss/functions';
+// @import '~/bootstrap/scss/variables';
+// @import '~/bootstrap/scss/mixins';
+@import "bootstrap/scss/bootstrap";
+
+// old-main
+@import "main";
+
+// Theme components
+@import "forms";
+@import "buttons";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "milo-main";
+@import "intro";
+@import "footer";
+@import "instagram";
+@import "sidebar";
+@import "newsletter";
+@import "vimeo";
+@import "preview";
+
+@import "academic-icons";
+
+@import "academic-pages/sidebar";

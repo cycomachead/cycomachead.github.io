@@ -4,9 +4,9 @@
             <li class="left">
                 {% if paginator.next_page %}
                 <a href="{{ paginator.next_page_path }}">Older Posts</a>
-            {% else %}
-                No Older Posts
-            {% endif %}
+                {% else %}
+                    No Older Posts
+                {% endif %}
             </li>
         </td>
         <td class="center">
@@ -16,7 +16,7 @@
             {% if paginator.previous_page %}
                 <li class="right">
                     {% if paginator.previous_page == 1 %}
-                    <a href="/">Newer Posts</a>
+                    <a href="/">← Newer Posts</a>
                     {% else %}
                     <a href="{{ paginator.previous_page_path }}">Newer Posts</a>
                     {% endif %}
@@ -25,5 +25,5 @@
                 <li class="right">No Newer Posts</li>
             {% endif %}
         </td>
-    </tr>   
+    </tr>
 </table>
