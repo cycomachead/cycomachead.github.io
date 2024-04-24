@@ -11,6 +11,7 @@ source "https://rubygems.org"
 ruby file: '.tool-versions'
 
 gem "jekyll", "~> 4"
+gem "csv"
 
 group :jekyll_plugins do
   gem 'jekyll-commonmark'
@@ -22,8 +23,8 @@ group :jekyll_plugins do
   # TODO: All these were included with gh-phages,
   # I should remove ones which are no longer used...
   gem 'jekyll-avatar'
-  gem 'jekyll-gist'
-  gem 'jekyll-github-metadata'
+  # gem 'jekyll-gist'
+  # gem 'jekyll-github-metadata'
   gem 'jekyll-include-cache'
   gem 'jekyll-mentions'
   gem 'jekyll-paginate'
