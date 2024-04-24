@@ -10,26 +10,23 @@
         <img src="{{ author.avatar }}" class="author__avatar rounded-circle m-0" alt="{{ author.name }}">
         {{ author.name }}
       </h3>
-      {% if author.bio %}
       <div class="card-text">
-          {{ author.bio }}
-          <br>
-          <ul class="pt-1">
-            {% if author.location %}
-            <li><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
-            {% endif %}
-            {% if author.employer %}
-              <li><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
-            {% endif %}
-            {% if author.uri %}
-              <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Faculty Page</a></li>
-            {% endif %}
-            {% if author.email %}
-              <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
-            {% endif %}
-          </ul>
+        {{ author.bio }}
+        <ul class="pt-1">
+          {% if author.location %}
+          <li><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+          {% endif %}
+          {% if author.employer %}
+            <li><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+          {% endif %}
+          {% if author.uri %}
+            <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Faculty Page</a></li>
+          {% endif %}
+          {% if author.email %}
+            <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+          {% endif %}
+        </ul>
       </div>
-      {% endif %}
     </div>
   </div>
 

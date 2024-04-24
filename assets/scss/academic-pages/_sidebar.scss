@@ -81,10 +81,13 @@ $masthead-height: 55px;
 
 .sidebar .author__avatar {
   // display: table-cell;
-  vertical-align: top;
+  // vertical-align: top;
   display: inline-block;
-  width: 36px;
-  height: 36px;
+  width: 72px;
+  height: 72px;
+  padding: 0;
+  margin: 4px;
+  border: 2px solid #333;
 
   // @include breakpoint($large) {
   //   display: block;
@@ -92,9 +95,10 @@ $masthead-height: 55px;
   //   height: auto;
   // }
 
-  img {
+  & img {
     max-width: 175px;
     border-radius: 50%;
+    border: 2px solid #000;
 
     // @include breakpoint($large) {
     //   padding: 5px;

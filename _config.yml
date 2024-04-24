@@ -31,7 +31,7 @@ author:
   # Biographic information
   avatar: /assets/images/profile.jpg
   name: Michael Ball
-  bio: Lectuer at UC Berkeley, Software Engineer, Snap! and BJC developer, Photographer and Travel Agent
+  # bio: Lectuer at UC Berkeley, Software Engineer, Snap! and BJC developer, Photographer and Travel Agent
   location: San Francisco
   employer: UC Berkeley, Data Science & EECS
   uri: https://www.eecs.berkeley.edu/Faculty/Homepages/mball.html
