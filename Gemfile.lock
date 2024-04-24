@@ -31,6 +31,8 @@ GEM
     ffi (1.16.3)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
+    google-protobuf (4.26.1-arm64-darwin)
+      rake (>= 13)
     google-protobuf (4.26.1-x86_64-darwin)
       rake (>= 13)
     google-protobuf (4.26.1-x86_64-linux)
@@ -111,6 +113,8 @@ GEM
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
+    nokogiri (1.16.4-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.16.4-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.4-x86_64-linux)
@@ -129,6 +133,8 @@ GEM
     rexml (3.2.6)
     rouge (4.2.1)
     safe_yaml (1.0.5)
+    sass-embedded (1.75.0-arm64-darwin)
+      google-protobuf (>= 3.25, < 5.0)
     sass-embedded (1.75.0-x86_64-darwin)
       google-protobuf (>= 3.25, < 5.0)
     sass-embedded (1.75.0-x86_64-linux-gnu)
@@ -145,6 +151,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  arm64-darwin-23
   x86_64-darwin-23
   x86_64-linux
 
