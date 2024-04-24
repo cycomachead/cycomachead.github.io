@@ -21,9 +21,7 @@ body {
     background: white;
     font-family: 'freight-sans-pro', 'Helvetica', sans-serif;
     line-height: 125%;
-    width: 100%;
-    float: center;
-    color: #666;
+    color: #333;
     margin: 0;
     padding: 0;
 }
