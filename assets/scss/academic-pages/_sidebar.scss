@@ -69,7 +69,7 @@ $masthead-height: 55px;
   }
 
   li i {
-    padding: $spacer / 2;
+    padding: calc($spacer / 2);
     width: 3ch;
   }
 }

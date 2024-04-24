@@ -7,8 +7,9 @@ repository: cycomachead/cycomachead.github.io
 title: Michael Ball
 copy-start: 2011
 copy-end: 2024
-description:
-  > Michael Ball is a lecturer in EECS and Data Science at UC Berkeley.
+description: >
+  Michael Ball is a lecturer in EECS and Data Science at UC Berkeley.
+  This site contains a collection of photography and some blog posts.
 
 keywords:
   - photography
