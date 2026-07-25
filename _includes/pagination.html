@@ -16,7 +16,7 @@
             {% if paginator.previous_page %}
                 <li class="right">
                     {% if paginator.previous_page == 1 %}
-                    <a href="/">← Newer Posts</a>
+                    <a href="{{ paginator.previous_page_path }}">← Newer Posts</a>
                     {% else %}
                     <a href="{{ paginator.previous_page_path }}">Newer Posts</a>
                     {% endif %}

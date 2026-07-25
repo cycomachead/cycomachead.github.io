@@ -1,0 +1,93 @@
+// UC Berkeley brand colors
+$berkeley-blue: #003262;
+$california-gold: #FDB515;
+
+.landing {
+  padding-bottom: 1rem;
+
+  p {
+    text-indent: 0;
+  }
+
+  &-hero {
+    img {
+      display: block;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  &-avatar {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-top: -80px;
+    border: 5px solid $white;
+    box-shadow: 0 2px 8px rgba($black, .2);
+    background: $white;
+  }
+
+  &-name {
+    margin-top: 1rem;
+    font-size: 2.75rem;
+  }
+
+  &-titles {
+    font-family: $font-family-serif;
+    font-size: 1.2rem;
+    color: $gray-700;
+    margin-bottom: 1rem;
+  }
+
+  &-intro {
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+  }
+
+  &-card {
+    height: 100%;
+    padding: 1.5rem;
+    background: $gray-100;
+    border-top: 4px solid $gray-500;
+
+    h2 {
+      font-size: 1.5rem;
+
+      i {
+        margin-right: .35rem;
+      }
+    }
+
+    p {
+      color: $gray-700;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+
+      li {
+        padding: .3rem 0;
+      }
+    }
+
+    a {
+      color: $berkeley-blue;
+
+      &:hover,
+      &:focus {
+        color: lighten($berkeley-blue, 20%);
+      }
+    }
+
+    &-berkeley-blue {
+      border-top-color: $berkeley-blue;
+    }
+
+    &-california-gold {
+      border-top-color: $california-gold;
+    }
+  }
+}

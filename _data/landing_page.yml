@@ -1,0 +1,73 @@
+# Content for the homepage (index.html). Text fields support Markdown.
+hero_image: /assets/images/stadium-sunset.jpg
+hero_alt: UC Berkeley Memorial Stadium at Sunset
+avatar: /assets/images/profile.jpg
+
+name: Michael Ball
+titles:
+  - Lecturer, EECS & Data Science — UC Berkeley
+  - Software Engineer — Gradescope by Turnitin
+
+intro: >
+  Welcome! I teach computing at UC Berkeley and build tools for teaching and
+  learning, including Snap*!* and Gradescope. This site is the personal side
+  of things — photography and the occasional blog post. My teaching and
+  research live on my academic pages below.
+
+# accent must match a `landing-card-*` modifier in assets/scss/_landing.scss
+sections:
+  - title: Academic
+    icon: fa-solid fa-building-columns
+    accent: berkeley-blue
+    description: Teaching, research, and CS education work at UC Berkeley.
+    links:
+      - title: Berkeley Faculty Page
+        url: https://www.eecs.berkeley.edu/Faculty/Homepages/mball.html
+      - title: Curriculum Vitae
+        url: /cv/
+      - title: Google Scholar
+        url: https://scholar.google.com/citations?hl=en&user=UBJ4SvIAAAAJ
+      - title: Office Hours & Scheduling
+        url: /calendar/
+      - title: ball@berkeley.edu
+        url: mailto:ball@berkeley.edu
+
+  - title: Personal
+    icon: fa-solid fa-camera
+    accent: california-gold
+    description: Photos, posts, and a bit more about me.
+    links:
+      - title: Photography
+        url: /photos/
+      - title: Recent Photo Posts
+        url: /posts/
+      - title: Blog
+        url: /blog/
+      - title: About Me
+        url: /about/
+      - title: Contact
+        url: /contact/
+
+  - title: Elsewhere
+    icon: fa-solid fa-globe
+    accent: berkeley-blue
+    description: Profiles and projects around the web.
+    links:
+      - title: GitHub
+        url: https://github.com/cycomachead
+        icon: fab fa-fw fa-github
+      - title: LinkedIn
+        url: https://www.linkedin.com/in/pub/michael-ball/43/18a/81/
+        icon: fab fa-fw fa-linkedin
+      - title: Mastodon
+        url: https://hci.social/deck/@_mball_
+        icon: fab fa-fw fa-mastodon
+      - title: Instagram
+        url: https://instagram.com/cycomachead
+        icon: fab fa-fw fa-instagram
+      - title: Flickr
+        url: https://www.flickr.com/cycomachead
+        icon: fab fa-fw fa-flickr
+      - title: ORCID
+        url: https://orcid.org/0000-0002-7036-3902
+        icon: ai ai-orcid ai-fw
