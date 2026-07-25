@@ -3,15 +3,17 @@ layout: milo-default
 author_profile: true
 ---
 
+{%- comment -%}
+  The post title is the page's <h1>. It used to be an <h2> wrapped in a link
+  to the page you are already on, which left every post without a top-level
+  heading and gave screen readers a self-referential link.
+{%- endcomment -%}
 <article class="article {{ page.category }}">
-    <h2>
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    </h2>
+  <h1>{{ page.title }}</h1>
 
-    {{ content }} <!-- Post Body -->
+  {{ content }}
 
-    {% include endmatter.html %}
-
+  {% include endmatter.html %}
 </article>
 
 {% include next_prev.html %}

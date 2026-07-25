@@ -1,0 +1,5 @@
+--require spec_helper
+--format documentation
+--format documentation --out tmp/rspec_output.txt
+--format json --out tmp/rspec_output.json
+--format html --out tmp/rspec_output.html

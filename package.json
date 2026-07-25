@@ -1,13 +1,23 @@
 {
   "name": "cycomachead.github.io",
   "version": "1.0.0",
+  "private": true,
   "description": "A personal & professional website.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://mball.co",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cycomachead/cycomachead.github.io.git"
   },
-  "author": "",
+  "bugs": {
+    "url": "https://github.com/cycomachead/cycomachead.github.io/issues"
+  },
+  "author": "Michael Ball",
   "license": "BSD-3-Clause",
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "start": "bundle exec jekyll serve",
+    "test": "bundle exec rspec"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
     "@popperjs/core": "^2.11.8",

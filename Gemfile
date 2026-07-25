@@ -1,4 +1,6 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -10,15 +12,15 @@ source "https://rubygems.org"
 
 ruby file: '.tool-versions'
 
-gem "jekyll", "~> 4"
-gem "csv"
+gem 'csv'
+gem 'jekyll', '~> 4'
 
 group :jekyll_plugins do
   gem 'jekyll-commonmark'
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-redirect-from"
+  gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
-  gem "jekyll-timeago", "~> 0.13.1"
+  gem 'jekyll-timeago', '~> 0.13.1'
 
   # TODO: All these were included with gh-phages,
   # I should remove ones which are no longer used...
@@ -37,3 +39,22 @@ group :jekyll_plugins do
 end
 
 gem 'jemoji'
+
+# These tools are used for running the accessibility tests.
+# See docs/accessibility.md
+group :development, :test do
+  gem 'axe-core-capybara'
+  gem 'axe-core-rspec'
+  gem 'capybara'
+  gem 'capybara-screenshot'
+  gem 'rack'
+  gem 'rackup'
+  gem 'rspec'
+  gem 'selenium-webdriver'
+end
+
+group :development, :rubocop do
+  gem 'rubocop', require: false
+  gem 'rubocop-capybara', require: false
+  gem 'rubocop-rspec', require: false
+end

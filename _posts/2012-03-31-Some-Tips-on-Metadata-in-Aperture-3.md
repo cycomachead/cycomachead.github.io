@@ -28,7 +28,7 @@ Recently, I had a problem where my entire autofill list disappeared from Apertur
 </ol>
 
 
-### Multiple Libraries
+## Multiple Libraries
 
 Storing the Autofill items in the User preferences folder is interesting.  This means it's tied to your User Account and _not_ a particular library, so here's some things to consider.
 
@@ -36,7 +36,7 @@ Storing the Autofill items in the User preferences folder is interesting.  This
 
 * If you work with _one_ Library on two different accounts or computers (say a mobile device and a main machine) then you will need to &#8220;sync&#8221; the preferences files (via manual copy and paste) in order to have the same auto-complete data — if that matters to you.
 
-### Metadata Presets ###
+## Metadata Presets
 
 * Items saved in Metadata Presets aren't related to auto-complete at all (at a settings level). If you lose your preferences, then your metadata presets should be completely intact. (They're saved in ~/Library/Application Support/Aperture). Items which are saved in a metadata preset are _not_ added to your auto-complete list when they are used. However, if you change the data in the in the preset while importing, using the metadata pane, or while batch processing, then it will be added to the auto-complete list. Essentially, if you change the actual metadata preset (via the edit interface) then it changes the preset, but not the autofill list, but if you modify a preset on the fly then it treats that metadata field differently and will add it to the autocomplete list.
 

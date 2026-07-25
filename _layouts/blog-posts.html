@@ -2,18 +2,22 @@
 layout: milo-default
 ---
 
-<h1>
-    <a href="/blog">An Ordinary Blog…</a>
-</h1>
-<br />
+<h1>An Ordinary Blog…</h1>
 
 {% for post in site.categories.blog %}
-<div class="article">
-    <h4>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </h4>
-    {{ post.excerpt }} <br />
-    <a href="{{ post.url }}">Read More</a>
-    {% include endmatter.html %}
-</div>
+<article class="article">
+  <h2>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </h2>
+  {{ post.excerpt }}
+  {%- comment -%}
+    Every entry has a "Read More" link, so each needs its own accessible name —
+    otherwise a screen reader's link list is a wall of identical "Read More"s.
+  {%- endcomment %}
+  <p>
+    <a href="{{ post.url | relative_url }}"
+       aria-label="Read more: {{ post.title | escape }}">Read More</a>
+  </p>
+  {% include endmatter.html %}
+</article>
 {% endfor %}

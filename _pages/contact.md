@@ -1,7 +1,8 @@
 ---
-layout: milo-default
+layout: page
 title: Contact
 permalink: /contact/
 ---
 
-Please use the links on the right to get in touch. My Berkeley is is best for professional contacts.
+Please use the links in the sidebar to get in touch. My Berkeley address is best
+for professional contacts.

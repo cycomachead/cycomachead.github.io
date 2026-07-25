@@ -1,101 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{%- comment -%}
+  head.html loads the site's shared stylesheet + font first so the navbar
+  renders exactly like the rest of mball.co, then cv.css — which is more
+  specific (scoped to .cv-layout) and wins for the CV body/sidebar — and
+  finally cv-shell.css, the glue that fits that layout under the shared navbar.
 
-  <meta name="google-site-verification"
-      content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk" />
-
-  <meta name="author" content="{{ site.author.name }}" />
-  <meta name="description"
-      content="Curriculum vitae of {{ site.author.name }}, {{ site.author.employer }}." />
-
-  {% if page.title %}
-  <title>{{ page.title }}{% if page.subtitle %} — {{ page.subtitle }}{% endif %} | {{ site.title }}</title>
-  <meta name="title" content="{{ page.title }} | {{ site.title }}">
-  {% else %}
-  <title>CV | {{ site.title }}</title>
-  <meta name="title" content="CV | {{ site.title }}">
-  {% endif %}
-
-  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
-  <link rel="apple-touch-icon"
-      href="{{ site.url }}/assets/images/apple-touch-icon.png" />
-
-  {%- comment -%}
-    Load the site's shared stylesheet + font first so the navbar renders
-    exactly like the rest of mball.co, then cv.css — which is more specific
-    (scoped to .cv-layout) and wins for the CV body/sidebar.
-
-    cv.css / cv-theme.js / cv-sidebar.html are shipped into /cv/ by the
-    cycomachead/cv deploy workflow (see that repo's README). The CV is a
-    full-bleed 100vh sticky-sidebar layout, so we drop it below the shared
-    sticky navbar rather than embedding it in the milo-default page shell.
-  {%- endcomment -%}
-  <link href="/assets/styles/milo.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.typekit.net/gxx8oul.css">
-  <link rel="stylesheet" href="{{ '/cv/cv.css' | relative_url }}">
-
-  <style>
-    /* Shield the CV's self-contained design from milo.css's site-wide
-       element rules (legacy assets/styles/main.css + Bootstrap Reboot).
-       cv.css already scopes everything to .cv-layout, so we only reset the
-       handful of bare-element properties it doesn't set itself — namely the
-       serif heading font + weight and the paragraph text-indent that
-       main.css applies globally. */
-    .cv-layout p,
-    .cv-content h1, .cv-content h2, .cv-content h3,
-    .cv-content h4, .cv-content h5, .cv-content h6 { text-indent: 0; }
-    .cv-content h1, .cv-content h2, .cv-content h3,
-    .cv-content h4, .cv-content h5, .cv-content h6 {
-      font-family: inherit;
-      font-weight: 700;
-    }
-    .cv-layout img { padding: 0; margin: 0; }
-
-    /* Desktop: drop the CV's 100vh sticky sidebar below the shared sticky
-       navbar so they don't overlap. --cv-navbar-h is measured by JS below;
-       the fallback keeps things sane before that runs. On narrow screens
-       cv.css makes the sidebar static, so these offsets only apply above the
-       breakpoint. */
-    :root { --cv-navbar-h: 3.5rem; }
-    @media (min-width: 801px) {
-      .cv-layout { min-height: calc(100vh - var(--cv-navbar-h)); }
-      .cv-sidebar {
-        top: var(--cv-navbar-h);
-        height: calc(100vh - var(--cv-navbar-h));
-        height: calc(100dvh - var(--cv-navbar-h));
-      }
-    }
-  </style>
-</head>
+  cv.css / cv-theme.js / cv-sidebar.html are shipped into /cv/ by the
+  cycomachead/cv deploy workflow (see that repo's README). The CV is a
+  full-bleed 100vh sticky-sidebar layout, so we drop it below the shared
+  sticky navbar rather than embedding it in the milo-default page shell.
+{%- endcomment -%}
+{%- capture cv_title -%}
+{{ page.title | default: 'CV' }}{% if page.subtitle %} — {{ page.subtitle }}{% endif %}
+{%- endcapture -%}
+{%- capture cv_description -%}
+Curriculum vitae of {{ site.author.name }}, {{ site.author.employer }}.
+{%- endcapture -%}
+{% include head.html title=cv_title description=cv_description stylesheets="/cv/cv.css,/assets/styles/cv-shell.css" %}
 <body>
+  {%- comment -%}
+    No skip link here: cv-sidebar.html opens with its own "Skip to CV content".
+  {%- endcomment -%}
   {% include milo-navbar.html %}
 
   <div class="cv-layout">
     {% include_relative cv-sidebar.html %}
     <main id="cv-main" class="cv-content">
+      {%- comment -%}
+        The CV body shipped by cycomachead/cv is content-only (`page_header:
+        false`), so without this the page opened straight into "Education" —
+        no name anywhere on it, and no level-one heading. cv.css already
+        styles .cv-content h1 and .contact.
+      {%- endcomment -%}
+      <header class="cv-page-header">
+        <h1>{{ page.title | default: 'Curriculum Vitae' }}</h1>
+        {%- if page.subtitle %}
+        <p class="contact"><strong>{{ page.subtitle }}</strong></p>
+        {%- endif %}
+      </header>
+
       {{ content }}
     </main>
   </div>
 
   <script src="{{ '/cv/cv-theme.js' | relative_url }}"></script>
-  <script>
-    // Keep the CV sidebar's offset in sync with the shared navbar's real
-    // height (it varies with font/zoom/wrapping).
-    (function () {
-      var nav = document.querySelector('.bd-navbar') || document.querySelector('header.sticky-top');
-      if (!nav) return;
-      var setH = function () {
-        document.documentElement.style.setProperty('--cv-navbar-h', nav.offsetHeight + 'px');
-      };
-      setH();
-      window.addEventListener('resize', setH);
-      window.addEventListener('load', setH);
-    })();
-  </script>
+  <script src="{{ '/assets/js/cv-shell.js' | relative_url }}"></script>
   {% include scripts.html %}
 </body>
 </html>

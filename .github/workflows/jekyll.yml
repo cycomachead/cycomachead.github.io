@@ -40,11 +40,14 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 20.12.1
+          # Keep the Node version in .tool-versions, next to the Ruby version.
+          node-version-file: .tool-versions
+          cache: npm
       - name: Install CSS/JS dependencies
-        run: npm install
+        # `ci` rather than `install` so the build matches package-lock.json.
+        run: npm ci
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

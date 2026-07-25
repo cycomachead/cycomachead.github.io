@@ -344,13 +344,19 @@ body:has(> .cv-layout) {
 
 .cv-content a {
   color: var(--cv-accent);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
+  /* WCAG 1.4.1: --cv-accent only reaches ~1.3:1 against the body text colour,
+     so links in a block of text need an underline to be distinguishable
+     without relying on colour. A transparent border shown only on hover does
+     not count. */
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
   /* Bare DOI / tech-report URLs are long; break them rather than overflow
      the column on narrow screens. */
   overflow-wrap: anywhere;
 }
-.cv-content a:hover { border-bottom-color: var(--cv-accent); }
+.cv-content a:hover,
+.cv-content a:focus { text-decoration-thickness: 2px; }
 
 .cv-content hr { border: 0; border-top: 1px solid var(--cv-rule); margin: 1.5rem 0; }
 

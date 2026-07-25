@@ -5,3 +5,45 @@ a {
 .main {
   padding-top: 32px;
 }
+
+// Keyboard-only "skip to main content" shortcut. Bootstrap's
+// .visually-hidden-focusable keeps it out of the way until it is focused;
+// this just makes it legible once it appears.
+.skip-link:focus {
+  display: inline-block;
+  padding: .5rem 1rem;
+  background: $white;
+  color: $gray-900;
+  z-index: 1050;
+}
+
+// WCAG 1.4.1: a link sitting inside a block of text has to be distinguishable
+// from that text by something other than colour. The site-wide
+// `text-decoration: none` left prose links relying on a 2.6:1 colour
+// difference alone, so underline them inside the content column. Nav links,
+// cards and the sidebar's icon lists aren't in text blocks and keep the
+// undecorated look.
+.page-content {
+  p a,
+  li a,
+  blockquote a,
+  dd a {
+    text-decoration: underline;
+  }
+}
+
+// Full-bleed banner under the navbar. The <img> is cropped rather than
+// squashed, which is what the old inline `width: 100%; height: 250px` did by
+// accident.
+.hero {
+  padding-bottom: .5rem;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+  }
+}
