@@ -27,13 +27,81 @@
   {%- comment -%}
     cv.css / cv-theme.js / cv-sidebar.html are shipped into /cv/ by the
     cycomachead/cv deploy workflow (see that repo's README). This layout is a
-    full-bleed, self-contained shell that mirrors the CV's local preview: its
-    sidebar is a 100vh sticky column, so it deliberately does not embed the
-    site's navbar/footer chrome (which would fight the sticky layout).
+    full-bleed, self-contained shell that mirrors the CV's local preview
+    (a 100vh sticky sidebar + content column), topped with a slim sticky site
+    bar so visitors can get back to the rest of mball.co.
   {%- endcomment -%}
   <link rel="stylesheet" href="{{ '/cv/cv.css' | relative_url }}">
+
+  <style>
+    /* Slim sticky header linking back to the main site. Loaded after cv.css
+       so its sidebar offsets win on equal specificity. */
+    :root { --cv-sitebar-h: 3rem; }
+
+    .cv-sitebar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      height: var(--cv-sitebar-h);
+      padding: 0 clamp(1rem, 4vw, 2rem);
+      background: #ffffff;
+      color: #1a1a1a;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 0.95rem;
+    }
+    .cv-sitebar a { color: inherit; text-decoration: none; }
+    .cv-sitebar a:hover,
+    .cv-sitebar a:focus-visible { text-decoration: underline; }
+    .cv-sitebar-home { font-weight: 700; white-space: nowrap; }
+    .cv-sitebar-home .cv-sitebar-arrow { margin-right: 0.4em; }
+    .cv-sitebar-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.1rem;
+      justify-content: flex-end;
+    }
+    /* Follow the CV's own light/dark toggle (synced via the script below). */
+    .cv-sitebar[data-theme="dark"] {
+      background: #11161c;
+      color: #e8eaed;
+      border-bottom-color: rgba(255, 255, 255, 0.14);
+    }
+
+    /* Desktop: drop the 100vh sticky sidebar below the header so they don't
+       overlap. On narrow screens cv.css makes the sidebar static, so these
+       offsets only apply above the breakpoint. */
+    @media (min-width: 801px) {
+      .cv-layout { min-height: calc(100vh - var(--cv-sitebar-h)); }
+      .cv-sidebar {
+        top: var(--cv-sitebar-h);
+        height: calc(100vh - var(--cv-sitebar-h));
+        height: calc(100dvh - var(--cv-sitebar-h));
+      }
+    }
+  </style>
 </head>
 <body>
+  <header class="cv-sitebar">
+    <a class="cv-sitebar-home" href="{{ '/' | relative_url }}">
+      <span class="cv-sitebar-arrow" aria-hidden="true">&larr;</span>{{ site.navbar.title | default: site.title }}
+    </a>
+    <nav class="cv-sitebar-nav" aria-label="Main site">
+      {%- for item in site.navbar.pre_title -%}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {%- endfor -%}
+      {%- for item in site.navbar.post_title -%}
+      {%- unless item.url == '/cv' or item.url == page.url -%}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {%- endunless -%}
+      {%- endfor -%}
+    </nav>
+  </header>
+
   <div class="cv-layout">
     {% include_relative cv-sidebar.html %}
     <main id="cv-main" class="cv-content">
@@ -42,6 +110,20 @@
   </div>
 
   <script src="{{ '/cv/cv-theme.js' | relative_url }}"></script>
+  <script>
+    // Mirror the CV's light/dark state (managed by cv-theme.js on .cv-layout)
+    // onto the site bar so the header matches the chosen theme.
+    (function () {
+      var bar = document.querySelector('.cv-sitebar');
+      var layout = document.querySelector('.cv-layout');
+      if (!bar || !layout) return;
+      var sync = function () { bar.dataset.theme = layout.dataset.theme || ''; };
+      sync();
+      new MutationObserver(sync).observe(layout, {
+        attributes: true, attributeFilter: ['data-theme']
+      });
+    })();
+  </script>
   {% include scripts.html %}
 </body>
 </html>
