@@ -1,0 +1,62 @@
+# Flickr photo sets shown on /photos/.
+# Thumbnails are Flickr's 150x150 square (_q) renditions.
+
+- title: 'Favorites'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157627219400519/'
+  thumbnail: 'https://farm7.staticflickr.com/6128/6003321845_33a779813f_q.jpg'
+  description: 'A collection of my favorite photos I''ve taken over the years, from all sorts of events and places.'
+
+- title: 'Arches, Bryce, Zion NP'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157629993736983/'
+  thumbnail: 'https://farm9.staticflickr.com/8148/7306344550_fd49c9f9d7_q.jpg'
+  description: 'Images from some of Utah''s most visited parks!'
+
+- title: 'Astrophotography'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157630055956636/'
+  thumbnail: 'https://farm7.staticflickr.com/6013/5992664841_449327acff_q.jpg'
+  description: 'Isn''t the night sky awesome?'
+
+- title: 'Beaches'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157629900261150/'
+  thumbnail: 'https://farm8.staticflickr.com/7099/7271724046_ba25fe7a4f_q.jpg'
+  description: 'Beaches from around California'
+
+- title: 'College Adventures'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157628494248253/'
+  thumbnail: 'https://farm8.staticflickr.com/7075/7332857034_8d51cddc86_q.jpg'
+  description: 'A collection of images from my time in college.'
+
+- title: 'Disney Parks'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157628639992401/'
+  thumbnail: 'https://farm9.staticflickr.com/8152/7175370073_5f9ab88aa6_q.jpg'
+  description: 'Adventures to one of SoCal''s most famous and fun attractions! :)'
+
+- title: 'iPhone Images'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157628509033607/'
+  thumbnail: 'https://farm8.staticflickr.com/7157/6542299475_9a076e59f0_q.jpg'
+  description: 'Random photos from my iPhone worth sharing. :)'
+
+- title: 'Joshua Tree NP'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157629993797295/'
+  thumbnail: 'https://farm8.staticflickr.com/7011/6810641365_7bc7001400_q.jpg'
+  description: 'Images from Joshua Tree National Park'
+
+- title: 'Mt. Rainier NP'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157630055937474/'
+  thumbnail: 'https://farm8.staticflickr.com/7101/7265958134_0cb23af93b_q.jpg'
+  description: 'Images from Mt. Rainier National Park'
+
+- title: 'San Francisco'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157629051037019/'
+  thumbnail: 'https://farm8.staticflickr.com/7172/6769722017_c39f4c3b85_q.jpg'
+  description: 'Shots from one of my favorite cities!'
+
+- title: 'Utah Vacation 2012'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157629993586228/'
+  thumbnail: 'https://farm8.staticflickr.com/7085/7312751912_455f34f608_q.jpg'
+  description: 'Shots from my 2012 trip to Utah!'
+
+- title: 'Yellowstone and Grand Teton NP'
+  url: 'https://www.flickr.com/photos/64724295@N08/sets/72157630055883514/'
+  thumbnail: 'https://farm7.staticflickr.com/6144/6003387195_b2985d3ba1_q.jpg'
+  description: 'Images of some of Wyoming''s most beautiful places.'

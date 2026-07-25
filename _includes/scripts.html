@@ -1,3 +1,12 @@
+{%- comment -%}
+  Bootstrap's JS was never shipped: assets/js/app.js imports it, but nothing
+  bundles that file and the <script> tag for it was commented out. Without it
+  the navbar's collapse toggle does nothing, so the nav links are unreachable
+  below the md breakpoint. The bundle is copied into _site by the
+  `copy_to_dest` entry in _config.yml.
+{%- endcomment -%}
+<script src="{{ '/assets/js/vendor/bootstrap.bundle.min.js' | relative_url }}" defer></script>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4XZDCDT5S"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -10,5 +19,3 @@
 <script
   src="https://js.sentry-cdn.com/bbc854dd3750408f4d106ca4327611ed.min.js"
   crossorigin="anonymous"></script>
-
-<!-- <script src="/assets/js/app.js"></script> -->

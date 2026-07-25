@@ -1,0 +1,7 @@
+{
+  "comment": "Shared by `npx markdownlint-cli` and the markdownlint CI job.",
+  "MD013": false,
+  "MD033": false,
+  "MD041": false,
+  "MD025": { "front_matter_title": "" }
+}

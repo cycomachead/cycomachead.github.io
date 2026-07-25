@@ -1,34 +1,38 @@
 ---
-layout: nil
+layout: none
+sitemap: false
 ---
-<?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8"?>
+{%- comment -%}
+  Hand-rolled Atom feed kept at its historic /atom.xml URL. jekyll-feed also
+  publishes an equivalent feed at /feed.xml.
 
-    <title>{{ site.title }}</title>
-    <link href="{{ site.url }}"/>
-    <link type="application/atom+xml" rel="self"
-        href="{{ site.url }}/atom.xml"/>
+  Note: site.author is a map (see _config.yml), so `{{ site.author }}` used to
+  render the whole hash into <name>. It needs site.author.name.
+{%- endcomment -%}
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ site.title | xml_escape }}</title>
+    <link href="{{ '/' | absolute_url }}"/>
+    <link type="application/atom+xml" rel="self" href="{{ '/atom.xml' | absolute_url }}"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}</id>
+    <id>{{ '/' | absolute_url }}</id>
     <author>
-        <name>{{ site.author }}</name>
-        <email>cycomachead@gmail.com</email>
+        <name>{{ site.author.name | xml_escape }}</name>
+        <email>{{ site.author.email }}</email>
     </author>
 
     {% for post in site.posts %}
     <entry>
-        <id>{{ site.url }}/{{ post.id }}</id>
-        <link type="text/html" rel="alternate"
-                href="{{ site.url }}/{{ post.url }}"/>
-        <title>{{ post.title }}</title>
+        <id>{{ post.id | absolute_url }}</id>
+        <link type="text/html" rel="alternate" href="{{ post.url | absolute_url }}"/>
+        <title>{{ post.title | xml_escape }}</title>
         <published>{{ post.date | date_to_xmlschema }}</published>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <author>
-            <name>{{ site.author }}</name>
-            <uri>{{ site.url }}</uri>
+            <name>{{ site.author.name | xml_escape }}</name>
+            <uri>{{ '/' | absolute_url }}</uri>
         </author>
-        <content type="html">{{ post.content | xml_escape }}</content>
+        <content type="html">{{ post.content | strip | xml_escape }}</content>
     </entry>
     {% endfor %}
-
 </feed>

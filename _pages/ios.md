@@ -4,17 +4,18 @@ title: Quad Solver
 permalink: /ios/
 ---
 
-<img alt="Quad Solver" src="/assets/images/qs-1.5-0.png"
-height="372" width="198" style="margin-right: 2em; float: left" />
+<img alt="The Quad Solver app showing a solved quadratic equation"
+    src="/assets/images/qs-1.5-0.png" height="372" width="198"
+    class="float-start me-4" />
 
 Quad Solver is in my (not-so-humble) option the single best application in the App Store for dealing with quadratic equations.
 
 Here's the description I wrote for iTunes:
 
-Quad Solver is the best, full featured iOS application for solving Quadratic Equations and using the quadratic formula.  It's easy to use, fast, and best of all: it's FREE!
+Quad Solver is the best, full featured iOS application for solving Quadratic Equations and using the quadratic formula.  It's easy to use, fast, and best of all: it's FREE!
 
-<img align="right" alt="Available on the App Store" height="75"
-src="/assets/images/app_store.png" width="225" />
+<img alt="Available on the App Store" src="/assets/images/app_store.png"
+    height="75" width="225" class="float-end" />
 
 Features of Quad Solver include:
 
@@ -26,27 +27,33 @@ Features of Quad Solver include:
 * Advanced Help information
 * Solves the Derivative
 
-<div>
-Screenshots:
-<br />
-(Click to view full-size.)
-</div>
+## Screenshots
 
-<div class="center">
-    <a rel="lightbox[qs]" href="images/qs-1.5-1.png">
-        <img align="middle" height="190" width="100"
-            src="/assets/images/qs-1.5-1.png" />
-    </a>
-    <a rel="lightbox[qs]" href="/assets/images/qs-1.5-2.png">
-        <img align="middle" height="190" width="100"
-            src="/assets/images/qs-1.5-2.png" />
-    </a>
-    <a rel="lightbox[qs]" href="/assets/images/qs-1.5-3.png">
-        <img align="middle" height="190" width="100"
-            src="/assets/images/qs-1.5-3.png" />
-    </a>
-    <a rel="lightbox[qs]" href="/assets/images/qs-1.5-4.png">
-        <img align="middle" height="190" width="100"
-            src="/assets/images/qs-1.5-4.png" />
-    </a>
-</div>
+Select a screenshot to view it full-size.
+
+<ul class="screenshot-list">
+    <li>
+        <a href="/assets/images/qs-1.5-1.png">
+            <img height="190" width="100" src="/assets/images/qs-1.5-1.png"
+                alt="Quad Solver's main equation entry screen" />
+        </a>
+    </li>
+    <li>
+        <a href="/assets/images/qs-1.5-2.png">
+            <img height="190" width="100" src="/assets/images/qs-1.5-2.png"
+                alt="Quad Solver showing the roots of an equation" />
+        </a>
+    </li>
+    <li>
+        <a href="/assets/images/qs-1.5-3.png">
+            <img height="190" width="100" src="/assets/images/qs-1.5-3.png"
+                alt="Quad Solver showing the vertex and axis of symmetry" />
+        </a>
+    </li>
+    <li>
+        <a href="/assets/images/qs-1.5-4.png">
+            <img height="190" width="100" src="/assets/images/qs-1.5-4.png"
+                alt="Quad Solver's in-app help screen" />
+        </a>
+    </li>
+</ul>

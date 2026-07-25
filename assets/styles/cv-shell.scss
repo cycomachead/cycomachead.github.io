@@ -1,0 +1,41 @@
+---
+# Page shell for the /cv/ layout.
+#
+# The CV's own design lives in /cv/cv.css, which is shipped into this site by
+# the cycomachead/cv deploy workflow. This file only holds the glue needed to
+# drop that self-contained layout into mball.co's shared page chrome.
+---
+
+/* Shield the CV's self-contained design from milo.css's site-wide element
+   rules (legacy assets/styles/main.css + Bootstrap Reboot). cv.css already
+   scopes everything to .cv-layout, so we only reset the handful of
+   bare-element properties it doesn't set itself — namely the serif heading
+   font + weight and the paragraph text-indent that main.css applies
+   globally. */
+.cv-layout p,
+.cv-content h1, .cv-content h2, .cv-content h3,
+.cv-content h4, .cv-content h5, .cv-content h6 { text-indent: 0; }
+
+.cv-content h1, .cv-content h2, .cv-content h3,
+.cv-content h4, .cv-content h5, .cv-content h6 {
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.cv-layout img { padding: 0; margin: 0; }
+
+/* Desktop: drop the CV's 100vh sticky sidebar below the shared sticky navbar
+   so they don't overlap. --cv-navbar-h is measured by cv-shell.js; the
+   fallback keeps things sane before that runs. On narrow screens cv.css makes
+   the sidebar static, so these offsets only apply above the breakpoint. */
+:root { --cv-navbar-h: 3.5rem; }
+
+@media (min-width: 801px) {
+  .cv-layout { min-height: calc(100vh - var(--cv-navbar-h)); }
+
+  .cv-sidebar {
+    top: var(--cv-navbar-h);
+    height: calc(100vh - var(--cv-navbar-h));
+    height: calc(100dvh - var(--cv-navbar-h));
+  }
+}

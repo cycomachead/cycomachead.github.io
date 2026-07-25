@@ -8,7 +8,9 @@ date: 2011-12-21 14:57:00
 
 Great news! There's finally an update to [Quad Solver](/ios)! Quad Solver 1.5 brings mostly small, but welcome updates:
 
-<img align="left" height="350" style="margin-right:10px; padding:.5em;" src="http://media.tumblr.com/tumblr_lvcm2eIXqA1qjg6k8.png" width="180"/>
+<img class="float-start me-3" height="350" width="180"
+    src="https://media.tumblr.com/tumblr_lvcm2eIXqA1qjg6k8.png"
+    alt="Quad Solver 1.5 running on an iPhone" />
 
 <ul style="margin-left:1em;">
     <li>New Loading screen</li>
@@ -22,7 +24,7 @@ If you already have a current version, the update is free as it always will be! 
 
 <!--more-->
 
-**cycomachead - version 1.1**
+## cycomachead - version 1.1
 
 So, I've gotten around to doing some cleanup I've wanted to do for a while. Mobile viewing will be much better now, and things shouldn't overlap at all on small screens or low resolution displays. I've also made minor changes to various other parts of the site. If you would like to add a link to the Home Screen on your iPhone or iPad (or iPod touch too) I've now created a special icon for that.
 
