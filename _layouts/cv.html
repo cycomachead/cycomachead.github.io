@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="google-site-verification"
+      content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk" />
+
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="description"
+      content="Curriculum vitae of {{ site.author.name }}, {{ site.author.employer }}." />
+
+  {% if page.title %}
+  <title>{{ page.title }}{% if page.subtitle %} — {{ page.subtitle }}{% endif %} | {{ site.title }}</title>
+  <meta name="title" content="{{ page.title }} | {{ site.title }}">
+  {% else %}
+  <title>CV | {{ site.title }}</title>
+  <meta name="title" content="CV | {{ site.title }}">
+  {% endif %}
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+  <link rel="apple-touch-icon"
+      href="{{ site.url }}/assets/images/apple-touch-icon.png" />
+
+  {%- comment -%}
+    cv.css / cv-theme.js / cv-sidebar.html are shipped into /cv/ by the
+    cycomachead/cv deploy workflow (see that repo's README). This layout is a
+    full-bleed, self-contained shell that mirrors the CV's local preview: its
+    sidebar is a 100vh sticky column, so it deliberately does not embed the
+    site's navbar/footer chrome (which would fight the sticky layout).
+  {%- endcomment -%}
+  <link rel="stylesheet" href="{{ '/cv/cv.css' | relative_url }}">
+</head>
+<body>
+  <div class="cv-layout">
+    {% include_relative cv-sidebar.html %}
+    <main id="cv-main" class="cv-content">
+      {{ content }}
+    </main>
+  </div>
+
+  <script src="{{ '/cv/cv-theme.js' | relative_url }}"></script>
+  {% include scripts.html %}
+</body>
+</html>
