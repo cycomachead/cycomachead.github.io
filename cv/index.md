@@ -67,18 +67,18 @@ Part-time role focused on Snap<em>!</em> and The Beauty and Joy of Computing pro
 
 ### Course Descriptions
 
-- **CS 10** — _The Beauty and Joy of Computing_ (4 units). Non-majors introduction to computer science. Hands-on, project-based course taught using Snap<em>!</em> and Python.
-- **CS 88 / DATA C88C** — _Computational Structures for Data Science_ (3 units). CS1-or-1.5 course for data science majors, based on Sussman's SICP and taught in Python.
-- **CS 169** — _Engineering Software as a Service_ (4 units). The original software engineering course, later split into CS169A and CS169L.
-- **CS 169A** — _Engineering Software as a Service_ (4 units). Upper-division course on modern software engineering through RESTful design, HTTP, and team projects.
-- **CS 169L** — _Software Engineering Team Project_ (4 units). Follow-up to CS 169A; teams build a semester-long project for a campus organization or local nonprofit.
+- **CS 10** — _The Beauty and Joy of Computing_ (4 units). Non-majors introduction to computer science. Hands-on, project-based course taught using Snap<em>!</em> and Python. [cs10.org](https://cs10.org)
+- **CS 88 / DATA C88C** — _Computational Structures for Data Science_ (3 units). CS1-or-1.5 course for data science majors, based on Sussman's SICP and taught in Python. [c88c.org](https://c88c.org)
+- **CS 169** — _Engineering Software as a Service_ (4 units). The original software engineering course, later split into CS169A and CS169L. [saasbook.info](https://saasbook.info)
+- **CS 169A** — _Engineering Software as a Service_ (4 units). Upper-division course on modern software engineering through RESTful design, HTTP, and team projects. [saasbook.info](https://saasbook.info)
+- **CS 169L** — _Software Engineering Team Project_ (4 units). Follow-up to CS 169A; teams build a semester-long project for a campus organization or local nonprofit. [saasbook.info](https://saasbook.info)
 - **CS W186** — _Introduction to Databases_ (4 units). Upper-division databases course offered in an online format.
 - **CS 194-23** — _Art & Science of Digital Photography_ (4 units). Highly technical photography course bridging art and engineering.
 - **CS 195 / CS H195** — _The Social Implications of Computing Technology_ (1 / 3 units). Course exploring the unintended consequences of computing, including the culture of how we build programs. H195 is an honors course where students complete a small research project.
 - **CS 294-188** — _Design and Evaluation of CS at Scale_ (1 unit). Pedagogy course for teaching assistants on course-course collaborations and current computing-education pedagogy.
 - **CS 302** — _Designing Computer Science Education_ (3 units). Course preparing students to be the instructor of record for a summer CS course.
 - **CS 375** — _Teaching Practicum_ (2 units). First-time CS teaching assistant training.
-- **DATA 101 / CS C187** — _Data Engineering_ (4 units). Upper-division course putting databases into practice. Topics include SQL, window functions, indexing, design, ETL, NoSQL, and graph databases.
+- **DATA 101 / CS C187** — _Data Engineering_ (4 units). Upper-division course putting databases into practice. Topics include SQL, window functions, indexing, design, ETL, NoSQL, and graph databases. [data101.org](https://data101.org)
 
 
 ### Teaching Assignments
@@ -544,31 +544,5 @@ Prior maintainer of Downshift, an open-source React component (~3M weekly NPM do
 
 ## References
 
-**Daniel Garcia**
-Teaching Professor, UC Berkeley EECS
-{:.entry}
-[ddgarcia@cs.berkeley.edu](mailto:ddgarcia@cs.berkeley.edu)
-
-(510) 642-5775
-
-
-**Brian Harvey**
-Teaching Professor Emeritus, UC Berkeley EECS
-{:.entry}
-[bh@cs.berkeley.edu](mailto:bh@cs.berkeley.edu)
-
-(510) 642-8311
-
-
-**Josh Hug**
-Associate Teaching Professor, UC Berkeley EECS
-{:.entry}
-[josh@joshh.ug](mailto:josh@joshh.ug)
-
-
-**Armando Fox**
-Professor, UC Berkeley EECS
-{:.entry}
-[fox@berkeley.edu](mailto:fox@berkeley.edu)
-
-
+References available upon request.
+{:.references-note}

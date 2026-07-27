@@ -9,18 +9,17 @@
 /* Shield the CV's self-contained design from milo.css's site-wide element
    rules (legacy assets/styles/main.css + Bootstrap Reboot). cv.css already
    scopes everything to .cv-layout, so we only reset the handful of
-   bare-element properties it doesn't set itself — namely the serif heading
-   font + weight and the paragraph text-indent that main.css applies
-   globally. */
+   bare-element properties it doesn't set itself — the heading weight
+   (main.css sets 400 on bare h1–h6) and the paragraph text-indent that
+   main.css applies globally. The heading *font* is not reset here: cv.css
+   sets Source Serif 4 on .cv-content h1–h6, which already outranks
+   main.css's bare-element selector. */
 .cv-layout p,
 .cv-content h1, .cv-content h2, .cv-content h3,
 .cv-content h4, .cv-content h5, .cv-content h6 { text-indent: 0; }
 
 .cv-content h1, .cv-content h2, .cv-content h3,
-.cv-content h4, .cv-content h5, .cv-content h6 {
-  font-family: inherit;
-  font-weight: 700;
-}
+.cv-content h4, .cv-content h5, .cv-content h6 { font-weight: 700; }
 
 .cv-layout img { padding: 0; margin: 0; }
 
