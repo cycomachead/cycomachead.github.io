@@ -29,20 +29,19 @@ sections:
         url: https://scholar.google.com/citations?hl=en&user=UBJ4SvIAAAAJ
       - title: Office Hours & Scheduling
         url: /calendar/
+      - title: ORCID
+        url: https://orcid.org/0000-0002-7036-3902
+        icon: ai ai-orcid ai-fw
       - title: ball@berkeley.edu
         url: mailto:ball@berkeley.edu
 
   - title: Personal
     icon: fa-solid fa-camera
     accent: california-gold
-    description: Photos, posts, and a bit more about me.
+    description: Photos and a bit more about me.
     links:
       - title: Photography
         url: /photos/
-      - title: Recent Photo Posts
-        url: /posts/
-      - title: Blog
-        url: /blog/
       - title: About Me
         url: /about/
       - title: Contact
@@ -62,12 +61,6 @@ sections:
       - title: Mastodon
         url: https://hci.social/deck/@_mball_
         icon: fab fa-fw fa-mastodon
-      - title: Instagram
-        url: https://instagram.com/cycomachead
-        icon: fab fa-fw fa-instagram
       - title: Flickr
         url: https://www.flickr.com/cycomachead
         icon: fab fa-fw fa-flickr
-      - title: ORCID
-        url: https://orcid.org/0000-0002-7036-3902
-        icon: ai ai-orcid ai-fw
