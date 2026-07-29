@@ -1,10 +1,10 @@
 name: Run all page tests
 
-# Run when a PR is opened, any branch is pushed.
-# Also allow manually triggering workflows.
+# Run for pull requests and pushes, and allow manual runs.
 on:
-  - push
-  - workflow_dispatch
+  push:
+  pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -12,6 +12,7 @@ permissions:
 jobs:
   rspec:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
@@ -26,13 +27,14 @@ jobs:
         # The Sass build imports Bootstrap/Font Awesome from node_modules.
         run: npm ci
       - name: Run a11y tests
+        id: rspec
         run: bundle exec rspec
       - name: Summarize failures
-        if: failure()
+        if: failure() && steps.rspec.outcome == 'failure'
         run: ruby spec/support/spec_summary.rb
       - name: Keep screenshots from failed tests
         uses: actions/upload-artifact@v4
-        if: failure()
+        if: failure() && steps.rspec.outcome == 'failure'
         with:
           name: screenshots
           path: ${{ github.workspace }}/tmp/capybara
