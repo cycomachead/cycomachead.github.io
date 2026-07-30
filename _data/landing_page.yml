@@ -28,9 +28,8 @@ sections:
       - title: DBLP
         url: https://dblp.org/pid/175/6457.html
         icon: ai ai-dblp ai-fw
-      # TODO: replace with your exact ACM profile URL (dl.acm.org/profile/<id>)
       - title: ACM Digital Library
-        url: https://dl.acm.org/action/doSearch?field1=ContribAuthor&text1=Michael+Ball
+        url: https://dl.acm.org/profile/87258775657
         icon: ai ai-acmdl ai-fw
       - title: ORCID
         url: https://orcid.org/0000-0002-7036-3902
