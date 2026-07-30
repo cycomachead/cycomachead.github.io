@@ -29,16 +29,22 @@
     font-size: 2.75rem;
   }
 
-  &-titles {
+  &-tagline {
     font-family: $font-family-serif;
-    font-size: 1.2rem;
-    color: $gray-700;
+    font-size: 1.15rem;
+    color: $gray-600;
     margin-bottom: 1rem;
   }
 
-  &-intro {
+  &-bio {
     font-size: 1.05rem;
-    margin-bottom: 2rem;
+  }
+
+  &-rule {
+    width: 72px;
+    height: 3px;
+    background: $california-gold;
+    margin: 1.5rem auto 2rem;
   }
 
   &-card {
@@ -53,10 +59,6 @@
       i {
         margin-right: .35rem;
       }
-    }
-
-    p {
-      color: $gray-700;
     }
 
     ul {

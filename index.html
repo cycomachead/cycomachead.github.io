@@ -11,15 +11,12 @@ layout: landing
   <div class="container text-center">
     <img class="landing-avatar rounded-circle" src="{{ lp.avatar }}"
       alt="{{ lp.name }}" />
-    <h1 class="landing-name">{{ lp.name }}</h1>
-    <p class="landing-titles">
-      {% for title in lp.titles %}
-        {{ title | escape }}{% unless forloop.last %}<br />{% endunless %}
-      {% endfor %}
-    </p>
-    <div class="landing-intro col-md-8 mx-auto">
-      {{ lp.intro | markdownify }}
+    <h1 class="landing-name">{{ lp.greeting | escape }}</h1>
+    <p class="landing-tagline">{{ lp.tagline | escape }}</p>
+    <div class="landing-bio col-md-7 mx-auto">
+      {{ lp.bio | markdownify }}
     </div>
+    <div class="landing-rule"></div>
   </div>
 
   <div class="container">
@@ -28,7 +25,6 @@ layout: landing
       <div class="col-lg-4 col-md-6">
         <div class="landing-card landing-card-{{ section.accent }}">
           <h2><i class="{{ section.icon }}" aria-hidden="true"></i> {{ section.title }}</h2>
-          {{ section.description | markdownify }}
           <ul>
             {% for link in section.links %}
             <li>
