@@ -5,10 +5,10 @@ avatar: /assets/images/profile.jpg
 
 name: Michael Ball
 greeting: Hi, I’m Michael 👋
-tagline: Lecturer at UC Berkeley · Software Engineer at Gradescope
+tagline: Continuing Lecturer, UC Berkeley Electrical Engineering & Computer Sciences · Software Engineer at Gradescope
 bio: >
-  I teach computing, help build Snap*!* and Gradescope, and take photos
-  along the way.
+  I build educational technology, teach computing and accessibility, and
+  enjoy documenting the world.
 
 # accent must match a `landing-card-*` modifier in assets/scss/_landing.scss
 sections:
@@ -16,9 +16,10 @@ sections:
     icon: fa-solid fa-building-columns
     accent: berkeley-blue
     links:
+      # letter renders a typographic mark instead of a Font Awesome icon
       - title: Berkeley Faculty Page
         url: https://www.eecs.berkeley.edu/Faculty/Homepages/mball.html
-        icon: fas fa-fw fa-building-columns
+        letter: B
       - title: Curriculum Vitae
         url: /cv/
         icon: fas fa-fw fa-file-lines

@@ -29,7 +29,11 @@ layout: landing
             {% for link in section.links %}
             <li>
               <a href="{{ link.url }}">
-                {%- if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i> {% endif -%}
+                {%- if link.letter -%}
+                  <span class="landing-mark" aria-hidden="true">{{ link.letter }}</span>
+                {%- elsif link.icon -%}
+                  <i class="{{ link.icon }}" aria-hidden="true"></i>
+                {%- endif %}
                 {{ link.title | escape }}
               </a>
             </li>

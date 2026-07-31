@@ -40,6 +40,15 @@
     font-size: 1.05rem;
   }
 
+  // Typographic stand-in for the Berkeley "B" logomark; sized to match fa-fw
+  &-mark {
+    display: inline-block;
+    width: 1.28em;
+    text-align: center;
+    font-family: $font-family-serif;
+    font-weight: 700;
+  }
+
   &-rule {
     width: 72px;
     height: 3px;
