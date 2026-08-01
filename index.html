@@ -29,7 +29,10 @@ layout: landing
             {% for link in section.links %}
             <li>
               <a href="{{ link.url }}">
-                {%- if link.letter -%}
+                {%- if link.image -%}
+                  <span class="landing-mark landing-mark-svg" aria-hidden="true"
+                    style="-webkit-mask-image: url({{ link.image }}); mask-image: url({{ link.image }})"></span>
+                {%- elsif link.letter -%}
                   <span class="landing-mark" aria-hidden="true">{{ link.letter }}</span>
                 {%- elsif link.icon -%}
                   <i class="{{ link.icon }}" aria-hidden="true"></i>

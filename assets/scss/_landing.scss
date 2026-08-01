@@ -40,13 +40,22 @@
     font-size: 1.05rem;
   }
 
-  // Typographic stand-in for the Berkeley "B" logomark; sized to match fa-fw
+  // Inline logomark, sized to match fa-fw icons
   &-mark {
     display: inline-block;
     width: 1.28em;
     text-align: center;
     font-family: $font-family-serif;
     font-weight: 700;
+  }
+
+  // SVG mark masked with currentColor so it follows the link color
+  &-mark-svg {
+    height: 1em;
+    vertical-align: -.125em;
+    background-color: currentColor;
+    -webkit-mask: no-repeat center / contain;
+    mask: no-repeat center / contain;
   }
 
   &-rule {

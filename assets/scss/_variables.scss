@@ -11,8 +11,12 @@ $gray-900: #212529;
 $black: #000;
 
 // UC Berkeley brand colors
-$berkeley-blue:   #003262;
-$california-gold: #FDB515;
+// "Berkeley Blue" from the 2025 brand refresh (Sass vars can't start with
+// a digit, hence the suffix). Swap $berkeley-blue to this to adopt it.
+$berkeley-blue-2025: #002676;
+// Classic Berkeley Blue; the site default
+$berkeley-blue:      #003262;
+$california-gold:    #FDB515;
 
 $blue:    #2780E3;
 $indigo:  #6610f2;

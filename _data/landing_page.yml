@@ -16,10 +16,10 @@ sections:
     icon: fa-solid fa-building-columns
     accent: berkeley-blue
     links:
-      # letter renders a typographic mark instead of a Font Awesome icon
+      # image renders an SVG mark (via CSS mask, so it matches the link color)
       - title: Berkeley Faculty Page
         url: https://www.eecs.berkeley.edu/Faculty/Homepages/mball.html
-        letter: B
+        image: /assets/images/berkeley-b.svg
       - title: Curriculum Vitae
         url: /cv/
         icon: fas fa-fw fa-file-lines
