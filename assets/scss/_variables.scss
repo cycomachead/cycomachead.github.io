@@ -16,6 +16,8 @@ $black: #000;
 $berkeley-blue-2025: #002676;
 // Classic Berkeley Blue; the site default
 $berkeley-blue:      #003262;
+// "Blue Medium" from the 2025 brand palette; the site-wide link color
+$blue-medium:        #004AAE;
 $california-gold:    #FDB515;
 
 $blue:    #2780E3;
@@ -33,6 +35,9 @@ $light:   lighten($gray-200, 3%);
 
 // Constrast
 $min-contrast-ratio: 4.5;
+
+// Links
+$link-color: $blue-medium;
 
 // Spacing
 $spacer: 1rem;

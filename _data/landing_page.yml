@@ -10,13 +10,11 @@ bio: >
   I build educational technology, teach computing and accessibility, and
   enjoy documenting the world.
 
-# accent must match a `landing-card-*` modifier in assets/scss/_landing.scss
 sections:
   - title: Academic
     icon: fa-solid fa-building-columns
     accent: berkeley-blue
     links:
-      # image renders an SVG mark (via CSS mask, so it matches the link color)
       - title: Berkeley Faculty Page
         url: https://www.eecs.berkeley.edu/Faculty/Homepages/mball.html
         image: /assets/images/berkeley-b.svg
@@ -49,17 +47,9 @@ sections:
       - title: Contact
         url: /contact/
         icon: fas fa-fw fa-envelope
-
-  - title: Elsewhere
-    icon: fa-solid fa-globe
-    accent: berkeley-blue
-    links:
       - title: GitHub
         url: https://github.com/cycomachead
         icon: fab fa-fw fa-github
-      - title: LinkedIn
-        url: https://www.linkedin.com/in/pub/michael-ball/43/18a/81/
-        icon: fab fa-fw fa-linkedin
       - title: Mastodon
         url: https://hci.social/deck/@_mball_
         icon: fab fa-fw fa-mastodon

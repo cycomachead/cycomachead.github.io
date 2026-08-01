@@ -65,17 +65,16 @@
     margin: 1.5rem auto 2rem;
   }
 
-  &-card {
-    height: 100%;
-    padding: 1.5rem;
-    background: $gray-100;
-    border-top: 4px solid $gray-500;
-
+  // Open link list with an accent underline on the heading
+  &-list {
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.35rem;
+      padding-bottom: .4rem;
+      border-bottom: 3px solid $gray-300;
 
       i {
         margin-right: .35rem;
+        font-size: 1.1rem;
       }
     }
 
@@ -89,21 +88,12 @@
       }
     }
 
-    a {
-      color: $berkeley-blue;
-
-      &:hover,
-      &:focus {
-        color: lighten($berkeley-blue, 20%);
-      }
+    &-berkeley-blue h2 {
+      border-bottom-color: $berkeley-blue;
     }
 
-    &-berkeley-blue {
-      border-top-color: $berkeley-blue;
-    }
-
-    &-california-gold {
-      border-top-color: $california-gold;
+    &-california-gold h2 {
+      border-bottom-color: $california-gold;
     }
   }
 }

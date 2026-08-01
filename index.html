@@ -22,8 +22,8 @@ layout: landing
   <div class="container">
     <div class="row g-4 justify-content-center">
       {% for section in lp.sections %}
-      <div class="col-lg-4 col-md-6">
-        <div class="landing-card landing-card-{{ section.accent }}">
+      <div class="col-lg-5 col-md-6">
+        <div class="landing-list landing-list-{{ section.accent }}">
           <h2><i class="{{ section.icon }}" aria-hidden="true"></i> {{ section.title }}</h2>
           <ul>
             {% for link in section.links %}
