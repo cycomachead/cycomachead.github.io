@@ -1,29 +1,26 @@
-<table id="pagination">
-    <tr>
-        <td class="left">
-            <li class="left">
-                {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path }}">Older Posts</a>
-                {% else %}
-                    No Older Posts
-                {% endif %}
-            </li>
-        </td>
-        <td class="center">
-            Page: {{ paginator.page }} of {{ paginator.total_pages }}
-        </td>
-        <td class="right">
-            {% if paginator.previous_page %}
-                <li class="right">
-                    {% if paginator.previous_page == 1 %}
-                    <a href="{{ paginator.previous_page_path }}">← Newer Posts</a>
-                    {% else %}
-                    <a href="{{ paginator.previous_page_path }}">Newer Posts</a>
-                    {% endif %}
-                </li>
-            {% else %}
-                <li class="right">No Newer Posts</li>
-            {% endif %}
-        </td>
-    </tr>
-</table>
+{%- comment -%}
+  Paginator navigation. This used to be a layout <table> with bare <li>
+  elements dropped straight into <td>s — invalid markup that screen readers
+  announced as a data table. It is now a labelled <nav> with a real list.
+{%- endcomment -%}
+<nav class="post-pagination" aria-label="Pagination">
+  <ul>
+    <li class="left">
+      {%- if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Older Posts</a>
+      {%- else %}
+      <span>No Older Posts</span>
+      {%- endif %}
+    </li>
+    <li class="center">
+      Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </li>
+    <li class="right">
+      {%- if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">Newer Posts</a>
+      {%- else %}
+      <span>No Newer Posts</span>
+      {%- endif %}
+    </li>
+  </ul>
+</nav>

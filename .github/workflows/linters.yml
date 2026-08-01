@@ -1,0 +1,41 @@
+name: Linters
+
+on: [pull_request]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  markdownlint:
+    name: runner / markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: markdownlint
+        uses: reviewdog/action-markdownlint@v0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-check
+          # Only annotate lines the PR actually touched — `_posts/` holds a
+          # decade of imported content that would otherwise drown the report.
+          filter_mode: diff_context
+          fail_on_error: true
+
+  rubocop:
+    name: runner / rubocop
+    runs-on: ubuntu-latest
+    env:
+      BUNDLE_ONLY: rubocop
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - uses: reviewdog/action-rubocop@v2
+        with:
+          reporter: github-pr-check
+          skip_install: true
+          use_bundler: true
+          filter_mode: nofilter
+          fail_on_error: true

@@ -6,9 +6,9 @@ tags: [school, college, cal, classes, computer, macs,]
 date: 2012-01-16 15:29:00
 ---
 
-<img src="http://farm8.staticflickr.com/7027/6712574633_a8991ca168.jpg" width="333" height="500" alt="Clock" style="text-align:center;"/>
+<img src="https://farm8.staticflickr.com/7027/6712574633_a8991ca168.jpg" width="333" height="500" alt="Clock" style="text-align:center;"/>
 
-**A New Mac**
+## A New Mac
 
 Well, my previous Mac had been having a few problems over time and I had multiple trips to both the Berkeley and San Francisco Apple Stores. Finally, today Apple decided to simply replace my Mac with a newer, but equivalent, model! Thunderbolt seems so cool, and I can't wait to use it for something exciting, but so far the Intel i7 is amazingly fast.
 

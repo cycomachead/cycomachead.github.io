@@ -1,0 +1,58 @@
+{%- comment -%}
+  Shared <head> for every layout.
+
+  Parameters:
+    title       - overrides page.title in <title> / <meta name="title">.
+    description - overrides site.description for this page.
+    stylesheets - comma-separated paths to extra stylesheets, loaded after
+                  the site styles (so they win on equal specificity). A page
+                  can also request one via a `stylesheet:` front matter key.
+{%- endcomment -%}
+{%- assign title = include.title | default: page.title -%}
+{%- if title -%}
+  {%- assign page_title = title | append: ' | ' | append: site.title -%}
+{%- else -%}
+  {%- assign page_title = site.title -%}
+{%- endif -%}
+{%- assign page_description = include.description | default: site.description -%}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Google Webmaster tools-->
+  <meta name="google-site-verification"
+      content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk">
+
+  <meta name="author" content="{{ site.author.name }}">
+  <meta name="description" content="{{ page_description | strip_newlines | strip }}">
+
+  <title>{{ page_title }}</title>
+  <meta name="title" content="{{ page_title }}">
+
+  {%- capture keywords -%}
+    {%- if page.tags -%}{%- for tag in page.tags -%}{{ tag }}, {% endfor %}{%- endif -%}
+    {%- for key in site.keywords -%}{{ key }}{%- unless forloop.last -%}, {% endunless -%}{%- endfor -%}
+  {%- endcapture %}
+  <meta name="keywords" content="{{ keywords }}">
+
+  <link href="{{ '/assets/styles/milo.css' | relative_url }}" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/gxx8oul.css">
+  {%- assign stylesheets = include.stylesheets | default: page.stylesheet -%}
+  {%- if stylesheets %}
+  {%- assign extra_stylesheets = stylesheets | split: ',' -%}
+  {%- for sheet in extra_stylesheets -%}
+  {%- assign sheet = sheet | strip %}
+  <link rel="stylesheet" href="{{ sheet | relative_url }}">
+  {%- endfor %}
+  {%- endif %}
+
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}"
+      href="{{ '/atom.xml' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {%- comment -%}
+    The old layouts linked /assets/images/apple-touch-icon.png in three sizes,
+    but that file has never existed in this repo — every page shipped three 404s.
+    Drop in a 180x180 apple-touch-icon.png and re-add the link if you want one.
+  {%- endcomment %}
+  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
+</head>

@@ -1,0 +1,523 @@
+/* Headings are set in Source Serif 4. @import has to lead the file — it's
+   only legal before other rules — and it's here rather than in a <link> so
+   the standalone preview (which inlines this file into a <style>) and the
+   deployed site both pick the font up from one place. */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap');
+
+/* Styling for the rendered CV. Used in two places:
+   1. The standalone preview shell (`make preview`) — inlined into cv.html.
+   2. The deployed Jekyll site — shipped as cv.css alongside cv-sidebar.html
+      and the rendered Markdown body, so the milo-default page can drop the
+      CV into its existing layout without fighting site CSS.
+
+   Everything is scoped to `.cv-layout` for that reason. The theme is light by
+   default; setting `data-theme="dark"` on `.cv-layout` (done by the toggle
+   script in the sidebar) flips to the Berkeley-blue-light palette. */
+
+.cv-layout {
+  --cv-berkeley-blue:       #002676;
+  --cv-berkeley-blue-dark:  #001a52;
+  --cv-berkeley-blue-light: #79a8ff;
+  --cv-pacific:             #46535e;
+  --cv-rule:                #e5e7eb;
+  --cv-text:                #111827;
+  --cv-text-muted:          #46535e;
+  --cv-bg:                  #ffffff;
+  --cv-sidebar-bg:          #f5f6f8;
+  --cv-accent:              var(--cv-berkeley-blue);
+  --cv-accent-hover:        var(--cv-berkeley-blue-dark);
+  --cv-button-text:         #ffffff;
+  --cv-toc-active-bg:       rgba(0, 38, 118, 0.08);
+
+  --cv-content-max:  46rem;
+  --cv-sidebar-w:    18rem;
+
+  /* Body copy stays on the system sans stack; headings are Source Serif 4. */
+  --cv-heading-font: "Source Serif 4", "Source Serif Pro", "Source Serif",
+                     Georgia, Cambria, "Times New Roman", Times, serif;
+
+  background: var(--cv-bg);
+  color:      var(--cv-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Source Sans Pro",
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size:   17px;
+  line-height: 1.55;
+  color-scheme: light; /* native form controls & scrollbars match the theme */
+}
+
+.cv-layout[data-theme="dark"] {
+  color-scheme: dark;
+  --cv-rule:           #2b3340;
+  --cv-text:           #e5e7eb;
+  --cv-text-muted:     #9aa3ad;
+  --cv-bg:             #0f1320;
+  --cv-sidebar-bg:     #161b2a;
+  --cv-pacific:        #9aa3ad;
+  --cv-accent:         var(--cv-berkeley-blue-light);
+  --cv-accent-hover:   #a4c2ff;
+  --cv-button-text:    #0f1320;
+  --cv-toc-active-bg:  rgba(121, 168, 255, 0.16);
+}
+
+.cv-layout *,
+.cv-layout *::before,
+.cv-layout *::after { box-sizing: border-box; }
+
+/* One consistent, visible focus indicator for keyboard users. */
+.cv-layout a:focus-visible,
+.cv-layout button:focus-visible {
+  outline: 2px solid var(--cv-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Smooth-scroll TOC jumps, but never for users who opt out of motion. */
+@media (prefers-reduced-motion: no-preference) {
+  html:has(.cv-layout) { scroll-behavior: smooth; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cv-layout *, .cv-layout *::before, .cv-layout *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Ensure the standalone preview page also picks up the bg color so the
+   margins around the layout don't look stranded. Targets the document
+   only when our layout is mounted as the page itself. */
+html:has(> body > .cv-layout),
+body:has(> .cv-layout) {
+  margin: 0;
+  background: var(--cv-bg, #fff);
+}
+
+/* ---------------- Layout: sidebar + content ---------------- */
+
+.cv-layout {
+  display: grid;
+  grid-template-columns: var(--cv-sidebar-w) minmax(0, 1fr);
+  gap: 0;
+  min-height: 100vh;
+}
+
+.cv-sidebar {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100vh;
+  height: 100dvh; /* stable on mobile browsers with collapsing UI chrome */
+  overflow-y: auto;
+  padding: 1.75rem 1.25rem 2rem 1.75rem;
+  background: var(--cv-sidebar-bg);
+  border-right: 1px solid var(--cv-rule);
+  font-size: 0.92rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.cv-content {
+  max-width: var(--cv-content-max);
+  margin: 0 auto;
+  padding: 3rem clamp(1rem, 4vw, 2rem) 5rem;
+}
+
+@media (max-width: 800px) {
+  .cv-layout { grid-template-columns: 1fr; }
+  .cv-sidebar {
+    position: static;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--cv-rule);
+    padding: 1.25rem;
+    gap: 1rem;
+  }
+  /* Hide h3 entries in the TOC when the sidebar is collapsed at the top. */
+  .cv-sidebar .cv-toc > ol > li > ol { display: none; }
+
+  /* Download button and résumé link side by side instead of stacked. */
+  .cv-downloads {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.9rem;
+  }
+  .cv-downloads .cv-btn {
+    flex: 1 1 auto;
+    padding: 0.6rem 0.5rem;
+    font-size: 0.95rem;
+  }
+  .cv-download-alt { align-self: center; flex: 0 0 auto; }
+
+  /* Wrap the section list into rows so the TOC doesn't push the CV content
+     a full screen down — but as plain text links, not pills. */
+  .cv-toc > ol {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.1rem;
+    row-gap: 0.1rem;
+  }
+  .cv-toc > ol > li { margin: 0; }
+  .cv-toc > ol > li > a {
+    padding: 0.35rem 0;
+    border-left: 0;
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  /* No left rail to colour in when the links sit in a row — underline the
+     active section instead. */
+  .cv-toc > ol > li > a.is-active,
+  .cv-toc > ol > li:has(a.is-active) > a {
+    background: none;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+  }
+
+  /* The toggle no longer sits at the bottom of a full-height column. */
+  .cv-theme-toggle {
+    margin-top: 0;
+    padding-top: 0.75rem;
+  }
+
+  .cv-content { padding-top: 1.5rem; }
+  .cv-content h1 { font-size: clamp(1.75rem, 7vw, 2.25rem); }
+}
+
+/* ---------------- Sidebar: skip link ---------------- */
+/* Visually hidden until focused, then shown as the first element so
+   keyboard/screen-reader users can jump straight past the sidebar. */
+
+.cv-skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* On focus the link is pinned to the viewport rather than laid out inside
+   the sidebar. The sidebar is a `position: sticky` column with
+   `overflow-y: auto`, so an in-flow skip link was clipped by that scroll
+   container (and, on the deployed site, hidden under the sticky navbar).
+   `fixed` + a z-index above Bootstrap's .sticky-top (1020) keeps the whole
+   link on screen. --cv-navbar-h is set by the site shell; the standalone
+   preview has no navbar, hence the 0px fallback. */
+.cv-skip-link:focus {
+  position: fixed;
+  top: calc(var(--cv-navbar-h, 0px) + 0.5rem);
+  left: 0.75rem;
+  z-index: 1100;
+  width: auto;
+  height: auto;
+  max-width: calc(100vw - 1.5rem);
+  overflow: visible;
+  clip-path: none;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  background: var(--cv-accent);
+  color: var(--cv-button-text);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* ---------------- Sidebar: download buttons ---------------- */
+
+.cv-downloads {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.4rem;
+}
+
+.cv-btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+
+.cv-btn-primary {
+  background: var(--cv-accent);
+  color: var(--cv-button-text);
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+}
+
+.cv-btn-primary:hover,
+.cv-btn-primary:focus-visible {
+  background: var(--cv-accent-hover);
+  color: var(--cv-button-text);
+}
+
+/* Secondary download: a plain text link, not a second button. */
+.cv-download-alt {
+  align-self: center;
+  color: var(--cv-text-muted);
+  font-size: 0.82rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  padding: 0.15rem 0.25rem;
+}
+
+.cv-download-alt:hover,
+.cv-download-alt:focus-visible {
+  color: var(--cv-accent);
+}
+
+/* ---------------- Sidebar: theme toggle ---------------- */
+
+.cv-theme-toggle {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--cv-text-muted);
+  padding-top: 1rem;
+  border-top: 1px solid var(--cv-rule);
+}
+
+.cv-theme-toggle button {
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--cv-rule);
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  font: inherit;
+  color: var(--cv-text);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.cv-theme-toggle button:hover,
+.cv-theme-toggle button:focus-visible {
+  border-color: var(--cv-accent);
+  color: var(--cv-accent);
+}
+
+.cv-theme-toggle .cv-theme-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* ---------------- Sidebar: TOC ---------------- */
+
+.cv-toc {
+  font-size: 0.92rem;
+}
+
+.cv-toc-heading {
+  margin: 0 0 0.5rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--cv-text-muted);
+  font-weight: 600;
+}
+
+.cv-toc ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.cv-toc > ol > li {
+  margin: 0.3rem 0;
+}
+.cv-toc > ol > li > a {
+  font-weight: 600;
+  color: var(--cv-accent);
+}
+.cv-toc > ol > li > ol {
+  margin: 0.15rem 0 0 0.85rem;
+  border-left: 1px solid var(--cv-rule);
+}
+.cv-toc > ol > li > ol li {
+  margin: 0.1rem 0;
+}
+.cv-toc > ol > li > ol a {
+  color: var(--cv-pacific);
+  font-size: 0.88rem;
+}
+
+/* Block links with a left rail: the rail is transparent until the section
+   is the one in view, which is what the scroll spy colours in. */
+.cv-toc a {
+  display: block;
+  text-decoration: none;
+  padding: 0.16rem 0.5rem;
+  border-left: 2px solid transparent;
+  border-radius: 0 3px 3px 0;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+.cv-toc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+/* ---------------- Sidebar: scroll spy ---------------- */
+/* cv-nav.js adds .is-active (and aria-current="true") to the TOC link for
+   the section currently under the top of the viewport. */
+
+.cv-toc a.is-active {
+  border-left-color: var(--cv-accent);
+  background: var(--cv-toc-active-bg);
+  color: var(--cv-accent);
+  font-weight: 700;
+}
+
+/* An active subsection also lights up the rail of its parent section, so
+   the reader can see where they are at both levels. */
+.cv-toc > ol > li:has(a.is-active) > a { border-left-color: var(--cv-accent); }
+
+/* ---------------- Headings ---------------- */
+
+.cv-content h1,
+.cv-content h2,
+.cv-content h3,
+.cv-content h4,
+.cv-content h5,
+.cv-content h6 {
+  font-family: var(--cv-heading-font);
+  color: var(--cv-accent);
+  line-height: 1.2;
+  /* Breathing room above anchored headings after a TOC jump — and enough of
+     it that the scroll spy agrees a heading you jumped to is "current".
+     On the deployed site the sticky navbar eats the top of the viewport, so
+     add its height too (0 in the standalone preview). */
+  scroll-margin-top: calc(var(--cv-navbar-h, 0px) + 1rem);
+}
+.cv-content h1 {
+  font-size: 2.25rem;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.01em;
+}
+.cv-content h2 {
+  font-size: 1.5rem;
+  margin: 3rem 0 0.6rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid var(--cv-accent);
+}
+.cv-content h3 {
+  font-size: 1.05rem;
+  margin: 1.6rem 0 0.4rem;
+  color: var(--cv-pacific);
+}
+
+.cv-content a {
+  color: var(--cv-accent);
+  /* WCAG 1.4.1: --cv-accent only reaches ~1.3:1 against the body text colour,
+     so links in a block of text need an underline to be distinguishable
+     without relying on colour. A transparent border shown only on hover does
+     not count. */
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  /* Bare DOI / tech-report URLs are long; break them rather than overflow
+     the column on narrow screens. */
+  overflow-wrap: anywhere;
+}
+.cv-content a:hover,
+.cv-content a:focus { text-decoration-thickness: 2px; }
+
+.cv-content hr { border: 0; border-top: 1px solid var(--cv-rule); margin: 1.5rem 0; }
+
+.cv-content ol, .cv-content ul { padding-left: 1.4rem; }
+.cv-content li + li { margin-top: 0.25rem; }
+
+.cv-content blockquote {
+  border-left: 3px solid var(--cv-rule);
+  margin: 0.5rem 0;
+  padding: 0.1rem 0.9rem;
+  color: var(--cv-pacific);
+  font-size: 0.95rem;
+}
+
+.cv-content p { margin: 0.4rem 0; }
+.cv-content em { font-style: italic; }
+/* Nested emphasis toggles back to upright — e.g. the stylized `!` of
+   Snap<em>!</em> inside an italicized publication title stays visible. */
+.cv-content em em { font-style: normal; }
+.cv-content strong { font-weight: 600; }
+
+/* ---------------- Top-of-page (only when page_header is on) ---------------- */
+
+.cv-content .contact {
+  margin: 0.5rem 0 0;
+  color: var(--cv-pacific);
+  font-size: 0.95rem;
+}
+.cv-content .bio {
+  margin: 1.5rem 0 0;
+  font-size: 1.05rem;
+  color: var(--cv-text);
+}
+
+/* The public CV never lists referees — only this placeholder line. */
+.cv-content .references-note {
+  margin: 0.8rem 0 0;
+  color: var(--cv-text-muted);
+}
+
+/* ---------------- Entry titles ---------------- */
+/* The `{:.entry}` IAL marks role/award/grant/project headings. We make them
+   visibly distinct from body bold by giving them a subtle accent color, a
+   touch more size, and breathing room above. The trailing entry margin is
+   the bigger lever — it's much easier to scan with extra space below. */
+
+.cv-content .entry {
+  margin: 1.5rem 0 0.3rem;
+  line-height: 1.35;
+}
+.cv-content .entry strong:first-child {
+  color: var(--cv-accent);
+  font-size: 1.06rem;
+  letter-spacing: 0.005em;
+}
+
+/* The text after the entry header line (employer, location, summary) is
+   inside the same paragraph because of GFM soft breaks. Display it on its
+   own line via the `<br>` kramdown emits, but mute the color slightly. */
+.cv-content .entry br + * { color: var(--cv-pacific); }
+
+/* ---------------- Reversed publication lists ---------------- */
+.cv-content ol[reversed] { list-style: decimal; }
+.cv-content ol[reversed] li { margin-bottom: 0.6rem; }
+
+/* ---------------- Print ---------------- */
+/* The PDFs are the canonical print artifact, but printing the web CV should
+   still come out clean: no sidebar chrome, black text, full-width column. */
+
+@media print {
+  .cv-sidebar { display: none; }
+  .cv-layout {
+    display: block;
+    background: #fff;
+    color: #000;
+  }
+  .cv-content {
+    max-width: none;
+    padding: 0;
+  }
+  .cv-content a {
+    color: inherit;
+    border-bottom: none;
+  }
+  .cv-content h1, .cv-content h2, .cv-content h3 {
+    color: #000;
+    break-after: avoid;
+  }
+  .cv-content h2 { border-bottom-color: #000; }
+  .cv-content .entry { break-inside: avoid; }
+}

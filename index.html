@@ -3,14 +3,19 @@ layout: landing
 ---
 {% assign lp = site.data.landing_page %}
 
+{%- comment -%}
+  Decorative banner, matching the interior layouts: alt="" keeps it out of
+  the accessibility tree.
+{%- endcomment -%}
 <section class="landing-hero">
-  <img src="{{ lp.hero_image }}" alt="{{ lp.hero_alt }}" />
+  <img src="{{ lp.hero_image | relative_url }}" alt=""
+    width="2048" height="300" decoding="async" />
 </section>
 
-<main class="landing">
+<main id="main-content" class="landing">
   <div class="container text-center">
-    <img class="landing-avatar rounded-circle" src="{{ lp.avatar }}"
-      alt="{{ lp.name }}" />
+    <img class="landing-avatar rounded-circle" src="{{ lp.avatar | relative_url }}"
+      alt="{{ lp.name }}" width="160" height="160" />
     <h1 class="landing-name">{{ lp.greeting | escape }}</h1>
     <p class="landing-tagline">{{ lp.tagline | escape }}</p>
     <div class="landing-bio col-md-7 mx-auto">

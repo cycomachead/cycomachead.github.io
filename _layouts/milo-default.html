@@ -1,58 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!--Google Webmaster tools-->
-  <meta name="google-site-verification"
-      content="pHeE_FvvBiPQp5IjXqxUehEwgEP037d2fBj5C3G-QSk" />
-
-  <meta name="author" content="{{ site.author.name }}" />
-  <meta name="description" content="{{ site.description }}" />
-
-  {% if page.title %}
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <meta name="title" content="{{ page.title }} | {{ site.title }}">
-  {% else %}
-  <title>{{ site.title }}</title>
-  <meta name="title" content="{{ site.title }}">
-  {% endif %}
-
-
-  {% if page.tags %}
-  <meta name="keywords"
-  content="{% for tag in page.tags %} {{ tag }}, {% endfor %}
-      {% for key in site.keywords %} {{ key }}, {% endfor %}" />
-  {% else %}
-  <meta name="keywords"
-      content="{% for key in site.keywords %} {{ key }}, {% endfor %}" />
-  {% endif %}
-
-  <link href="/assets/styles/milo.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.typekit.net/gxx8oul.css">
-
-  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
-  <link rel="apple-touch-icon"
-      href="{{ site.url }}/assets/images/apple-touch-icon.png" />
-  <link rel="apple-touch-icon" sizes="72x72"
-      href="{{ site.url }}/assets/images/apple-touch-icon.png" />
-  <link rel="apple-touch-icon" sizes="114x114"
-      href="{{ site.url }}/assets/images/apple-touch-icon.png" />
-</head>
+{% include head.html %}
 <body>
+  <a class="visually-hidden-focusable skip-link" href="#main-content">Skip to main content</a>
 
   {% include milo-navbar.html %}
 
-  <section class="pb-2">
-    <img src="/assets/images/stadium-sunset.jpg" class="m-0 p-0" width="100%"
-      alt="UC Berkeley Memorial Stadium at Sunset" style="height: 250px"/>
-  </section>
+  {%- comment -%}
+    Decorative banner: alt="" keeps it out of the accessibility tree so screen
+    readers don't announce it ahead of the real content on every single page.
+  {%- endcomment -%}
+  <div class="hero">
+    <img src="{{ '/assets/images/stadium-sunset.jpg' | relative_url }}" alt=""
+      width="2048" height="250" decoding="async">
+  </div>
 
-  <main class="main">
+  <main id="main-content" class="main">
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8 page-content">
           {{ content }}
         </div>
         <div class="col-md-4 ms-auto">
@@ -60,7 +26,6 @@
         </div>
       </div>
     </div>
-
   </main>
 
   {% include milo-footer.html %}

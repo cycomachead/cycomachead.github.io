@@ -33,11 +33,15 @@ $cyan:    #9954BB;
 $dark:    darken($gray-900, 12.5%);
 $light:   lighten($gray-200, 3%);
 
-// Constrast
+// Contrast
 $min-contrast-ratio: 4.5;
 
 // Links
 $link-color: $blue-medium;
+
+// Bootstrap styles <code> with $pink, but #e83e8c only reaches 3.8:1 on
+// white — under the WCAG AA 4.5:1 minimum. This pink clears it at 5.9:1.
+$code-color: #c2185b;
 
 // Spacing
 $spacer: 1rem;

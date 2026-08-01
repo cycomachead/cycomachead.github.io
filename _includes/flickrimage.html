@@ -1,8 +1,12 @@
-{% unless post %}
-    {% assign post = page %}
-{% endunless %}
-
+{%- comment -%}
+  A single Flickr-hosted photo. Two fixes here: the farm*.staticflickr.com
+  URLs were http://, which browsers block as mixed content on an https site,
+  and <img> carried a target="_blank" attribute that does nothing on an image.
+{%- endcomment -%}
+{%- unless post -%}
+  {%- assign post = page -%}
+{%- endunless -%}
 <div class="photo">
-    <img src="http://farm{{ post.farmid }}.staticflickr.com/{{ post.serid }}/{{ post.pid }}_{{ post.secret }}_z.jpg"
-        alt="{{ post.title }}" target="_blank"/>
+  <img src="https://farm{{ post.farmid }}.staticflickr.com/{{ post.serid }}/{{ post.pid }}_{{ post.secret }}_z.jpg"
+    alt="{{ post.title | escape }}" loading="lazy" decoding="async">
 </div>

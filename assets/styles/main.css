@@ -1,13 +1,16 @@
 .strong { font-weight: bold; }
 .em { font-style: italic; }
 
+/* #2192d4 only reached 3.4:1 against white, below the WCAG AA 4.5:1 minimum
+   for body text. #004AAE (brand blue-medium) clears it at 8.1:1. */
 a,
 a:visited {
     color: #004AAE; /* blue-medium; keep in sync with $blue-medium */
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
     color: #004AAE; /* blue-medium; keep in sync with $blue-medium */
     text-decoration: underline;
 }
@@ -56,78 +59,6 @@ h4 { /* Post Titles */
 
 p { text-indent: 1.4em; }
 
-.nav table {
-    width: auto;
-    text-align: center;
-    padding: .1em;
-    float: center;
-    margin: auto;
-}
-
-.nav tr td a,
-.nav tr td a:visited {
-    text-align: center;
-    color: #666;
-    margin: 0 .5em;
-}
-
-.nav tr td a:hover {
-    color: #004AAE; /* blue-medium; keep in sync with $blue-medium */
-    text-decoration: underline;
-}
-
-.header {
-    position: relative;
-    width: 100%;
-    top: 2.5em;
-    text-align: center;
-    padding: 0;
-    left: 0;
-    margin-bottom: 1em;
-}
-
-.header img {
-    -webkit-box-reflect: none;
-    width: 100%;
-    box-shadow: 0;
-    padding: 0;
-    border-radius: 0;
-    margin: 0;
-}
-
-.middle {
-    margin: 2% 0 2em 0;
-    top: 2em;
-    position: relative;
-    width: 100%;
-}
-
-.content {
-    margin: .5em 2% 2em 4%;
-    width: 68%;
-    position: relative;
-    float: left;
-    overflow: none;
-}
-.side {
-    margin: .5em 4% 0 0;
-    width: 20%;
-    position: relative;
-    float: right;
-    text-align: center;
-}
-.footer {
-    text-align: center;
-    position: static;
-    margin: 1em 0;
-    padding-top: 4px;
-    width: 100%; /* inherit main, and float left*/
-    font-size: 75%;
-    border-top: 1px dashed #ccc;
-    float: left;
-}
-.addthis_toolbox { margin: 0 0 1em 0; }
-
 .article {
     text-align: left;
     margin: 0 1em  1.4em 0;
@@ -144,43 +75,6 @@ p { text-indent: 1.4em; }
 .article { /* dashed borders, for posts and link headers */
     border-bottom: 1.5px dashed #CCC;
     border-width: 100%;
-}
-
-/* Stuff in the side column, h3 is for links titles */
-.aside {
-    text-align: center;
-    padding: 0;
-    margin-top: .5em;
-    margin-right: 5%;
-    width: 20%;
-    position: relative;
-    float: right;
-}
-
-.aside h2 {
-    width: 100%;
-    line-height: 100%;
-    margin: 0 0 .15em 0;
-    padding: 0 0 .15em 0;
-    font-size: 1.5em;
-    border-bottom: 1.5px dashed #ccc;
-    color: #666;
-}
-
-.aside h3,
-.aside h3 a,
-.aside h3 a:visited,
-.aside h3 a:hover {
-    font-family: 'Freight Sans', 'Helvetica', sans-serif;
-    display: inline-block;
-    font-size: 1em;
-    letter-spacing: 2px;
-    padding: 0;
-    margin: 1.5px;
-    width: 94%;
-    border-radius: 5px;
-    background: #CCC;
-    color: #FFF;
 }
 
 .photo img {
@@ -200,30 +94,35 @@ p { text-indent: 1.4em; }
     text-indent: 0em;
 }
 
-#pagination {
-    border: 0px;
+/* Pagination / prev-next post navigation. Was a layout <table>; now a list. */
+.post-pagination {
     width: 100%;
     font-size: 80%;
+    clear: both;
 }
 
-
-.left {
-    text-align: left;
+.post-pagination ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
-.left li {
-    list-style: none;
-}
+.post-pagination .left { text-align: left; }
+.post-pagination .center { text-align: center; }
+.post-pagination .right { text-align: right; margin-left: auto; }
 
 .center { text-align: center; }
 
-.right {
-    text-align: right;
-    list-style: none;
-}
-
-.right li {
-    text-align: right;
+/* App screenshots on /ios/ */
+.screenshot-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
     list-style: none;
 }

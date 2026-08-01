@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+{%- comment -%}
+  head.html loads the site's shared stylesheet + font first so the navbar
+  renders exactly like the rest of mball.co, then cv.css — which is more
+  specific (scoped to .cv-layout) and wins for the CV body/sidebar — and
+  finally cv-shell.css, the glue that fits that layout under the shared navbar.
+
+  cv.css / cv-theme.js / cv-nav.js / cv-sidebar.html are shipped into /cv/ by the
+  cycomachead/cv deploy workflow (see that repo's README). The CV is a
+  full-bleed 100vh sticky-sidebar layout, so we drop it below the shared
+  sticky navbar rather than embedding it in the milo-default page shell.
+{%- endcomment -%}
+{%- capture cv_title -%}
+{{ page.title | default: 'CV' }}{% if page.subtitle %} — {{ page.subtitle }}{% endif %}
+{%- endcapture -%}
+{%- capture cv_description -%}
+Curriculum vitae of {{ site.author.name }}, {{ site.author.employer }}.
+{%- endcapture -%}
+{% include head.html title=cv_title description=cv_description stylesheets="/cv/cv.css,/assets/styles/cv-shell.css" %}
+<body>
+  {%- comment -%}
+    No skip link here: cv-sidebar.html opens with its own "Skip to CV content".
+  {%- endcomment -%}
+  {% include milo-navbar.html %}
+
+  <div class="cv-layout">
+    {% include_relative cv-sidebar.html %}
+    <main id="cv-main" class="cv-content">
+      {%- comment -%}
+        The CV body shipped by cycomachead/cv is content-only (`page_header:
+        false`), so without this the page opened straight into "Education" —
+        no name anywhere on it, and no level-one heading. cv.css already
+        styles .cv-content h1 and .contact.
+      {%- endcomment -%}
+      <header class="cv-page-header">
+        <h1>{{ page.title | default: 'Curriculum Vitae' }}</h1>
+        {%- if page.subtitle %}
+        <p class="contact"><strong>{{ page.subtitle }}</strong></p>
+        {%- endif %}
+      </header>
+
+      {{ content }}
+    </main>
+  </div>
+
+  <script src="{{ '/cv/cv-theme.js' | relative_url }}"></script>
+  <script src="{{ '/cv/cv-nav.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/cv-shell.js' | relative_url }}"></script>
+  {% include scripts.html %}
+</body>
+</html>

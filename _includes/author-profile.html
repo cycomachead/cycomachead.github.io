@@ -3,13 +3,13 @@
 
 {% assign author = site.author %}
 
-<div itemscope itemtype="http://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person">
   <div class="card m-1">
     <div class="card-body">
-      <h3 class="card-title m-0">
+      <h2 class="card-title h5 m-0">
         <img src="{{ author.avatar }}" class="author__avatar rounded-circle m-0" alt="{{ author.name }}">
         {{ author.name }}
-      </h3>
+      </h2>
       <div class="card-text">
         {{ author.bio }}
         <ul class="pt-1">
@@ -33,7 +33,7 @@
   <div class="card m-1">
     <div class="card-body">
       <!-- <button class="btn btn--inverse">Follow</button> -->
-      <h3 class="card-title">Social</h3>
+      <h2 class="card-title h5">Social</h2>
       <div class="card-text">
         <ul class="social-icons">
           <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -41,13 +41,13 @@
             <li><a href="{{ author.dblp }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>DBLP</a></li>
           {% endif %}
           {% if author.googlescholar %}
-            <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+            <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right" aria-hidden="true"></i>Google Scholar</a></li>
           {% endif %}
           {% if author.impactstory %}
-            <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right"></i>Impactstory</a></li>
+            <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right" aria-hidden="true"></i>Impactstory</a></li>
           {% endif %}
           {% if author.orcid %}
-            <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+            <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right" aria-hidden="true"></i>ORCID</a></li>
           {% endif %}
 
           <!-- Font Awesome icons / Repositories and software development -->

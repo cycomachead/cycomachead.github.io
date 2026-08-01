@@ -5,8 +5,8 @@ baseurl: ""
 repository: cycomachead/cycomachead.github.io
 
 title: Michael Ball
+# The footer's end year now tracks the build time, so there's nothing to bump.
 copy-start: 2011
-copy-end: 2024
 description: >
   Michael Ball is a lecturer in EECS and Data Science at UC Berkeley.
   This site contains a collection of photography and some blog posts.
@@ -54,21 +54,27 @@ collections:
     output: true
 
 
+# Assets pulled straight out of node_modules at build time.
+# See _plugins/copy_to_dest.rb.
 copy_to_dest:
   - source: node_modules/@fortawesome/fontawesome-free/webfonts/.
     target: assets/webfonts/
+  # Bundle = Bootstrap + Popper, needed for the collapsible navbar.
+  - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+    target: assets/js/vendor/
   # - source: node_modules/flag-icon-css/flags/.
   #   target: assets/flags/
+
 navbar:
   title: Michael Ball
   pre_title:
     - title: Photography
-      url: /photos
+      url: /photos/
   post_title:
     - title: About
-      url: /about
+      url: /about/
     - title: CV
-      url: /cv
+      url: /cv/
   options:
     search: false
 
@@ -96,14 +102,30 @@ exclude:
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
+  - .rubocop.yml
   - .sass-cache
   - CHANGELOG
   - Gemfile
+  - Gemfile.lock
   - LICENSE
   - README
+  - README.md
   - Rakefile
+  # Old templates and a one-off Flickr importer. These were being published to
+  # the live site as downloadable source files.
+  - deprecated
+  # Contributor documentation, not site content.
+  - docs
+  # A fragment that _layouts/cv.html pulls in with include_relative. Shipping
+  # it also published it at /cv/cv-sidebar.html — a headless, untitled page
+  # that search engines were free to index. include_relative reads the source
+  # tree, so excluding it from the output changes nothing about /cv/.
+  - cv/cv-sidebar.html
   - node_modules
   - package.json
+  - package-lock.json
+  # Accessibility test suite; see docs/accessibility.md
+  - spec
   - tmp
   - vendor
 encoding: "utf-8"
