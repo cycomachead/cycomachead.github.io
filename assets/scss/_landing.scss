@@ -1,0 +1,99 @@
+.landing {
+  padding-bottom: 1rem;
+
+  p {
+    text-indent: 0;
+  }
+
+  &-hero {
+    img {
+      display: block;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  &-avatar {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-top: -80px;
+    border: 5px solid $white;
+    box-shadow: 0 2px 8px rgba($black, .2);
+    background: $white;
+  }
+
+  &-name {
+    margin-top: 1rem;
+    font-size: 2.75rem;
+  }
+
+  &-tagline {
+    font-family: $font-family-serif;
+    font-size: 1.15rem;
+    color: $gray-600;
+    margin-bottom: 1rem;
+  }
+
+  &-bio {
+    font-size: 1.05rem;
+  }
+
+  // Inline logomark, sized to match fa-fw icons
+  &-mark {
+    display: inline-block;
+    width: 1.28em;
+    text-align: center;
+    font-family: $font-family-serif;
+    font-weight: 700;
+  }
+
+  // SVG mark masked with currentColor so it follows the link color
+  &-mark-svg {
+    height: 1em;
+    vertical-align: -.125em;
+    background-color: currentColor;
+    -webkit-mask: no-repeat center / contain;
+    mask: no-repeat center / contain;
+  }
+
+  &-rule {
+    width: 72px;
+    height: 3px;
+    background: $california-gold;
+    margin: 1.5rem auto 2rem;
+  }
+
+  // Open link list with an accent underline on the heading
+  &-list {
+    h2 {
+      font-size: 1.35rem;
+      padding-bottom: .4rem;
+      border-bottom: 3px solid $gray-300;
+
+      i {
+        margin-right: .35rem;
+        font-size: 1.1rem;
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+
+      li {
+        padding: .3rem 0;
+      }
+    }
+
+    &-berkeley-blue h2 {
+      border-bottom-color: $berkeley-blue;
+    }
+
+    &-california-gold h2 {
+      border-bottom-color: $california-gold;
+    }
+  }
+}

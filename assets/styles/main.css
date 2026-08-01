@@ -2,16 +2,16 @@
 .em { font-style: italic; }
 
 /* #2192d4 only reached 3.4:1 against white, below the WCAG AA 4.5:1 minimum
-   for body text. #1776b4 is the same hue at 4.9:1. */
+   for body text. #004AAE (brand blue-medium) clears it at 8.1:1. */
 a,
 a:visited {
-    color: #1776b4;
+    color: #004AAE; /* blue-medium; keep in sync with $blue-medium */
     text-decoration: none;
 }
 
 a:hover,
 a:focus {
-    color: #1776b4;
+    color: #004AAE; /* blue-medium; keep in sync with $blue-medium */
     text-decoration: underline;
 }
 

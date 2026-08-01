@@ -1,21 +1,55 @@
 ---
-layout: milo-default
-title: Welcome
-author_profile: true
+layout: landing
 ---
-<h1>Recent Photos</h1>
+{% assign lp = site.data.landing_page %}
 
-<!-- This doesn't work for too many text posts in a row.. -->
-{% for post in paginator.posts %}
-  {% if post.category == "photo" %}
-  <article class="article">
-    <h2>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
-    {% include flickrimage.html %}
-    {% include endmatter.html %}
-  </article>
-  {% endif %}
-{% endfor %}
+{%- comment -%}
+  Decorative banner, matching the interior layouts: alt="" keeps it out of
+  the accessibility tree.
+{%- endcomment -%}
+<section class="landing-hero">
+  <img src="{{ lp.hero_image | relative_url }}" alt=""
+    width="2048" height="300" decoding="async" />
+</section>
 
-{% include pagination.html %}
+<main id="main-content" class="landing">
+  <div class="container text-center">
+    <img class="landing-avatar rounded-circle" src="{{ lp.avatar | relative_url }}"
+      alt="{{ lp.name }}" width="160" height="160" />
+    <h1 class="landing-name">{{ lp.greeting | escape }}</h1>
+    <p class="landing-tagline">{{ lp.tagline | escape }}</p>
+    <div class="landing-bio col-md-7 mx-auto">
+      {{ lp.bio | markdownify }}
+    </div>
+    <div class="landing-rule"></div>
+  </div>
+
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+      {% for section in lp.sections %}
+      <div class="col-lg-5 col-md-6">
+        <div class="landing-list landing-list-{{ section.accent }}">
+          <h2><i class="{{ section.icon }}" aria-hidden="true"></i> {{ section.title }}</h2>
+          <ul>
+            {% for link in section.links %}
+            <li>
+              <a href="{{ link.url }}">
+                {%- if link.image -%}
+                  <span class="landing-mark landing-mark-svg" aria-hidden="true"
+                    style="-webkit-mask-image: url({{ link.image }}); mask-image: url({{ link.image }})"></span>
+                {%- elsif link.letter -%}
+                  <span class="landing-mark" aria-hidden="true">{{ link.letter }}</span>
+                {%- elsif link.icon -%}
+                  <i class="{{ link.icon }}" aria-hidden="true"></i>
+                {%- endif %}
+                {{ link.title | escape }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</main>

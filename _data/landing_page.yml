@@ -1,0 +1,58 @@
+# Content for the homepage (index.html). Text fields support Markdown.
+hero_image: /assets/images/stadium-sunset.jpg
+hero_alt: UC Berkeley Memorial Stadium at Sunset
+avatar: /assets/images/profile.jpg
+
+name: Michael Ball
+greeting: Hi, I’m Michael 👋
+tagline: Continuing Lecturer, UC Berkeley Electrical Engineering & Computer Sciences
+bio: >
+  I build educational technology, teach computing and accessibility, and
+  enjoy documenting the world.
+
+sections:
+  - title: Academic
+    icon: fa-solid fa-building-columns
+    accent: berkeley-blue
+    links:
+      - title: Berkeley Faculty Page
+        url: https://www.eecs.berkeley.edu/Faculty/Homepages/mball.html
+        image: /assets/images/berkeley-b.svg
+      - title: Curriculum Vitae
+        url: /cv/
+        icon: fas fa-fw fa-file-lines
+      - title: Google Scholar
+        url: https://scholar.google.com/citations?hl=en&user=UBJ4SvIAAAAJ
+        icon: ai ai-google-scholar ai-fw
+      - title: DBLP
+        url: https://dblp.org/pid/175/6457.html
+        icon: ai ai-dblp ai-fw
+      - title: ACM Digital Library
+        url: https://dl.acm.org/profile/87258775657
+        icon: ai ai-acmdl ai-fw
+      - title: ORCID
+        url: https://orcid.org/0000-0002-7036-3902
+        icon: ai ai-orcid ai-fw
+
+  - title: Personal
+    icon: fa-solid fa-camera
+    accent: california-gold
+    links:
+      - title: Photography
+        url: /photos/
+        icon: fas fa-fw fa-camera
+      - title: About Me
+        url: /about/
+        icon: fas fa-fw fa-user
+      - title: Contact
+        url: /contact/
+        icon: fas fa-fw fa-envelope
+      - title: GitHub
+        url: https://github.com/cycomachead
+        icon: fab fa-fw fa-github
+      - title: Mastodon
+        url: https://hci.social/deck/@_mball_
+        icon: fab fa-fw fa-mastodon
+      - title: Flickr
+        url: https://www.flickr.com/cycomachead
+        icon: fab fa-fw fa-flickr

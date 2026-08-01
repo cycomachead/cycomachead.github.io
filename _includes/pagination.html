@@ -17,11 +17,7 @@
     </li>
     <li class="right">
       {%- if paginator.previous_page %}
-      {%- if paginator.previous_page == 1 %}
-      <a href="{{ '/' | relative_url }}">Newer Posts</a>
-      {%- else %}
       <a href="{{ paginator.previous_page_path | relative_url }}">Newer Posts</a>
-      {%- endif %}
       {%- else %}
       <span>No Newer Posts</span>
       {%- endif %}

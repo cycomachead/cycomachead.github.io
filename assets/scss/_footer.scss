@@ -1,28 +1,24 @@
 .site-footer {
+  background: $berkeley-blue;
+  border-top: 4px solid $california-gold;
 
   .copy {
-    border-top: 1px solid $gray-900;
     text-align: center;
-    // $gray-700 fell below the WCAG AA 4.5:1 threshold against the dark
-    // footer background; $gray-400 clears it comfortably.
-    color: $gray-400;
-    text-transform: uppercase;
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 90%;
-  }
+    // The site-wide link colour is tuned for a white background; on the dark
+    // footer, near-white text and underlined links keep WCAG AA contrast.
+    color: rgba($white, .75);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 95%;
 
-  // The site-wide link colour is tuned for a white background and is far too
-  // dark against the footer.
-  a {
-    color: $gray-100;
-    text-decoration: underline;
+    a {
+      color: rgba($white, .9);
+      text-decoration: underline;
 
-    &:hover,
-    &:focus {
-      color: $white;
+      &:hover,
+      &:focus {
+        color: $california-gold;
+      }
     }
   }
 }

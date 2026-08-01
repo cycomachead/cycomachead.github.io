@@ -11,7 +11,7 @@ author_profile: true
 
 # Welcome!
 
-Hello, my name is Michael Ball! I'm currently a Lecturer in the UC Berkeley Computer Science Department, and a Software Engineer at Gradescope!
+Hello, my name is Michael Ball! I'm currently a Lecturer in the UC Berkeley Computer Science Department, and previously a Software Engineer at Gradescope.
 
 My work revolves around teaching computer science to broad and diverse audiences, including building tools to help teachers teach and learners learn.
 

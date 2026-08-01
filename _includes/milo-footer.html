@@ -3,9 +3,14 @@
   time so it can't go stale.
 {%- endcomment -%}
 {%- assign copy_end = site.time | date: '%Y' -%}
-<footer class="site-footer bg-dark bottom mt-4">
-  <div class="copy">
-    &copy; {{ site.copy-start }}&ndash;{{ copy_end }} {{ site.author.name }}
-    | <a href="{{ '/about/' | relative_url }}">About</a>
+<footer class="site-footer mt-4">
+  <div class="container">
+    <div class="copy">
+      &copy; {{ site.copy-start }}&ndash;{{ copy_end }} {{ site.author.name }}
+      | <a href="{{ '/about/' | relative_url }}">About</a>
+      <br />
+      Except where noted, content is licensed under
+      <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+    </div>
   </div>
 </footer>
