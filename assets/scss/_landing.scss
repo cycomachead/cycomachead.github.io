@@ -5,12 +5,18 @@
     text-indent: 0;
   }
 
+  // Full-bleed banner, same as the interior layouts' .hero. The margin and
+  // padding resets undo the blanket `img` rule in main.css, which framed the
+  // banner in a white border and pushed it 1em past the right edge of the
+  // viewport — an em-based gutter that looked very different on a phone.
   &-hero {
     img {
       display: block;
       width: 100%;
       height: 300px;
       object-fit: cover;
+      margin: 0;
+      padding: 0;
     }
   }
 
