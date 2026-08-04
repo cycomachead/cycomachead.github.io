@@ -21,10 +21,15 @@ I was also fortunate to join Gradescope shortly after graduating, and worked the
 
 —Michael
 
-{%- comment -%}
+{% comment %}
   A <div>, not an <aside>: the sidebar is already a complementary landmark,
   and a second unlabelled one is ambiguous for screen reader users.
-{%- endcomment -%}
+
+  Plain (non-stripping) comment tags on purpose: the whitespace-stripping
+  form swallowed the blank lines around this block, so the div ended up
+  glued to the preceding paragraph and CommonMark escaped it as text.
+{% endcomment %}
+
 <div class="license">
     <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license">
         <img alt="Creative Commons Attribution-NonCommercial-NoDerivs 3.0 licence badge"
