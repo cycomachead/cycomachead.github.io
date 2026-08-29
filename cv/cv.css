@@ -487,8 +487,9 @@ body:has(> .cv-layout) {
 }
 
 /* The text after the entry header line (employer, location, summary) is
-   inside the same paragraph because of GFM soft breaks. Display it on its
-   own line via the `<br>` kramdown emits, but mute the color slightly. */
+   inside the same paragraph, broken onto its own line by the `<br>` that
+   cv.md.erb emits (kramdown's soft-break wrapping is off, to match Jekyll).
+   Mute the color slightly. */
 .cv-content .entry br + * { color: var(--cv-pacific); }
 
 /* ---------------- Reversed publication lists ---------------- */
